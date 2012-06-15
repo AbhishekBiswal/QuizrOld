@@ -1,0 +1,10 @@
+#editquiz
+{
+	padding: 40px;
+}
+#editquiz .quiz
+{
+	margin-bottom: 10px;
+	display: block;
+	padding: 10px;
+}
