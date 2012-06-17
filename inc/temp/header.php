@@ -14,8 +14,8 @@
 	<div class="container">
 		<ul class="nav columns four">
 			<li><a href="/">Home</a></li>
-			<li><a href="/">Browse</a></li>
-			<li><a href="/">Create</a></li>
+			<li><a href="/browse.php">Browse</a></li>
+			<li><a href="/create.php">Create</a></li>
 		</ul>
 		<ul class="nav float-right text-right columns three">
 		<?php
