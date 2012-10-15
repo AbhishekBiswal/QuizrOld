@@ -5,7 +5,7 @@
 	if($server_type_pdo == "local")
 	{
 		$host = "localhost";
-		$dbname = "quiz";
+		$dbname = "quizr";
 		$seruser = "root";
 		$pass = "abhishekbiswal";	
 	}

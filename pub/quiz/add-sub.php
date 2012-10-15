@@ -1,16 +1,63 @@
 <?php
-/*
-Plan: After the user creates a quiz, he is redirected here with GET var "id", which is the quiz id in our db. Now, the script will:
--check the id and if the user is allowed to add questions.
--create an md5 hash key, insert it into the db, and create a session on user's system.
-*/
+	/* add a question - backend */
 	session_start();
+	$curUser = $_SESSION['qp'];
 	include('fn/loggedin.php');
 	if($loggedin == 0)
 	{
-		
+		header('Location:/');
+		exit();
 	}
-	$qid = $_GET['id'];
-	$user = $_SESS
+	// form vars:
+	$qid = $_POST['q-id']; // quiz id.
+	$qQuestion = $_POST['question'];
+	$qAnswer = $_POST['answer'];
+	$hint = $_POST['q-hint'];
+	$qDesc = $_POST['q-desc'];
 
+	if($hint == NULL)
+	{
+		$hasHint = 0;
+	}
+	else
+	{
+		$hasHint = 1;
+		$hint = "";
+	}
+
+	if(!$qAnswer)
+	{
+			echo "Error! {Ans}";
+			exit();
+	}
+	
+	include('db.php');
+	$checkQid = $DBH->prepare("SELECT * FROM quizmeta WHERE id=?");
+	$checkQid->execute(array($qid));
+	if($checkQid->rowCount() == 0)
+	{
+		echo "Error! Please try again later.";
+		exit();
+	}
+	while($row = $checkQid->fetch())
+	{
+		$lastQ = $row['questions'];
+	}
+	$seq = $lastQ+1;
+	//echo $seq;
+
+	$qAnswer = strtolower($qAnswer);
+	$qAnswer = str_replace(" ","",$qAnswer);
+
+	// everything's alright
+	$insert = $DBH->prepare("INSERT INTO questions(qid,question,answer,hashint,hint,user,qdesc,dt,seq) VALUES(?,?,?,?,?,?,?,'NOW()',?)");
+	$insert->execute(array($qid,$qQuestion,$qAnswer,$hasHint,$hint,$curUser,$qDesc,$seq));
+	//done {insert}
+
+	$updateMeta = $DBH->prepare("UPDATE quizmeta SET questions=questions+1 WHERE id=?");
+	$updateMeta->execute(array($qid));
+
+	echo '<script>location.reload();</script>';
+
+	// done. working rev. 06/8/12
 ?>

@@ -1,10 +1,8 @@
 <?php
-	
 	session_start();
 	include('fn/loggedin.php');
-	$curUser = $_SESSION['qp'];
 
-	@$userId = $_GET['id'];
+	$userId = $_GET['id'];
 	if(!$userId)
 	{
 		include('404.php');
@@ -13,7 +11,13 @@
 
 	include('db.php');
 	$checkUser = $DBH->prepare("SELECT * FROM users WHERE id=?");
-	$checkUser->execute(array($curUser));
+	$checkUser->execute(array($userId));
+
+	if($checkUser->rowCount() == 0)
+	{
+		include('404.php');
+		exit();
+	}
 	
 	/*Load User Data:*/
 	while($userData = $checkUser->fetch())
@@ -24,16 +28,43 @@
 		$usersName = $userData['fbusername'];
 		$useroauthp = $userData['oauthp'];
 		$useroauthid = $userData['oauthid'];
+		$userBio = $userData['bio'];
+		$userPoints = $userData['points'];
 	}
 	
 	$pageName = "$userfName on Quizr";
 	include('temp/header.php');
 
+	// load quizzes:
+	$loadQ = $DBH->prepare("SELECT * quizmeta WHERE user=?");
+	$loadQ->execute(array($userId));
+	while($row = $loadQ->fetch())
+	{
+		$title = $row['title'];
+		$questions = $row['questions'];
+	}
 ?>
 
-<header class="page-head">
-	<hgroup>
-		<h2><?php echo $userfName; ?></h2>
-		<h3></h3>
-	</hgroup>
-</header>
+<div class="det-head">
+	<h2><img src="http://graph.facebook.com/<?php echo $useroauthid; ?>/picture"><span class="picheight"><?php echo $userfName; ?></span></h2>
+	<h3><?php echo $userBio; ?></h3>
+	<div class="info-boxes">
+		<div class="info-box">
+			<span class="one"><?php echo $userPoints; ?></span>
+			<span class="two">points</span>
+		</div>
+	</div>
+</div>
+
+<div class="u-page-box ten columns">
+
+<div class="u-page-header">Quizzes:</div>
+<ul class="u-page-list">
+	<li><span class="grey">20 Questions</span> <a href="/">First Quiz :P</a></li>
+</ul>
+
+</div>
+
+<?php
+	include('temp/footer.php');
+?>

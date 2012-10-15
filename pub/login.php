@@ -21,8 +21,20 @@
 	</header>
 
 <div id="content">
-
+<?php
+if(@$_GET['continue'])
+{
+?>
+	<a class="fb-btn" href="/fb/fbauth.php?continue=<?php echo $_GET['continue']; ?>">Login using Facebook</a>
+<?php	
+}
+else
+{
+?>
 	<a class="fb-btn" href="/fb/fbauth.php">Login using Facebook</a>
+<?php
+}
+?>
 	<a class="twitter-btn" href="/fb/fbauth.php">Login using Twitter</a>
 
 </div>

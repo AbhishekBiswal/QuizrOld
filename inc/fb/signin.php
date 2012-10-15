@@ -20,6 +20,11 @@
 			$_SESSION['qu'] = $row['fullname'];
 			$_SESSION['qp'] = $row['id'];
 		}
+		if($cont)
+		{
+			header('Location:' . $cont);
+			exit();
+		}
 		header('Location:/');
 		exit();
 	}
@@ -29,6 +34,11 @@
 		{
 			$_SESSION['qu'] = $row['fullname'];
 			$_SESSION['qp'] = $row['id'];
+		}
+		if($cont)
+		{
+			header('Location:/' . $cont);
+			exit();
 		}
 		header('Location:/');
 	}

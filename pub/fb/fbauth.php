@@ -6,6 +6,9 @@ if($loggedin == 1)
     header('Location:../');
     exit();
 }
+
+@$cont = $_GET['continue'];
+
 # We require the library
 require("facebook.php");
 

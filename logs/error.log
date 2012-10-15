@@ -1,0 +1,748 @@
+[Fri Jun 22 12:09:42 2012] [alert] [client 127.0.0.1] /home/abhishekbiswal/server/quizr/pub/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Fri Jun 22 12:09:42 2012] [alert] [client 127.0.0.1] /home/abhishekbiswal/server/quizr/pub/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Fri Jun 22 12:09:42 2012] [alert] [client 127.0.0.1] /home/abhishekbiswal/server/quizr/pub/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Fri Jun 22 12:09:51 2012] [alert] [client 127.0.0.1] /home/abhishekbiswal/server/quizr/pub/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Fri Jun 22 12:15:29 2012] [alert] [client 127.0.0.1] /home/abhishekbiswal/server/quizr/pub/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Fri Jun 22 12:15:29 2012] [alert] [client 127.0.0.1] /home/abhishekbiswal/server/quizr/pub/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Fri Jun 22 12:15:30 2012] [alert] [client 127.0.0.1] /home/abhishekbiswal/server/quizr/pub/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Fri Jun 22 12:15:33 2012] [alert] [client 127.0.0.1] /home/abhishekbiswal/server/quizr/pub/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Fri Jun 22 12:15:50 2012] [error] [client 127.0.0.1] PHP Warning:  include(fn/loggedin.php): failed to open stream: No such file or directory in /home/abhishekbiswal/server/quizr/pub/index.php on line 3
+[Fri Jun 22 12:15:50 2012] [error] [client 127.0.0.1] PHP Warning:  include(): Failed opening 'fn/loggedin.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/abhishekbiswal/server/quizr/pub/index.php on line 3
+[Fri Jun 22 12:15:50 2012] [error] [client 127.0.0.1] PHP Warning:  include(temp/header.php): failed to open stream: No such file or directory in /home/abhishekbiswal/server/quizr/pub/index.php on line 5
+[Fri Jun 22 12:15:50 2012] [error] [client 127.0.0.1] PHP Warning:  include(): Failed opening 'temp/header.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/abhishekbiswal/server/quizr/pub/index.php on line 5
+[Fri Jun 22 12:15:50 2012] [error] [client 127.0.0.1] PHP Warning:  include(temp/footer.php): failed to open stream: No such file or directory in /home/abhishekbiswal/server/quizr/pub/index.php on line 20
+[Fri Jun 22 12:15:50 2012] [error] [client 127.0.0.1] PHP Warning:  include(): Failed opening 'temp/footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/abhishekbiswal/server/quizr/pub/index.php on line 20
+[Fri Jun 22 12:15:51 2012] [error] [client 127.0.0.1] PHP Warning:  include(fn/loggedin.php): failed to open stream: No such file or directory in /home/abhishekbiswal/server/quizr/pub/index.php on line 3
+[Fri Jun 22 12:15:51 2012] [error] [client 127.0.0.1] PHP Warning:  include(): Failed opening 'fn/loggedin.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/abhishekbiswal/server/quizr/pub/index.php on line 3
+[Fri Jun 22 12:15:51 2012] [error] [client 127.0.0.1] PHP Warning:  include(temp/header.php): failed to open stream: No such file or directory in /home/abhishekbiswal/server/quizr/pub/index.php on line 5
+[Fri Jun 22 12:15:51 2012] [error] [client 127.0.0.1] PHP Warning:  include(): Failed opening 'temp/header.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/abhishekbiswal/server/quizr/pub/index.php on line 5
+[Fri Jun 22 12:15:51 2012] [error] [client 127.0.0.1] PHP Warning:  include(temp/footer.php): failed to open stream: No such file or directory in /home/abhishekbiswal/server/quizr/pub/index.php on line 20
+[Fri Jun 22 12:15:51 2012] [error] [client 127.0.0.1] PHP Warning:  include(): Failed opening 'temp/footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/abhishekbiswal/server/quizr/pub/index.php on line 20
+[Fri Jun 22 12:16:03 2012] [alert] [client 127.0.0.1] /home/abhishekbiswal/server/quizr/pub/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Fri Jun 22 12:16:03 2012] [alert] [client 127.0.0.1] /home/abhishekbiswal/server/quizr/pub/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Fri Jun 22 12:16:09 2012] [alert] [client 127.0.0.1] /home/abhishekbiswal/server/quizr/pub/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Fri Jun 22 12:16:10 2012] [alert] [client 127.0.0.1] /home/abhishekbiswal/server/quizr/pub/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Fri Jun 22 12:16:10 2012] [alert] [client 127.0.0.1] /home/abhishekbiswal/server/quizr/pub/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Fri Jun 22 12:16:16 2012] [alert] [client 127.0.0.1] /home/abhishekbiswal/server/quizr/pub/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Fri Jun 22 12:16:24 2012] [alert] [client 127.0.0.1] /home/abhishekbiswal/server/quizr/pub/.htaccess: Invalid command 'RewriteRule', perhaps misspelled or defined by a module not included in the server configuration
+[Fri Jun 22 12:16:24 2012] [alert] [client 127.0.0.1] /home/abhishekbiswal/server/quizr/pub/.htaccess: Invalid command 'RewriteRule', perhaps misspelled or defined by a module not included in the server configuration
+[Fri Jun 22 12:16:24 2012] [alert] [client 127.0.0.1] /home/abhishekbiswal/server/quizr/pub/.htaccess: Invalid command 'RewriteRule', perhaps misspelled or defined by a module not included in the server configuration
+[Fri Jun 22 12:16:41 2012] [alert] [client 127.0.0.1] /home/abhishekbiswal/server/quizr/pub/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Fri Jun 22 12:16:41 2012] [alert] [client 127.0.0.1] /home/abhishekbiswal/server/quizr/pub/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Fri Jun 22 12:16:42 2012] [alert] [client 127.0.0.1] /home/abhishekbiswal/server/quizr/pub/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Fri Jun 22 12:17:02 2012] [alert] [client 127.0.0.1] /home/abhishekbiswal/server/quizr/pub/.htaccess: Invalid command 'RewriteRule', perhaps misspelled or defined by a module not included in the server configuration
+[Fri Jun 22 12:17:02 2012] [alert] [client 127.0.0.1] /home/abhishekbiswal/server/quizr/pub/.htaccess: Invalid command 'RewriteRule', perhaps misspelled or defined by a module not included in the server configuration
+[Fri Jun 22 12:17:03 2012] [alert] [client 127.0.0.1] /home/abhishekbiswal/server/quizr/pub/.htaccess: Invalid command 'RewriteRule', perhaps misspelled or defined by a module not included in the server configuration
+[Fri Jun 22 12:17:03 2012] [alert] [client 127.0.0.1] /home/abhishekbiswal/server/quizr/pub/.htaccess: Invalid command 'RewriteRule', perhaps misspelled or defined by a module not included in the server configuration
+[Fri Jun 22 12:20:27 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/login, referer: http://quizr.local/
+[Fri Jun 22 12:30:37 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Fri Jun 22 12:31:06 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Fri Jun 22 12:31:24 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Fri Jun 22 12:33:25 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Fri Jun 22 12:34:17 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Fri Jun 22 12:34:19 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Fri Jun 22 12:34:21 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Fri Jun 22 12:37:49 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Fri Jun 22 12:38:01 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Fri Jun 22 12:38:06 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Fri Jun 22 12:38:10 2012] [error] [client 127.0.0.1] PHP Fatal error:  Uncaught exception 'Exception' with message 'Facebook needs the CURL PHP extension.' in /home/abhishekbiswal/server/quizr/pub/fb/base_facebook.php:19\nStack trace:\n#0 /home/abhishekbiswal/server/quizr/pub/fb/facebook.php(18): require_once()\n#1 /home/abhishekbiswal/server/quizr/pub/fb/fbauth.php(10): require('/home/abhishekb...')\n#2 {main}\n  thrown in /home/abhishekbiswal/server/quizr/pub/fb/base_facebook.php on line 19, referer: http://quizr.local/login.php
+[Fri Jun 22 12:38:10 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Fri Jun 22 12:38:12 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Fri Jun 22 12:53:34 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Fri Jun 22 12:53:43 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/login, referer: http://quizr.local/
+[Fri Jun 22 12:53:43 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Fri Jun 22 12:53:44 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sun Jun 24 22:06:11 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sun Jun 24 22:12:36 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sun Jun 24 22:12:37 2012] [error] [client 127.0.0.1] PHP Fatal error:  Uncaught exception 'Exception' with message 'Facebook needs the CURL PHP extension.' in /home/abhishekbiswal/server/quizr/pub/fb/base_facebook.php:19\nStack trace:\n#0 /home/abhishekbiswal/server/quizr/pub/fb/facebook.php(18): require_once()\n#1 /home/abhishekbiswal/server/quizr/pub/fb/fbauth.php(10): require('/home/abhishekb...')\n#2 {main}\n  thrown in /home/abhishekbiswal/server/quizr/pub/fb/base_facebook.php on line 19, referer: http://quizr.local/login.php
+[Sun Jun 24 22:12:37 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sun Jun 24 22:12:40 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sun Jun 24 22:38:53 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sun Jun 24 22:41:09 2012] [error] [client 127.0.0.1] PHP Fatal error:  Uncaught exception 'Exception' with message 'Facebook needs the CURL PHP extension.' in /home/abhishekbiswal/server/quizr/pub/fb/base_facebook.php:19\nStack trace:\n#0 /home/abhishekbiswal/server/quizr/pub/fb/facebook.php(18): require_once()\n#1 /home/abhishekbiswal/server/quizr/pub/fb/fbauth.php(10): require('/home/abhishekb...')\n#2 {main}\n  thrown in /home/abhishekbiswal/server/quizr/pub/fb/base_facebook.php on line 19, referer: http://quizr.local/login.php
+[Sun Jun 24 22:41:09 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sun Jun 24 22:41:12 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jun 25 11:32:30 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jun 25 13:40:16 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jun 25 13:40:17 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jun 25 13:40:19 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jun 25 13:40:28 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jun 25 13:40:44 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jun 25 13:40:46 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jun 25 13:40:54 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jun 25 17:42:43 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jun 25 17:42:45 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jun 25 17:42:53 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jun 25 17:42:57 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jun 25 17:46:10 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jun 25 17:46:12 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jun 25 17:46:16 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jun 25 17:58:07 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined index: id in /home/abhishekbiswal/server/quizr/pub/quiz/add.php on line 10, referer: http://quizr.local/quiz/add.php?id=1
+[Mon Jun 25 17:58:07 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jun 25 17:58:09 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jun 25 17:59:47 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jun 25 18:00:50 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jun 25 18:01:16 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jun 25 18:01:28 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jun 25 18:01:36 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jun 25 18:01:51 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jun 25 18:02:05 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jun 25 18:02:23 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jun 25 18:02:38 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jun 25 18:09:51 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jun 25 18:10:16 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jun 25 18:10:18 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jun 25 18:10:18 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jun 25 18:10:21 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 11:31:18 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 11:31:20 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 11:31:25 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 11:35:51 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 12:16:59 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 12:17:01 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 12:18:26 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 12:18:33 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 12:18:35 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 12:19:16 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 12:19:18 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 12:19:20 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/u, referer: http://quizr.local/
+[Tue Jun 26 12:19:20 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 12:19:22 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 12:19:49 2012] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined function inlude() in /home/abhishekbiswal/server/quizr/inc/404.php on line 3
+[Tue Jun 26 12:19:49 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 12:19:53 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 12:20:52 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 12:21:23 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 12:21:51 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 12:25:21 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined index: id in /home/abhishekbiswal/server/quizr/pub/quiz/add-sub.php on line 15
+[Tue Jun 26 12:27:22 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 12:27:48 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 12:27:58 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 12:28:12 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 12:31:23 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 12:32:11 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 12:41:14 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 12:43:26 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 12:46:50 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 12:47:03 2012] [error] [client 127.0.0.1] script '/home/abhishekbiswal/server/quizr/pub/browse.php' not found or unable to stat
+[Tue Jun 26 12:47:03 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 14:00:47 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 14:00:51 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 14:00:53 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/u, referer: http://quizr.local/
+[Tue Jun 26 14:00:53 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 14:01:02 2012] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined function inlude() in /home/abhishekbiswal/server/quizr/inc/404.php on line 3
+[Tue Jun 26 14:01:02 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 14:01:11 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 14:04:38 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/u, referer: http://quizr.local/quiz/add.php?id=1
+[Tue Jun 26 14:04:38 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 14:09:40 2012] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/abhishekbiswal/server/quizr/pub/quiz/edit.php on line 37
+[Tue Jun 26 14:09:40 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 14:10:22 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: quizTitle in /home/abhishekbiswal/server/quizr/pub/quiz/edit.php on line 42
+[Tue Jun 26 14:10:22 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: realQid in /home/abhishekbiswal/server/quizr/pub/quiz/edit.php on line 50
+[Tue Jun 26 14:10:22 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 14:10:34 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: realQid in /home/abhishekbiswal/server/quizr/pub/quiz/edit.php on line 49
+[Tue Jun 26 14:10:34 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 14:10:42 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: realQid in /home/abhishekbiswal/server/quizr/pub/quiz/edit.php on line 49
+[Tue Jun 26 14:10:43 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 14:13:15 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: realQid in /home/abhishekbiswal/server/quizr/pub/quiz/edit.php on line 50
+[Tue Jun 26 14:13:15 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 14:14:50 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: realQid in /home/abhishekbiswal/server/quizr/pub/quiz/edit.php on line 50
+[Tue Jun 26 14:14:50 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 14:21:55 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: realQid in /home/abhishekbiswal/server/quizr/pub/quiz/edit.php on line 50
+[Tue Jun 26 14:21:55 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 14:21:56 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: realQid in /home/abhishekbiswal/server/quizr/pub/quiz/edit.php on line 50
+[Tue Jun 26 14:21:56 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 14:31:57 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 14:44:40 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 14:44:42 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 14:44:45 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 15:00:13 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 15:00:15 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/login, referer: http://quizr.local/
+[Tue Jun 26 15:00:15 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 15:00:17 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 15:00:18 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 16:24:23 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jun 26 16:24:25 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jun 27 14:39:33 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jun 27 14:39:36 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jun 27 14:39:46 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jun 27 22:47:03 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jun 28 15:21:58 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jun 28 15:22:01 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jun 28 15:22:09 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jun 28 15:22:15 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/u, referer: http://quizr.local/
+[Thu Jun 28 15:22:15 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jun 28 15:22:23 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jun 28 17:31:55 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jun 28 17:41:03 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jun 28 17:41:17 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jun 28 17:41:34 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jun 28 17:42:04 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jun 28 17:42:12 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined index: questions in /home/abhishekbiswal/server/quizr/pub/quiz/edit-sub.php on line 60, referer: http://quizr.local/quiz/edit.php?id=1
+[Thu Jun 28 17:42:12 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: insert in /home/abhishekbiswal/server/quizr/pub/quiz/edit-sub.php on line 67, referer: http://quizr.local/quiz/edit.php?id=1
+[Thu Jun 28 17:42:12 2012] [error] [client 127.0.0.1] PHP Fatal error:  Call to a member function execute() on a non-object in /home/abhishekbiswal/server/quizr/pub/quiz/edit-sub.php on line 67, referer: http://quizr.local/quiz/edit.php?id=1
+[Thu Jun 28 17:42:36 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jun 28 17:42:42 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: insert in /home/abhishekbiswal/server/quizr/pub/quiz/edit-sub.php on line 59, referer: http://quizr.local/quiz/edit.php?id=1
+[Thu Jun 28 17:42:42 2012] [error] [client 127.0.0.1] PHP Fatal error:  Call to a member function execute() on a non-object in /home/abhishekbiswal/server/quizr/pub/quiz/edit-sub.php on line 59, referer: http://quizr.local/quiz/edit.php?id=1
+[Thu Jun 28 17:42:50 2012] [error] [client 127.0.0.1] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/abhishekbiswal/server/quizr/pub/quiz/edit-sub.php on line 59, referer: http://quizr.local/quiz/edit.php?id=1
+[Thu Jun 28 17:43:23 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jun 28 17:43:31 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Fri Jun 29 14:53:48 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Fri Jun 29 21:05:05 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Fri Jun 29 21:05:11 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sat Jun 30 20:08:39 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sat Jun 30 21:02:52 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sat Jun 30 21:43:33 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sat Jun 30 21:49:11 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sat Jun 30 21:49:36 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sat Jun 30 21:53:38 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sat Jun 30 21:55:31 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sat Jun 30 21:56:49 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sat Jun 30 21:57:23 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sat Jun 30 22:00:59 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: curUser in /home/abhishekbiswal/server/quizr/pub/settings/profile.php on line 13
+[Sat Jun 30 22:00:59 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sat Jun 30 22:01:01 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: curUser in /home/abhishekbiswal/server/quizr/pub/settings/profile.php on line 13
+[Sat Jun 30 22:01:01 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sat Jun 30 22:01:27 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: curUser in /home/abhishekbiswal/server/quizr/pub/settings/profile.php on line 13
+[Sat Jun 30 22:01:27 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sat Jun 30 22:01:27 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: curUser in /home/abhishekbiswal/server/quizr/pub/settings/profile.php on line 13
+[Sat Jun 30 22:01:27 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sat Jun 30 22:01:27 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: curUser in /home/abhishekbiswal/server/quizr/pub/settings/profile.php on line 13
+[Sat Jun 30 22:01:27 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sat Jun 30 22:01:27 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: curUser in /home/abhishekbiswal/server/quizr/pub/settings/profile.php on line 13
+[Sat Jun 30 22:01:27 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sat Jun 30 22:01:56 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sat Jun 30 22:02:13 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sat Jun 30 22:02:54 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: userBio in /home/abhishekbiswal/server/quizr/pub/settings/profile.php on line 37
+[Sat Jun 30 22:02:55 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sat Jun 30 22:03:02 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: userBio in /home/abhishekbiswal/server/quizr/pub/settings/profile.php on line 37
+[Sat Jun 30 22:03:02 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sat Jun 30 22:03:28 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: userBio in /home/abhishekbiswal/server/quizr/pub/settings/profile.php on line 37
+[Sat Jun 30 22:03:28 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sat Jun 30 22:04:37 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sat Jun 30 22:07:48 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sat Jun 30 22:07:55 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sat Jun 30 22:08:26 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sat Jun 30 22:08:32 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sat Jun 30 22:08:33 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sat Jun 30 22:08:39 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sun Jul 01 22:07:41 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sun Jul 01 22:07:55 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sun Jul 01 22:08:02 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sun Jul 01 22:09:27 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/u, referer: http://quizr.local/
+[Sun Jul 01 22:09:27 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sun Jul 01 22:09:29 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sun Jul 01 22:09:40 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/settings/profile.pgp
+[Sun Jul 01 22:09:41 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sun Jul 01 22:09:44 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sun Jul 01 22:43:24 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sun Jul 01 22:47:21 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sun Jul 01 22:47:28 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sun Jul 01 22:47:34 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sun Jul 01 22:47:57 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sun Jul 01 22:49:14 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sun Jul 01 22:51:30 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sun Jul 01 22:51:31 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: loggedi in /home/abhishekbiswal/server/quizr/pub/settings/profile-sub.php on line 4, referer: http://quizr.local/settings/profile.php
+[Sun Jul 01 22:52:42 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined index: username in /home/abhishekbiswal/server/quizr/pub/u.php on line 23
+[Sun Jul 01 22:52:42 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sun Jul 01 22:53:09 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sun Jul 01 22:53:52 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sun Jul 01 22:55:11 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Sun Jul 01 22:55:13 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 09:53:42 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 09:54:53 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 09:54:59 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 09:55:32 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/u, referer: http://quizr.local/
+[Mon Jul 02 09:55:32 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 09:55:38 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 09:56:25 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 09:56:28 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 09:56:30 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 09:56:32 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 09:56:34 2012] [error] [client 127.0.0.1] script '/home/abhishekbiswal/server/quizr/pub/browse.php' not found or unable to stat, referer: http://quizr.local/
+[Mon Jul 02 09:56:34 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 09:56:36 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 09:56:38 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 09:56:48 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:02:03 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:02:12 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:02:28 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:02:38 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:02:39 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:02:44 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:02:45 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:02:58 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:03:06 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:03:16 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:03:31 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:03:39 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:03:50 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:05:33 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:06:07 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:06:23 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:06:30 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:06:35 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:06:35 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:06:50 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:07:12 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:08:14 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:08:27 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:08:46 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:08:58 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:09:04 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:09:27 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:09:36 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:09:53 2012] [error] [client 127.0.0.1] script '/home/abhishekbiswal/server/quizr/pub/settings/general.php' not found or unable to stat, referer: http://quizr.local/settings/profile.php
+[Mon Jul 02 10:09:53 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:11:24 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:12:27 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:12:35 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:12:41 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:12:50 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:12:50 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:12:55 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:13:08 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:13:13 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: userfName in /home/abhishekbiswal/server/quizr/pub/settings/general.php on line 43, referer: http://quizr.local/settings/profile.php
+[Mon Jul 02 10:13:13 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:19:23 2012] [alert] [client 127.0.0.1] /home/abhishekbiswal/server/quizr/pub/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration, referer: http://quizr.local/settings/general.php
+[Mon Jul 02 10:19:23 2012] [alert] [client 127.0.0.1] /home/abhishekbiswal/server/quizr/pub/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Mon Jul 02 10:19:27 2012] [alert] [client 127.0.0.1] /home/abhishekbiswal/server/quizr/pub/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Mon Jul 02 10:19:27 2012] [alert] [client 127.0.0.1] /home/abhishekbiswal/server/quizr/pub/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Mon Jul 02 10:19:56 2012] [alert] [client 127.0.0.1] /home/abhishekbiswal/server/quizr/pub/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Mon Jul 02 10:19:56 2012] [alert] [client 127.0.0.1] /home/abhishekbiswal/server/quizr/pub/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Mon Jul 02 10:20:01 2012] [alert] [client 127.0.0.1] /home/abhishekbiswal/server/quizr/pub/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Mon Jul 02 10:20:01 2012] [alert] [client 127.0.0.1] /home/abhishekbiswal/server/quizr/pub/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Mon Jul 02 10:21:05 2012] [alert] [client 127.0.0.1] /home/abhishekbiswal/server/quizr/pub/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Mon Jul 02 10:21:05 2012] [alert] [client 127.0.0.1] /home/abhishekbiswal/server/quizr/pub/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Mon Jul 02 10:21:06 2012] [alert] [client 127.0.0.1] /home/abhishekbiswal/server/quizr/pub/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Mon Jul 02 10:21:06 2012] [alert] [client 127.0.0.1] /home/abhishekbiswal/server/quizr/pub/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Mon Jul 02 10:21:06 2012] [alert] [client 127.0.0.1] /home/abhishekbiswal/server/quizr/pub/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Mon Jul 02 10:21:06 2012] [alert] [client 127.0.0.1] /home/abhishekbiswal/server/quizr/pub/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Mon Jul 02 10:21:06 2012] [alert] [client 127.0.0.1] /home/abhishekbiswal/server/quizr/pub/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Mon Jul 02 10:21:06 2012] [alert] [client 127.0.0.1] /home/abhishekbiswal/server/quizr/pub/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Mon Jul 02 10:21:18 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:21:22 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: curUser in /home/abhishekbiswal/server/quizr/pub/settings/profile.php on line 13
+[Mon Jul 02 10:21:22 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:22:43 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:22:46 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:23:20 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:23:22 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: userfName in /home/abhishekbiswal/server/quizr/pub/settings/general.php on line 43, referer: http://quizr.local/settings/profile.php
+[Mon Jul 02 10:23:22 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:23:23 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:25:15 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: userfName in /home/abhishekbiswal/server/quizr/pub/settings/general.php on line 43, referer: http://quizr.local/settings/profile.php
+[Mon Jul 02 10:25:15 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 10:25:17 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 15:32:23 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 15:32:28 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 15:32:34 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 15:35:02 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 15:49:03 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Mon Jul 02 16:54:20 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:18:12 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:41:04 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined index: qp in /home/abhishekbiswal/server/quizr/pub/quiz/add.php on line 3
+[Tue Jul 03 21:41:04 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:41:11 2012] [error] [client 127.0.0.1] script '/home/abhishekbiswal/server/quizr/pub/q.php' not found or unable to stat
+[Tue Jul 03 21:41:11 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:41:52 2012] [error] [client 127.0.0.1] script '/home/abhishekbiswal/server/quizr/pub/q.php' not found or unable to stat
+[Tue Jul 03 21:41:52 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:42:20 2012] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/abhishekbiswal/server/quizr/pub/q.php on line 13
+[Tue Jul 03 21:42:20 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:42:40 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:42:53 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:45:02 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:45:19 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:48:21 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:53:28 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: loadfName in /home/abhishekbiswal/server/quizr/pub/q.php on line 38
+[Tue Jul 03 21:53:28 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:53:55 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: loadfName in /home/abhishekbiswal/server/quizr/pub/q.php on line 38
+[Tue Jul 03 21:53:56 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:53:56 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: loadfName in /home/abhishekbiswal/server/quizr/pub/q.php on line 38
+[Tue Jul 03 21:53:56 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:54:14 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: loadfName in /home/abhishekbiswal/server/quizr/pub/q.php on line 38
+[Tue Jul 03 21:54:14 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:54:16 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: loadfName in /home/abhishekbiswal/server/quizr/pub/q.php on line 38
+[Tue Jul 03 21:54:16 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:54:51 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: DBH in /home/abhishekbiswal/server/quizr/inc/fn/loaduser.php on line 5
+[Tue Jul 03 21:54:51 2012] [error] [client 127.0.0.1] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/abhishekbiswal/server/quizr/inc/fn/loaduser.php on line 5
+[Tue Jul 03 21:54:51 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:55:24 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:56:09 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:56:24 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:56:24 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:56:58 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:56:58 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:57:24 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:57:24 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:57:30 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:57:48 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:57:48 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:57:57 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:58:02 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:58:03 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:58:09 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:58:10 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:58:18 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:58:26 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:58:26 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:58:34 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:58:38 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:58:48 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:59:00 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:59:16 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:59:16 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:59:20 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:59:21 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:59:25 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:59:26 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:59:26 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:59:31 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 21:59:32 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 22:00:11 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 22:19:33 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 22:20:16 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 22:21:00 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 22:21:28 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 22:21:37 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 22:21:37 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Tue Jul 03 22:26:19 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 11:10:33 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 11:10:34 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 11:10:42 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 11:10:57 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: ow in /home/abhishekbiswal/server/quizr/pub/quiz/questions.php on line 30
+[Wed Jul 04 11:10:57 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: ow in /home/abhishekbiswal/server/quizr/pub/quiz/questions.php on line 31
+[Wed Jul 04 11:10:57 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: ow in /home/abhishekbiswal/server/quizr/pub/quiz/questions.php on line 32
+[Wed Jul 04 11:10:57 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: ow in /home/abhishekbiswal/server/quizr/pub/quiz/questions.php on line 33
+[Wed Jul 04 11:10:57 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined property: PDOStatement::$rowCount in /home/abhishekbiswal/server/quizr/pub/quiz/questions.php on line 39
+[Wed Jul 04 11:10:57 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 11:11:14 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined property: PDOStatement::$rowCount in /home/abhishekbiswal/server/quizr/pub/quiz/questions.php on line 39
+[Wed Jul 04 11:11:14 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 11:11:28 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 11:12:45 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 11:12:56 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 11:12:56 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 11:13:11 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 11:13:11 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 11:13:14 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 11:13:48 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 11:14:18 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 11:16:44 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 11:16:49 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 11:16:52 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 11:16:58 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 11:17:05 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 11:17:18 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 11:18:57 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 11:19:04 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 11:19:44 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 11:20:18 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 11:20:32 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 11:20:33 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 11:21:24 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 11:21:32 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 11:21:44 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 11:25:06 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 11:25:41 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 11:26:01 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 11:26:08 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 11:26:21 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 11:26:29 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 11:27:13 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 11:28:48 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 11:29:49 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 11:38:59 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 15:08:42 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 16:37:05 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 16:39:56 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 16:40:07 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 16:41:09 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 16:41:25 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 16:46:16 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 16:49:35 2012] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected '{' in /home/abhishekbiswal/server/quizr/pub/play/index.php on line 22
+[Wed Jul 04 16:49:36 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 16:49:47 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 16:52:39 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 16:53:09 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 16:53:27 2012] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined function inlude() in /home/abhishekbiswal/server/quizr/inc/404.php on line 3
+[Wed Jul 04 16:53:27 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 16:53:59 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 16:54:03 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 16:54:14 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 16:54:27 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 16:54:34 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 16:54:57 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 16:55:01 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 16:56:06 2012] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined function inlude() in /home/abhishekbiswal/server/quizr/inc/404.php on line 3
+[Wed Jul 04 16:56:06 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 16:56:23 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 16:56:29 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 17:06:36 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 17:07:18 2012] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/abhishekbiswal/server/quizr/pub/play/index.php on line 31
+[Wed Jul 04 17:07:18 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 17:07:26 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 17:16:03 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 17:16:14 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 17:16:42 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 17:16:46 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 17:16:47 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 17:16:54 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 17:16:55 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 17:17:16 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 17:19:22 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 17:19:34 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 17:19:35 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 17:19:51 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: option1 in /home/abhishekbiswal/server/quizr/pub/play/index.php on line 86
+[Wed Jul 04 17:19:51 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 17:20:12 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 17:20:23 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 17:20:40 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 17:20:47 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 17:21:08 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 17:21:18 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 17:21:23 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 17:21:31 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 17:22:04 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 17:23:04 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 17:30:04 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 17:33:12 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Wed Jul 04 17:33:13 2012] [error] [client 127.0.0.1] script '/home/abhishekbiswal/server/quizr/pub/play/sub.php' not found or unable to stat, referer: http://quizr.local/play/?id=1
+[Thu Jul 05 10:20:52 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 10:20:55 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined index: continue in /home/abhishekbiswal/server/quizr/pub/login.php on line 25, referer: http://quizr.local/
+[Thu Jul 05 10:20:55 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 10:21:02 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/Notice: Undefined index: continue in , referer: http://quizr.local/login.php
+[Thu Jul 05 10:21:02 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 12:00:36 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 12:01:26 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined index: continue in /home/abhishekbiswal/server/quizr/pub/login.php on line 25, referer: http://quizr.local/
+[Thu Jul 05 12:01:26 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 12:01:31 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 16:04:29 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 16:04:29 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 16:04:30 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined index: continue in /home/abhishekbiswal/server/quizr/pub/login.php on line 25, referer: http://quizr.local/
+[Thu Jul 05 16:04:30 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined index: continue in /home/abhishekbiswal/server/quizr/pub/login.php on line 25, referer: http://quizr.local/login.php
+[Thu Jul 05 16:04:43 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/u, referer: http://quizr.local/
+[Thu Jul 05 16:04:49 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: userfName in /home/abhishekbiswal/server/quizr/pub/u.php on line 29
+[Thu Jul 05 16:04:49 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: userfName in /home/abhishekbiswal/server/quizr/pub/u.php on line 36
+[Thu Jul 05 16:04:52 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: userfName in /home/abhishekbiswal/server/quizr/pub/u.php on line 29
+[Thu Jul 05 16:04:52 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: userfName in /home/abhishekbiswal/server/quizr/pub/u.php on line 36
+[Thu Jul 05 16:04:55 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: userfName in /home/abhishekbiswal/server/quizr/pub/u.php on line 29
+[Thu Jul 05 16:04:55 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: userfName in /home/abhishekbiswal/server/quizr/pub/u.php on line 36
+[Thu Jul 05 16:13:28 2012] [error] [client 127.0.0.1] script '/home/abhishekbiswal/server/quizr/pub/play/sub.php' not found or unable to stat, referer: http://quizr.local/play/?id=1
+[Thu Jul 05 17:12:03 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:12:36 2012] [error] [client 1.23.131.70] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:13:19 2012] [error] [client 1.23.131.70] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:13:24 2012] [error] [client 1.23.131.70] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:13:29 2012] [error] [client 1.23.131.70] PHP Notice:  Undefined index: continue in /home/abhishekbiswal/server/quizr/pub/login.php on line 25, referer: http://1.23.131.70/
+[Thu Jul 05 17:13:30 2012] [error] [client 1.23.131.70] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:15:27 2012] [error] [client 1.23.131.70] PHP Notice:  Undefined index: continue in /home/abhishekbiswal/server/quizr/pub/login.php on line 25, referer: http://1.23.131.70/
+[Thu Jul 05 17:15:28 2012] [error] [client 1.23.131.70] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:17:31 2012] [error] [client 1.23.131.70] PHP Notice:  Undefined variable: cont in /home/abhishekbiswal/server/quizr/pub/login.php on line 26, referer: http://1.23.131.70/
+[Thu Jul 05 17:17:32 2012] [error] [client 1.23.131.70] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:17:57 2012] [error] [client 1.23.131.70] PHP Notice:  Undefined index: continue in /home/abhishekbiswal/server/quizr/pub/login.php on line 25, referer: http://1.23.131.70/
+[Thu Jul 05 17:17:57 2012] [error] [client 1.23.131.70] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:18:14 2012] [error] [client 1.23.131.70] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:18:27 2012] [error] [client 1.23.131.70] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:19:56 2012] [error] [client 122.176.153.37] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:21:51 2012] [error] [client 122.176.153.37] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:30:44 2012] [error] [client 122.176.153.37] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:31:15 2012] [error] [client 122.176.153.37] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:31:47 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:31:52 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:31:53 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:31:54 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined index: continue in /home/abhishekbiswal/server/quizr/pub/fb/fbauth.php on line 10, referer: http://quizr.local/login.php
+[Thu Jul 05 17:32:01 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined index: continue in /home/abhishekbiswal/server/quizr/pub/fb/fbauth.php on line 10, referer: http://quizr.local/login.php
+[Thu Jul 05 17:32:05 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:33:11 2012] [error] [client 122.176.153.37] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:33:47 2012] [error] [client 122.176.153.37] PHP Notice:  Undefined index: continue in /home/abhishekbiswal/server/quizr/pub/fb/fbauth.php on line 10, referer: http://quizr.local/login.php
+[Thu Jul 05 17:34:25 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/u, referer: http://quizr.local/
+[Thu Jul 05 17:34:25 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:34:27 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:35:38 2012] [error] [client 122.176.153.37] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:35:42 2012] [error] [client 122.176.153.37] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:35:43 2012] [error] [client 122.176.153.37] PHP Notice:  Undefined index: continue in /home/abhishekbiswal/server/quizr/pub/fb/fbauth.php on line 10, referer: http://quizr.local/login.php
+[Thu Jul 05 17:35:51 2012] [error] [client 122.176.153.37] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:36:08 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:36:11 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/u, referer: http://quizr.local/
+[Thu Jul 05 17:36:11 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:36:13 2012] [error] [client 122.176.153.37] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:37:05 2012] [error] [client 122.176.153.37] PHP Notice:  Undefined index: continue in /home/abhishekbiswal/server/quizr/pub/fb/fbauth.php on line 10, referer: http://quizr.local/login.php
+[Thu Jul 05 17:37:08 2012] [error] [client 122.176.153.37] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:37:09 2012] [error] [client 122.176.153.37] PHP Notice:  Undefined index: continue in /home/abhishekbiswal/server/quizr/pub/fb/fbauth.php on line 10, referer: http://quizr.local/login.php
+[Thu Jul 05 17:37:14 2012] [error] [client 122.176.153.37] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:37:21 2012] [error] [client 122.176.153.37] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:37:22 2012] [error] [client 122.176.153.37] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:37:25 2012] [error] [client 122.176.153.37] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:37:27 2012] [error] [client 122.176.153.37] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:37:29 2012] [error] [client 122.176.153.37] script '/home/abhishekbiswal/server/quizr/pub/browse.php' not found or unable to stat, referer: http://quizr.local/
+[Thu Jul 05 17:37:30 2012] [error] [client 122.176.153.37] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:37:31 2012] [error] [client 122.176.153.37] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:37:33 2012] [error] [client 122.176.153.37] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:39:25 2012] [error] [client 122.176.153.37] request failed: error reading the headers
+[Thu Jul 05 17:40:00 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:40:04 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/u, referer: http://quizr.local/
+[Thu Jul 05 17:40:04 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:40:06 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:44:04 2012] [error] [client 122.176.153.37] PHP Notice:  Undefined index: continue in /home/abhishekbiswal/server/quizr/pub/fb/fbauth.php on line 10, referer: http://quizr.local/login.php
+[Thu Jul 05 17:47:02 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:49:24 2012] [error] [client 122.176.153.37] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:49:27 2012] [error] [client 122.176.153.37] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:49:28 2012] [error] [client 122.176.153.37] PHP Notice:  Undefined index: continue in /home/abhishekbiswal/server/quizr/pub/fb/fbauth.php on line 10, referer: http://quizr.local/login.php
+[Thu Jul 05 17:52:01 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:52:04 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:52:04 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined index: continue in /home/abhishekbiswal/server/quizr/pub/fb/fbauth.php on line 10, referer: http://quizr.local/login.php
+[Thu Jul 05 17:52:07 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined index: continue in /home/abhishekbiswal/server/quizr/pub/fb/fbauth.php on line 10, referer: http://quizr.local/login.php
+[Thu Jul 05 17:52:16 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:59:18 2012] [error] [client 122.176.153.37] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:59:20 2012] [error] [client 122.176.153.37] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 17:59:21 2012] [error] [client 122.176.153.37] PHP Notice:  Undefined index: continue in /home/abhishekbiswal/server/quizr/pub/fb/fbauth.php on line 10, referer: http://quizr.local/login.php
+[Thu Jul 05 17:59:44 2012] [error] [client 122.176.153.37] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 18:01:35 2012] [error] [client 122.176.153.37] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 21:47:48 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 22:02:21 2012] [error] [client 1.23.130.89] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 22:02:53 2012] [error] [client 1.23.130.89] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 22:03:21 2012] [error] [client 122.176.165.244] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 22:05:58 2012] [error] [client 122.176.165.244] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 22:18:05 2012] [error] [client 122.176.165.244] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 22:18:06 2012] [error] [client 122.176.165.244] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 22:18:08 2012] [error] [client 122.176.165.244] script '/home/abhishekbiswal/server/quizr/pub/browse.php' not found or unable to stat, referer: http://1.23.130.89/
+[Thu Jul 05 22:18:08 2012] [error] [client 122.176.165.244] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 22:18:10 2012] [error] [client 122.176.165.244] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 22:18:11 2012] [error] [client 122.176.165.244] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 22:18:12 2012] [error] [client 122.176.165.244] PHP Notice:  Undefined index: continue in /home/abhishekbiswal/server/quizr/pub/fb/fbauth.php on line 10, referer: http://1.23.130.89/login.php
+[Thu Jul 05 22:19:18 2012] [error] [client 1.23.130.89] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 22:19:19 2012] [error] [client 1.23.130.89] PHP Notice:  Undefined index: continue in /home/abhishekbiswal/server/quizr/pub/fb/fbauth.php on line 10, referer: http://1.23.130.89/login.php
+[Thu Jul 05 22:19:46 2012] [error] [client 1.23.130.89] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 22:19:49 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 22:19:51 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 22:19:52 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined index: continue in /home/abhishekbiswal/server/quizr/pub/fb/fbauth.php on line 10, referer: http://quizr.local/login.php
+[Thu Jul 05 22:19:59 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined index: continue in /home/abhishekbiswal/server/quizr/pub/fb/fbauth.php on line 10, referer: http://quizr.local/login.php
+[Thu Jul 05 22:20:10 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 22:21:40 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 22:21:44 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 22:21:45 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined index: continue in /home/abhishekbiswal/server/quizr/pub/fb/fbauth.php on line 10, referer: http://quizr.local/login.php
+[Thu Jul 05 22:21:46 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined index: continue in /home/abhishekbiswal/server/quizr/pub/fb/fbauth.php on line 10, referer: http://quizr.local/login.php
+[Thu Jul 05 22:21:51 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Thu Jul 05 22:44:51 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Fri Jul 06 15:36:00 2012] [error] [client 127.0.0.1] File does not exist: /home/abhishekbiswal/server/quizr/pub/favicon.ico
+[Fri Jul 06 16:09:37 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined index: URL in /home/abhishekbiswal/server/quizr/pub/test.php on line 2
+[Fri Jul 06 16:09:47 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined index: DOCUMENT_URL in /home/abhishekbiswal/server/quizr/pub/test.php on line 2
+[Fri Jul 06 16:09:48 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined index: DOCUMENT_URL in /home/abhishekbiswal/server/quizr/pub/test.php on line 2
+[Fri Jul 06 16:11:18 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined index: ROOT in /home/abhishekbiswal/server/quizr/pub/test.php on line 2
+[Fri Jul 06 16:13:24 2012] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined function sayhelll() in /home/abhishekbiswal/server/quizr/pub/test.php on line 7
+[Sat Jul 07 22:00:49 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined index: continue in /home/abhishekbiswal/server/quizr/pub/fb/fbauth.php on line 10, referer: http://quizr.local/login.php
+[Sat Jul 07 22:00:50 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined index: continue in /home/abhishekbiswal/server/quizr/pub/fb/fbauth.php on line 10, referer: http://quizr.local/login.php
+[Sun Jul 08 21:16:16 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined index: continue in /home/abhishekbiswal/server/quizr/pub/fb/fbauth.php on line 10, referer: http://quizr.local/login.php
+[Sun Jul 08 21:16:18 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined index: continue in /home/abhishekbiswal/server/quizr/pub/fb/fbauth.php on line 10, referer: http://quizr.local/login.php
+[Sun Jul 08 22:09:29 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined index: continue in /home/abhishekbiswal/server/quizr/pub/fb/fbauth.php on line 10, referer: http://quizr.local/login.php
+[Sun Jul 08 22:09:29 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined index: continue in /home/abhishekbiswal/server/quizr/pub/fb/fbauth.php on line 10, referer: http://quizr.local/login.php
+[Sun Jul 08 22:09:38 2012] [error] [client 127.0.0.1] script '/home/abhishekbiswal/server/quizr/pub/browse.php' not found or unable to stat, referer: http://quizr.local/
+[Mon Jul 09 17:03:56 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined index: continue in /home/abhishekbiswal/server/quizr/pub/fb/fbauth.php on line 10, referer: http://quizr.local/login.php
+[Mon Jul 09 17:04:04 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined index: continue in /home/abhishekbiswal/server/quizr/pub/fb/fbauth.php on line 10, referer: http://quizr.local/login.php
+[Tue Jul 10 15:28:21 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined index: continue in /home/abhishekbiswal/server/quizr/pub/fb/fbauth.php on line 10, referer: http://quizr.local/login.php
+[Thu Jul 12 10:05:32 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined index: continue in /home/abhishekbiswal/server/quizr/pub/fb/fbauth.php on line 10, referer: http://quizr.local/login.php
+[Thu Jul 12 10:05:33 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined index: continue in /home/abhishekbiswal/server/quizr/pub/fb/fbauth.php on line 10, referer: http://quizr.local/login.php
+[Thu Jul 12 10:08:36 2012] [error] [client 127.0.0.1] script '/home/abhishekbiswal/server/quizr/pub/p.php' not found or unable to stat
+[Thu Jul 12 10:08:40 2012] [error] [client 127.0.0.1] script '/home/abhishekbiswal/server/quizr/pub/1.php' not found or unable to stat
+[Thu Jul 12 10:15:59 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: id in /home/abhishekbiswal/server/quizr/pub/q.php on line 35
+[Thu Jul 12 10:16:00 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: id in /home/abhishekbiswal/server/quizr/pub/q.php on line 35
+[Thu Jul 12 10:16:00 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: id in /home/abhishekbiswal/server/quizr/pub/q.php on line 35
+[Thu Jul 12 10:16:01 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: id in /home/abhishekbiswal/server/quizr/pub/q.php on line 35
+[Thu Jul 12 10:16:01 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: id in /home/abhishekbiswal/server/quizr/pub/q.php on line 35
+[Thu Jul 12 13:41:19 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined index: qp in /home/abhishekbiswal/server/quizr/pub/u.php on line 4
+[Thu Jul 12 13:41:20 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined index: qp in /home/abhishekbiswal/server/quizr/pub/u.php on line 4
+[Thu Jul 12 14:52:21 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined index: continue in /home/abhishekbiswal/server/quizr/pub/fb/fbauth.php on line 10, referer: http://quizr.local/login.php
+[Thu Jul 12 14:52:24 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined index: continue in /home/abhishekbiswal/server/quizr/pub/fb/fbauth.php on line 10, referer: http://quizr.local/login.php
+[Thu Jul 12 14:53:48 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: questionID in /home/abhishekbiswal/server/quizr/pub/play/index.php on line 81
+[Thu Jul 12 14:53:48 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: qQuestion in /home/abhishekbiswal/server/quizr/pub/play/index.php on line 86
+[Thu Jul 12 14:53:48 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: qOption1 in /home/abhishekbiswal/server/quizr/pub/play/index.php on line 89
+[Thu Jul 12 14:53:48 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: qOption2 in /home/abhishekbiswal/server/quizr/pub/play/index.php on line 90
+[Thu Jul 12 14:53:48 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: qOption3 in /home/abhishekbiswal/server/quizr/pub/play/index.php on line 93
+[Thu Jul 12 14:53:48 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: qOption4 in /home/abhishekbiswal/server/quizr/pub/play/index.php on line 99
+[Thu Jul 12 14:59:55 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: questionID in /home/abhishekbiswal/server/quizr/pub/play/index.php on line 89
+[Sun Jul 15 21:46:50.185075 2012] [access_compat:error] [pid 4352:tid 1756] [client 127.0.0.1:51821] AH01797: client denied by server configuration: D:/Dropbox/quizr-beta/pub/
+[Sun Jul 15 21:46:50.378308 2012] [access_compat:error] [pid 4352:tid 1756] [client 127.0.0.1:51821] AH01797: client denied by server configuration: D:/Dropbox/quizr-beta/pub/favicon.ico
+[Sun Jul 15 21:47:54.001059 2012] [access_compat:error] [pid 4352:tid 1760] [client 127.0.0.1:51826] AH01797: client denied by server configuration: D:/Dropbox/quizr-beta/pub/
+[Sun Jul 15 21:47:54.099051 2012] [access_compat:error] [pid 4352:tid 1760] [client 127.0.0.1:51826] AH01797: client denied by server configuration: D:/Dropbox/quizr-beta/pub/favicon.ico
+[Sun Jul 15 21:47:55.049970 2012] [access_compat:error] [pid 4352:tid 1760] [client 127.0.0.1:51826] AH01797: client denied by server configuration: D:/Dropbox/quizr-beta/pub/
+[Sun Jul 15 21:47:55.138288 2012] [access_compat:error] [pid 4352:tid 1760] [client 127.0.0.1:51826] AH01797: client denied by server configuration: D:/Dropbox/quizr-beta/pub/favicon.ico
+[Sun Jul 15 21:47:55.242079 2012] [access_compat:error] [pid 4352:tid 1760] [client 127.0.0.1:51826] AH01797: client denied by server configuration: D:/Dropbox/quizr-beta/pub/
+[Sun Jul 15 21:47:55.342139 2012] [access_compat:error] [pid 4352:tid 1760] [client 127.0.0.1:51826] AH01797: client denied by server configuration: D:/Dropbox/quizr-beta/pub/favicon.ico
+[Sun Jul 15 21:47:55.406847 2012] [access_compat:error] [pid 4352:tid 1760] [client 127.0.0.1:51826] AH01797: client denied by server configuration: D:/Dropbox/quizr-beta/pub/
+[Sun Jul 15 21:47:55.510916 2012] [access_compat:error] [pid 4352:tid 1760] [client 127.0.0.1:51826] AH01797: client denied by server configuration: D:/Dropbox/quizr-beta/pub/favicon.ico
+[Sun Jul 15 21:48:04.511872 2012] [access_compat:error] [pid 4352:tid 1756] [client 127.0.0.1:51827] AH01797: client denied by server configuration: D:/Dropbox/quizr-beta/pub/
+[Sun Jul 15 21:48:04.594922 2012] [access_compat:error] [pid 4352:tid 1756] [client 127.0.0.1:51827] AH01797: client denied by server configuration: D:/Dropbox/quizr-beta/pub/favicon.ico
+[Sun Jul 15 21:48:08.576808 2012] [access_compat:error] [pid 4352:tid 1756] [client 127.0.0.1:51827] AH01797: client denied by server configuration: D:/Dropbox/quizr-beta/pub/
+[Sun Jul 15 21:48:08.657865 2012] [access_compat:error] [pid 4352:tid 1756] [client 127.0.0.1:51827] AH01797: client denied by server configuration: D:/Dropbox/quizr-beta/pub/favicon.ico
+[Sun Jul 15 21:48:30.957294 2012] [access_compat:error] [pid 4352:tid 1760] [client 127.0.0.1:51832] AH01797: client denied by server configuration: D:/Dropbox/quizr-beta/pub/index.php
+[Sun Jul 15 21:48:31.023340 2012] [access_compat:error] [pid 4352:tid 1760] [client 127.0.0.1:51832] AH01797: client denied by server configuration: D:/Dropbox/quizr-beta/pub/favicon.ico
+[Sun Jul 15 21:49:26.752154 2012] [access_compat:error] [pid 4352:tid 1760] [client 127.0.0.1:51859] AH01797: client denied by server configuration: D:/Dropbox/quizr-beta/pub/index.php
+[Sun Jul 15 21:49:26.846624 2012] [access_compat:error] [pid 4352:tid 1760] [client 127.0.0.1:51859] AH01797: client denied by server configuration: D:/Dropbox/quizr-beta/pub/favicon.ico
+[Sun Jul 15 21:49:27.282287 2012] [access_compat:error] [pid 4352:tid 1760] [client 127.0.0.1:51859] AH01797: client denied by server configuration: D:/Dropbox/quizr-beta/pub/index.php
+[Sun Jul 15 21:49:27.377347 2012] [access_compat:error] [pid 4352:tid 1760] [client 127.0.0.1:51859] AH01797: client denied by server configuration: D:/Dropbox/quizr-beta/pub/favicon.ico
+[Sun Jul 15 21:49:34.382504 2012] [access_compat:error] [pid 4352:tid 1756] [client 127.0.0.1:51858] AH01797: client denied by server configuration: D:/Dropbox/quizr-beta/pub/about/
+[Sun Jul 15 21:49:34.430538 2012] [access_compat:error] [pid 4352:tid 1756] [client 127.0.0.1:51858] AH01797: client denied by server configuration: D:/Dropbox/quizr-beta/pub/favicon.ico
+[Sun Jul 15 21:49:38.570672 2012] [access_compat:error] [pid 4352:tid 1756] [client 127.0.0.1:51858] AH01797: client denied by server configuration: D:/Dropbox/quizr-beta/pub/jj
+[Sun Jul 15 21:49:38.620710 2012] [access_compat:error] [pid 4352:tid 1756] [client 127.0.0.1:51858] AH01797: client denied by server configuration: D:/Dropbox/quizr-beta/pub/favicon.ico
+[Sun Jul 15 21:49:41.879949 2012] [access_compat:error] [pid 4352:tid 1756] [client 127.0.0.1:51858] AH01797: client denied by server configuration: D:/Dropbox/quizr-beta/pub/
+[Sun Jul 15 21:49:41.925980 2012] [access_compat:error] [pid 4352:tid 1756] [client 127.0.0.1:51858] AH01797: client denied by server configuration: D:/Dropbox/quizr-beta/pub/favicon.ico
+[Sun Jul 15 21:52:29.166189 2012] [access_compat:error] [pid 4352:tid 1760] [client 127.0.0.1:51970] AH01797: client denied by server configuration: D:/Dropbox/quizr-beta/pub/
+[Sun Jul 15 21:52:29.271261 2012] [access_compat:error] [pid 4352:tid 1760] [client 127.0.0.1:51970] AH01797: client denied by server configuration: D:/Dropbox/quizr-beta/pub/favicon.ico
+[Sun Jul 15 21:52:41.436649 2012] [access_compat:error] [pid 4352:tid 1756] [client 127.0.0.1:51971] AH01797: client denied by server configuration: D:/Dropbox/quizr-beta/pub/
+[Sun Jul 15 21:52:43.211937 2012] [:error] [pid 1884:tid 1764] [client 127.0.0.1:51978] PHP Warning:  session_start(): open(\\xampp\\tmp\\sess_7ffsbt92n6acb4o1bcef50lnt4, O_RDWR) failed: No such file or directory (2) in D:\\Dropbox\\quizr-beta\\pub\\index.php on line 2
+[Sun Jul 15 21:52:43.212936 2012] [:error] [pid 1884:tid 1764] [client 127.0.0.1:51978] PHP Warning:  include(fn/loggedin.php): failed to open stream: No such file or directory in D:\\Dropbox\\quizr-beta\\pub\\index.php on line 3
+[Sun Jul 15 21:52:43.212936 2012] [:error] [pid 1884:tid 1764] [client 127.0.0.1:51978] PHP Warning:  include(): Failed opening 'fn/loggedin.php' for inclusion (include_path='.;\\xampp\\php\\PEAR') in D:\\Dropbox\\quizr-beta\\pub\\index.php on line 3
+[Sun Jul 15 21:52:43.213936 2012] [:error] [pid 1884:tid 1764] [client 127.0.0.1:51978] PHP Warning:  include(temp/header.php): failed to open stream: No such file or directory in D:\\Dropbox\\quizr-beta\\pub\\index.php on line 5
+[Sun Jul 15 21:52:43.213936 2012] [:error] [pid 1884:tid 1764] [client 127.0.0.1:51978] PHP Warning:  include(): Failed opening 'temp/header.php' for inclusion (include_path='.;\\xampp\\php\\PEAR') in D:\\Dropbox\\quizr-beta\\pub\\index.php on line 5
+[Sun Jul 15 21:52:43.213936 2012] [:error] [pid 1884:tid 1768] [client 127.0.0.1:51977] PHP Warning:  session_start(): open(\\xampp\\tmp\\sess_127ju1ivpk31e9bh2ai2u8tlt2, O_RDWR) failed: No such file or directory (2) in D:\\Dropbox\\quizr-beta\\pub\\index.php on line 2
+[Sun Jul 15 21:52:43.213936 2012] [:error] [pid 1884:tid 1764] [client 127.0.0.1:51978] PHP Warning:  include(temp/footer.php): failed to open stream: No such file or directory in D:\\Dropbox\\quizr-beta\\pub\\index.php on line 20
+[Sun Jul 15 21:52:43.213936 2012] [:error] [pid 1884:tid 1764] [client 127.0.0.1:51978] PHP Warning:  include(): Failed opening 'temp/footer.php' for inclusion (include_path='.;\\xampp\\php\\PEAR') in D:\\Dropbox\\quizr-beta\\pub\\index.php on line 20
+[Sun Jul 15 21:52:43.213936 2012] [:error] [pid 1884:tid 1768] [client 127.0.0.1:51977] PHP Warning:  include(fn/loggedin.php): failed to open stream: No such file or directory in D:\\Dropbox\\quizr-beta\\pub\\index.php on line 3
+[Sun Jul 15 21:52:43.213936 2012] [:error] [pid 1884:tid 1768] [client 127.0.0.1:51977] PHP Warning:  include(): Failed opening 'fn/loggedin.php' for inclusion (include_path='.;\\xampp\\php\\PEAR') in D:\\Dropbox\\quizr-beta\\pub\\index.php on line 3
+[Sun Jul 15 21:52:43.214936 2012] [:error] [pid 1884:tid 1768] [client 127.0.0.1:51977] PHP Warning:  include(temp/header.php): failed to open stream: No such file or directory in D:\\Dropbox\\quizr-beta\\pub\\index.php on line 5
+[Sun Jul 15 21:52:43.214936 2012] [:error] [pid 1884:tid 1768] [client 127.0.0.1:51977] PHP Warning:  include(): Failed opening 'temp/header.php' for inclusion (include_path='.;\\xampp\\php\\PEAR') in D:\\Dropbox\\quizr-beta\\pub\\index.php on line 5
+[Sun Jul 15 21:52:43.214936 2012] [:error] [pid 1884:tid 1768] [client 127.0.0.1:51977] PHP Warning:  include(temp/footer.php): failed to open stream: No such file or directory in D:\\Dropbox\\quizr-beta\\pub\\index.php on line 20
+[Sun Jul 15 21:52:43.214936 2012] [:error] [pid 1884:tid 1768] [client 127.0.0.1:51977] PHP Warning:  include(): Failed opening 'temp/footer.php' for inclusion (include_path='.;\\xampp\\php\\PEAR') in D:\\Dropbox\\quizr-beta\\pub\\index.php on line 20
+[Sun Jul 15 21:52:55.567204 2012] [:error] [pid 1884:tid 1764] [client 127.0.0.1:51982] PHP Warning:  session_start(): open(\\xampp\\tmp\\sess_7ffsbt92n6acb4o1bcef50lnt4, O_RDWR) failed: No such file or directory (2) in D:\\Dropbox\\quizr-beta\\pub\\index.php on line 2
+[Sun Jul 15 21:53:05.545589 2012] [:error] [pid 1884:tid 1784] [client 127.0.0.1:51986] PHP Warning:  session_start(): open(\\xampp\\tmp\\sess_7ffsbt92n6acb4o1bcef50lnt4, O_RDWR) failed: No such file or directory (2) in D:\\Dropbox\\quizr-beta\\pub\\login.php on line 2, referer: http://quizr.local/
+[Tue Jul 17 17:36:17.886726 2012] [:error] [pid 5080:tid 1768] [client 127.0.0.1:53459] PHP Warning:  session_start(): open(\\xampp\\tmp\\sess_s511cu2ga0u3phg6gscqksdas6, O_RDWR) failed: No such file or directory (2) in D:\\Dropbox\\quizr-beta\\pub\\index.php on line 2
+[Tue Jul 17 17:40:51.825588 2012] [:error] [pid 1480:tid 1732] [client 127.0.0.1:53649] PHP Warning:  session_start(): open(\\Windows\\Temp\\sess_s511cu2ga0u3phg6gscqksdas6, O_RDWR) failed: No such file or directory (2) in D:\\Dropbox\\quizr-beta\\pub\\index.php on line 2
+[Tue Jul 17 17:41:17.329731 2012] [:error] [pid 1480:tid 1752] [client 127.0.0.1:53650] PHP Warning:  session_start(): open(\\Windows\\Temp\\sess_s511cu2ga0u3phg6gscqksdas6, O_RDWR) failed: No such file or directory (2) in D:\\Dropbox\\quizr-beta\\pub\\index.php on line 2
+[Tue Jul 17 17:41:17.900709 2012] [:error] [pid 1480:tid 1736] [client 127.0.0.1:53655] PHP Warning:  session_start(): open(\\Windows\\Temp\\sess_s511cu2ga0u3phg6gscqksdas6, O_RDWR) failed: No such file or directory (2) in D:\\Dropbox\\quizr-beta\\pub\\index.php on line 2
+[Tue Jul 17 17:41:18.100837 2012] [:error] [pid 1480:tid 1736] [client 127.0.0.1:53655] PHP Warning:  session_start(): open(\\Windows\\Temp\\sess_s511cu2ga0u3phg6gscqksdas6, O_RDWR) failed: No such file or directory (2) in D:\\Dropbox\\quizr-beta\\pub\\index.php on line 2
+[Tue Jul 17 17:41:30.005612 2012] [:error] [pid 1480:tid 1740] [client 127.0.0.1:53654] PHP Warning:  session_start(): open(\\Windows\\Temp\\sess_s511cu2ga0u3phg6gscqksdas6, O_RDWR) failed: No such file or directory (2) in D:\\Dropbox\\quizr-beta\\pub\\index.php on line 2
+[Tue Jul 17 17:41:39.135525 2012] [:error] [pid 2744:tid 1756] [client 127.0.0.1:53662] PHP Notice:  Undefined index: continue in D:\\Dropbox\\quizr-beta\\pub\\fb\\fbauth.php on line 10, referer: http://quizr.local/login.php
+[Tue Jul 17 17:41:39.274468 2012] [:error] [pid 2744:tid 1756] [client 127.0.0.1:53662] PHP Fatal error:  Uncaught exception 'Exception' with message 'Facebook needs the CURL PHP extension.' in D:\\Dropbox\\quizr-beta\\pub\\fb\\base_facebook.php:19\nStack trace:\n#0 D:\\Dropbox\\quizr-beta\\pub\\fb\\facebook.php(18): require_once()\n#1 D:\\Dropbox\\quizr-beta\\pub\\fb\\fbauth.php(13): require('D:\\Dropbox\\quiz...')\n#2 {main}\n  thrown in D:\\Dropbox\\quizr-beta\\pub\\fb\\base_facebook.php on line 19, referer: http://quizr.local/login.php
+[Thu Aug 23 14:08:41.305653 2012] [:error] [pid 1700:tid 1764] [client 127.0.0.1:52127] PHP Warning:  include(fn/loggedin.php): failed to open stream: No such file or directory in D:\\Dropbox\\ubuntuserver\\quizr\\pub\\index.php on line 3
+[Thu Aug 23 14:08:41.307660 2012] [:error] [pid 1700:tid 1764] [client 127.0.0.1:52127] PHP Warning:  include(): Failed opening 'fn/loggedin.php' for inclusion (include_path='/home/abhishekbiswal/server/quizr/inc') in D:\\Dropbox\\ubuntuserver\\quizr\\pub\\index.php on line 3
+[Thu Aug 23 14:08:41.307660 2012] [:error] [pid 1700:tid 1764] [client 127.0.0.1:52127] PHP Warning:  include(temp/header.php): failed to open stream: No such file or directory in D:\\Dropbox\\ubuntuserver\\quizr\\pub\\index.php on line 5
+[Thu Aug 23 14:08:41.307660 2012] [:error] [pid 1700:tid 1764] [client 127.0.0.1:52127] PHP Warning:  include(): Failed opening 'temp/header.php' for inclusion (include_path='/home/abhishekbiswal/server/quizr/inc') in D:\\Dropbox\\ubuntuserver\\quizr\\pub\\index.php on line 5
+[Thu Aug 23 14:08:41.308661 2012] [:error] [pid 1700:tid 1764] [client 127.0.0.1:52127] PHP Warning:  include(temp/footer.php): failed to open stream: No such file or directory in D:\\Dropbox\\ubuntuserver\\quizr\\pub\\index.php on line 20
+[Thu Aug 23 14:08:41.308661 2012] [:error] [pid 1700:tid 1764] [client 127.0.0.1:52127] PHP Warning:  include(): Failed opening 'temp/footer.php' for inclusion (include_path='/home/abhishekbiswal/server/quizr/inc') in D:\\Dropbox\\ubuntuserver\\quizr\\pub\\index.php on line 20
+[Thu Aug 23 14:19:10.918302 2012] [:error] [pid 1700:tid 1744] [client 127.0.0.1:52260] Invalid or no certificate authority found, using bundled information, referer: http://quizr.local/login.php
+[Thu Aug 23 14:19:12.917190 2012] [:error] [pid 1700:tid 1744] [client 127.0.0.1:52260] Invalid or no certificate authority found, using bundled information, referer: http://quizr.local/login.php
+[Thu Aug 23 14:19:14.854984 2012] [:error] [pid 1700:tid 1744] [client 127.0.0.1:52260] Invalid or no certificate authority found, using bundled information, referer: http://quizr.local/login.php
+[Thu Aug 23 14:19:17.226674 2012] [:error] [pid 1700:tid 1744] [client 127.0.0.1:52260] PHP Fatal error:  Call to a member function prepare() on a non-object in D:\\Dropbox\\ubuntuserver\\quizr\\inc\\fb\\signin.php on line 9, referer: http://quizr.local/login.php
+[Thu Aug 23 14:21:24.056056 2012] [:error] [pid 1700:tid 1740] [client 127.0.0.1:52401] Invalid or no certificate authority found, using bundled information, referer: http://quizr.local/login.php
+[Thu Aug 23 18:15:20.375455 2012] [:error] [pid 1700:tid 1764] [client 127.0.0.1:55642] Invalid or no certificate authority found, using bundled information, referer: http://quizr.local/login.php
+[Thu Aug 23 18:15:22.260094 2012] [:error] [pid 1700:tid 1764] [client 127.0.0.1:55642] Invalid or no certificate authority found, using bundled information, referer: http://quizr.local/login.php
+[Thu Aug 23 18:15:24.156940 2012] [:error] [pid 1700:tid 1764] [client 127.0.0.1:55642] Invalid or no certificate authority found, using bundled information, referer: http://quizr.local/login.php
+[Sat Sep 01 20:08:28.675645 2012] [:error] [pid 5264:tid 1796] [client 127.0.0.1:59141] Invalid or no certificate authority found, using bundled information, referer: http://quizr.local/login.php
+[Sat Sep 01 20:08:30.709983 2012] [:error] [pid 5264:tid 1796] [client 127.0.0.1:59141] Invalid or no certificate authority found, using bundled information, referer: http://quizr.local/login.php
+[Sat Sep 01 20:08:32.947614 2012] [:error] [pid 5264:tid 1796] [client 127.0.0.1:59141] Invalid or no certificate authority found, using bundled information, referer: http://quizr.local/login.php
+[Sat Sep 01 20:18:02.715859 2012] [:error] [pid 5264:tid 1800] [client 127.0.0.1:59468] PHP Parse error:  syntax error, unexpected '?' in D:\\Dropbox\\ubuntuserver\\quizr\\pub\\play\\index.php on line 106
+[Sat Sep 01 20:18:36.071034 2012] [:error] [pid 5264:tid 1800] [client 127.0.0.1:59473] PHP Notice:  Undefined variable: questionID in D:\\Dropbox\\ubuntuserver\\quizr\\pub\\play\\index.php on line 86
+[Sat Sep 01 20:19:22.222718 2012] [:error] [pid 5264:tid 1800] [client 127.0.0.1:59493] PHP Notice:  Undefined index: question in D:\\Dropbox\\ubuntuserver\\quizr\\pub\\play\\sub.php on line 15, referer: http://quizr.local/play/?id=12
+[Sat Sep 01 20:19:22.222718 2012] [:error] [pid 5264:tid 1800] [client 127.0.0.1:59493] PHP Notice:  Undefined index: ans in D:\\Dropbox\\ubuntuserver\\quizr\\pub\\play\\sub.php on line 16, referer: http://quizr.local/play/?id=12
+[Sat Sep 01 20:19:22.222718 2012] [:error] [pid 5264:tid 1800] [client 127.0.0.1:59493] PHP Notice:  Use of undefined constant quid - assumed 'quid' in D:\\Dropbox\\ubuntuserver\\quizr\\pub\\play\\sub.php on line 17, referer: http://quizr.local/play/?id=12
+[Sat Sep 01 20:20:24.712241 2012] [:error] [pid 5264:tid 1800] [client 127.0.0.1:59494] PHP Notice:  Undefined index: question in D:\\Dropbox\\ubuntuserver\\quizr\\pub\\play\\sub.php on line 15, referer: http://quizr.local/play/?id=12
+[Sat Sep 01 20:20:24.712241 2012] [:error] [pid 5264:tid 1800] [client 127.0.0.1:59494] PHP Notice:  Undefined index: ans in D:\\Dropbox\\ubuntuserver\\quizr\\pub\\play\\sub.php on line 16, referer: http://quizr.local/play/?id=12
+[Sat Sep 01 20:20:26.542828 2012] [:error] [pid 5264:tid 1800] [client 127.0.0.1:59494] PHP Notice:  Undefined index: question in D:\\Dropbox\\ubuntuserver\\quizr\\pub\\play\\sub.php on line 15, referer: http://quizr.local/play/?id=12
+[Sat Sep 01 20:20:26.542828 2012] [:error] [pid 5264:tid 1800] [client 127.0.0.1:59494] PHP Notice:  Undefined index: ans in D:\\Dropbox\\ubuntuserver\\quizr\\pub\\play\\sub.php on line 16, referer: http://quizr.local/play/?id=12
+[Wed Sep 12 16:32:32.718340 2012] [:error] [pid 3364:tid 1812] [client 127.0.0.1:52899] script 'D:/Dropbox/ubuntuserver/quizr/pub/fb/signin.php' not found or unable to stat, referer: http://quizr.local/
+[Wed Sep 12 16:32:54.182010 2012] [:error] [pid 3364:tid 1796] [client 127.0.0.1:52913] Invalid or no certificate authority found, using bundled information, referer: http://quizr.local/
+[Wed Sep 12 16:32:56.150621 2012] [:error] [pid 3364:tid 1796] [client 127.0.0.1:52913] Invalid or no certificate authority found, using bundled information, referer: http://quizr.local/
+[Wed Sep 12 16:32:58.146132 2012] [:error] [pid 3364:tid 1796] [client 127.0.0.1:52913] Invalid or no certificate authority found, using bundled information, referer: http://quizr.local/
+[Wed Sep 12 16:33:50.431876 2012] [:error] [pid 3364:tid 1808] [client 127.0.0.1:52943] script 'D:/Dropbox/ubuntuserver/quizr/pub/dash.php' not found or unable to stat
+[Wed Sep 12 16:35:27.302446 2012] [:error] [pid 3364:tid 1792] [client 127.0.0.1:52969] PHP Notice:  session_start(): ps_files_cleanup_dir: opendir(C:/Windows/Temp/) failed: No error (0) in D:\\Dropbox\\ubuntuserver\\quizr\\pub\\index.php on line 2
+[Wed Sep 12 16:35:59.598651 2012] [:error] [pid 3364:tid 1804] [client 127.0.0.1:52990] PHP Notice:  Undefined variable: pageName in D:\\Dropbox\\ubuntuserver\\quizr\\inc\\temp\\header.php on line 4
+[Wed Sep 12 16:36:50.224741 2012] [:error] [pid 3364:tid 1804] [client 127.0.0.1:53001] PHP Notice:  Undefined variable: pageName in D:\\Dropbox\\ubuntuserver\\quizr\\inc\\temp\\header.php on line 4, referer: http://quizr.local/dash.php
+[Wed Sep 12 16:37:10.473105 2012] [:error] [pid 3364:tid 1808] [client 127.0.0.1:53009] PHP Notice:  Undefined variable: pageName in D:\\Dropbox\\ubuntuserver\\quizr\\inc\\temp\\header.php on line 4, referer: http://quizr.local/create.php
+[Wed Sep 12 16:38:14.167280 2012] [:error] [pid 3364:tid 1808] [client 127.0.0.1:53029] PHP Notice:  Undefined variable: pageName in D:\\Dropbox\\ubuntuserver\\quizr\\inc\\temp\\header.php on line 4, referer: http://quizr.local/quiz/add.php?id=1
+[Wed Sep 12 16:38:28.919709 2012] [:error] [pid 3364:tid 1808] [client 127.0.0.1:53038] PHP Notice:  Undefined variable: pageName in D:\\Dropbox\\ubuntuserver\\quizr\\inc\\temp\\header.php on line 4, referer: http://quizr.local/quiz/add.php?id=1

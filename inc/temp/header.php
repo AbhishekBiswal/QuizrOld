@@ -5,6 +5,7 @@
 	<link href="/assets/css/grid.css" rel="stylesheet" type="text/css">
 	<link href="/assets/css/style.css" rel="stylesheet" type="text/css">
 	<link href="/assets/css/edit.css" rel="stylesheet" type="text/css">
+	<link href="/assets/css/cssr.css" rel="stylesheet" type="text/css">
 	<script src="/assets/js/jquery.js"></script>
 	<script src="/assets/js/main.js"></script>
 </head>
@@ -17,12 +18,17 @@
 			<li><a href="/browse.php">Browse</a></li>
 			<li><a href="/create.php">Create</a></li>
 		</ul>
-		<ul class="nav float-right text-right columns three">
+		<ul class="nav float-right text-center columns three">
 		<?php
 			if($loggedin == 1)
 			{
 		?>
-			<li><a href="/u/<?php echo $_SESSION['qp']; ?>"><?php echo $_SESSION['qu']; ?></a></li>
+			<li class="dropit"><a class="dropit" href="#"><?php echo $_SESSION['qu']; ?></a>
+				<ul class="dropdown">
+					<li><a href="/u/">Profile</a></li>
+					<li><a href="/logout.php">Logout</a></li>
+				</ul>
+			</li>
 		<?php		
 			}
 			else

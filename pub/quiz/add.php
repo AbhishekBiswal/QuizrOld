@@ -41,13 +41,15 @@
 
 <div class="content">
 
-	<form class="add-quiz-question">
+	<form class="ajax" action="add-sub.php">
+	<p class="submitinfo"></p>
 		<input type="text" name="question" placeholder="Question"><br>
-		<div id="options">
-		<input type="text" class="small" name="option1" placeholder="Option 1"><br>
-		<input type="text" class="small" name="option2" placeholder="Option 2"><br>
-		<input type="text" class="small" name="option3" placeholder="Option 3 (Optional)"><br>
-		<input type="text" class="small" name="option4" placeholder="Option 4 (Optional)"><br>
+		<textarea name="q-desc" placeholder="Description / More Info"></textarea><br>
+		<input type="text" class="small" name="answer" placeholder="Answer">
+		<input type="hidden" name="q-id" value="<?php echo $qid; ?>">
+		<a class="add-hint btn btn-small">Add Hint</a>
+		<div class="add-hint">
+			<input class="small" type="text" name="q-hint" placeholder="Hint">
 		</div>
 		<div id="form-buttons">
 			<button class="btn" type="submit" name="add-another">Save and Add More</button>
