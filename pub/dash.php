@@ -34,8 +34,12 @@
 	$checkUnpub->execute(array($curUser));
 	while($row = $checkUnpub->fetch())
 	{
-		
-	}
+	?>
+	<li><span class="grey two columns"><?php echo $row['questions']; ?> Questions</span> <a href="<?php echo "/q/".$row['id']; ?>"><?php echo $row['title']; ?></a></li>
+	<?php
+	} // while
+
+	// unpublished quizzes loads. done.
 
 	?>
 	</ul>
