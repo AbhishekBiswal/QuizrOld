@@ -34,7 +34,7 @@
 			else
 			{
 		?>
-			<li><a href="/login.php">Login</a></li>
+			<li><a href="/beta.php">Sign Up For Beta</a></li>
 		<?php		
 			}
 		?>

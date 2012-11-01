@@ -27,6 +27,13 @@
 		$qUser = $row['user'];
 		$qQuestions = $row['questions'];
 		$qPlays = $row['plays'];
+		$qPub = $row['pub'];
+	}
+
+	$thegod = 0;
+	if($curUser == $qUser)
+	{
+		$thegod = 1;
 	}
 
 	include('fn/loaduser.php');
@@ -50,11 +57,31 @@
 	</div>
 </div>
 
-<div class="content">
+<div class="content u-page-box ten columns">
 	<div>
 		<p class="grayinfo"><?php echo $qDesc; ?></p>
 	</div>
-	<a href="/" class="btn">PLAY</a>
+	<a href="/play/?id=<?php echo $qid; ?>" class="btn">PLAY</a>
+
+	<div>
+
+		<?php
+
+		if($thegod == 1)
+		{
+		?>
+		<div class="u-page-header">Admin Tools:</div>
+		<a class="btn" href="/quiz/add.php?id=<?php echo $qid; ?>">Add Questions</a>
+
+		<?php if($qPub == 0) { ?> <a class="btn" href="/quiz/pub.php?id=<?php echo $qid; ?>">Publish</a> <?php } ?>
+
+		<?php
+		}
+
+		?>
+
+	</div>
+
 </div>
 
 <?php

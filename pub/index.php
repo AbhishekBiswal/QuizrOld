@@ -8,6 +8,7 @@
 	}
 	$pageName = "Home";
 	include('temp/header.php');
+	@$key = $_GET['beta_key'];
 ?>
 
 <div class="det-head"><h2>Welcome To Quizr</h2></div>
@@ -17,10 +18,21 @@
 </div>
 
 <div class="columns six float-right">
+	<?php
+		if($key == "iamaphpdeveloperandwillsoonswitchtopythonanddonttrytohackbecauseyournotahackerwhybecausehackerdontcallthemeselveshackers")
+		{
+	?>
 	<div class="signin-box">
 		<a href="/fb/fbauth.php"><img src="/assets/img/icons/facebooksignin.png"></a>
 		<a href="/tw/signin.php"><img src="/assets/img/icons/twittersignin.png"></img></a>
 	</div>
+	<?php
+		}
+		else
+		{
+			echo "<br><br>Registration Closed - Beta";
+		}
+	?>
 </div>
 
 </div><!--main-->

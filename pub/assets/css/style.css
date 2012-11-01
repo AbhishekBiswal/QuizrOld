@@ -472,3 +472,14 @@ span.grey
 {
 	display: none;
 }
+
+.content-about h3
+{
+	font-size: 140%;
+}
+.content-about p { margin-bottom: 10px; }
+.content-about ul.team { display: block; list-style-type: none; margin-left: 10px; }
+.content-about ul.team li { display: block; }
+.content-about ul.team h4 { display: inline; font-size: 1.2em; }
+.content-about ul.team span { display: inline; font-size: 0.9em; margin-left: 5px; color: #777; }
+.content-about ul.team p { font-size: 0.9em; }
