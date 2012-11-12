@@ -1,0 +1,230 @@
+<html>
+<head>
+	<title>Play / T3</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<NOSCRIPT>
+		Please enable Javascript to begin.
+	</NOSCRIPT>
+	<script type="text/javascript" src = 'jquery-1.7.1.js'></script>
+	<script type="text/javascript"> 
+
+		function startGame () {
+			$('table').fadeIn(500);
+			$('.initial').fadeOut(500);
+			$('#home').fadeIn(500);
+		}
+
+		function crossNoughtLoad(i){
+		if ($('td#'+i).hasClass('cross')){
+		document.images['img' + i].src='nought.png';
+		$('td#'+i).addClass('nought');
+		$('td#'+i).removeClass('cross');
+		}
+		else {
+		document.images['img' + i].src='cross.png';
+		$('td#'+i).addClass('cross');
+		$('td#'+i).removeClass('nought');
+		}
+
+		}
+
+		function about(){
+			$('.about').fadeIn(500);
+			$('.initial').fadeOut(500);
+			$('.replay').fadeOut(500);
+			$('#home').fadeOut(500);
+		}
+		function initial() {
+			$('.about').fadeOut(500);
+			$('.initial').fadeIn(500);
+		}
+
+		function gameEnd(winner) {
+		$('.game-end').fadeIn(500);
+		$('#'+winner+'-win').fadeIn(500);
+		setTimeout(function(){
+			die();
+		},2000)
+		}
+		
+		function home() {
+			window.location.reload();
+		}
+
+		function die () {
+		$('table').fadeOut(500);
+		$('.replay').fadeIn(500);
+		$('.game-end').fadeOut(500);
+		$('.result').fadeOut(500);
+		}
+
+		function replay () {
+			window.location.reload();
+		}
+
+
+		function checkWinner(){
+		var x = new Array();
+		var o = new Array();
+		for (i = 1; i <= 9; i++) {
+			if($('td#'+i).hasClass('cross')){
+				x.push(i);
+			}
+			else if($('td#'+i).hasClass('nought')){
+				o.push(i);
+			}
+		}
+		var xString = x.toString();
+		var oString = o.toString();
+		console.log(xString);
+		console.log(oString);
+		if(xString.match("1") && xString.match("2") && xString.match("3"))
+			{
+				var winner = 'cross';
+				gameEnd(winner);
+			}
+		else if(xString.match("4") && xString.match("5") && xString.match("6")) 
+			{
+				var winner = 'cross';
+				gameEnd(winner);
+			}
+		else if(xString.match("7") && xString.match("8") && xString.match("9"))
+			{
+				var winner = 'cross';
+				gameEnd(winner);
+			}
+		else if(xString.match("1") && xString.match("4") && xString.match("7"))
+			{
+				var winner = 'cross';
+				gameEnd(winner);
+			}
+		else if(xString.match("2") && xString.match("5") && xString.match("8"))	
+			{
+				var winner = 'cross';
+				gameEnd(winner);
+			}
+		else if(xString.match("3") && xString.match("6") && xString.match("9"))
+			{
+				var winner = 'cross';
+				gameEnd(winner);
+			}
+		else if(xString.match("1") && xString.match("5") && xString.match("9"))
+			{
+				var winner = 'cross';
+				gameEnd(winner);
+			}
+		else if(xString.match("3") && xString.match("5") && xString.match("7"))
+			{
+				var winner = 'cross';
+				gameEnd(winner);
+			}
+		if(oString.match("1") && oString.match("2") && oString.match("3"))
+			{
+				var winner = 'nought';
+				gameEnd(winner);
+			}
+		else if(oString.match("4") && oString.match("5") && oString.match("6")) 
+			{
+				var winner = 'nought';
+				gameEnd(winner);
+			}
+		else if(oString.match("7") && oString.match("8") && oString.match("9"))
+			{
+				var winner = 'nought';
+				gameEnd(winner);
+			}
+		else if(oString.match("1") && oString.match("4") && oString.match("7"))
+			{
+				var winner = 'nought';
+				gameEnd(winner);
+			}
+		else if(oString.match("2") && oString.match("5") && oString.match("8"))	
+			{
+				var winner = 'nought';
+				gameEnd(winner);
+			}
+		else if(oString.match("3") && oString.match("6") && oString.match("9"))
+			{
+				var winner = 'nought';
+				gameEnd(winner);
+			}
+		else if(oString.match("1") && oString.match("5") && oString.match("9"))
+			{
+				var winner = 'nought';
+				gameEnd(winner);
+			}
+		else if(oString.match("3") && oString.match("5") && oString.match("7"))
+			{
+				var winner = 'nought';
+				gameEnd(winner);
+			}
+		}
+	</script>
+<body>
+	<div class = 'wrapper'>
+		<h1>Tic - Tac - Toe</h1>
+		<div class = 'initial'>
+		<button id = 'begin' onclick = 'startGame();'>Begin</button>
+		<button id = 'about' onclick = 'about();'>About</button>
+	</div>
+	<div class = 'about'>
+		<p id = 'about-text'>
+			Tic-tac-toe in JavaScript. Simple as that. <br />
+			<strong>Controls : Single-Click for a cross and Double-click for a nought.</strong> </br> <br />
+			Currently the game doesn't inform you when the match's been drawn. Otherwise it's pretty neat according to what I believe, but if you want to criticise, appreciate, point bugs out or have an idea to improve upon this, you may <a href="mailto:bharatkashyap.exun@gmail.com" target = "_blank">send</a> me an email.
+			<br /><br />
+			&copy; 2012 <a href="http://www.bharatkashyap.wordpress.com" target = "_blank">Bharat Kashyap.</a>
+		</p>
+		<button id = 'back' onclick = 'initial();'>Back</button>
+	</div>
+	
+		<table class = 'grid'>
+			<tr>
+				<td id = '1' onclick = 'crossNoughtLoad(1); setTimeout(function(){checkWinner();},2500);' >
+					<img name = 'img1'>
+				</td>
+				<td id = '2' onclick = 'crossNoughtLoad(2); setTimeout(function(){checkWinner();},2500);'>
+					<img name = 'img2'>
+				</td>
+				<td id = '3' onclick = 'crossNoughtLoad(3); setTimeout(function(){checkWinner();},2500)'>
+					<img name = 'img3'>
+				</td>
+			</tr>
+			<tr>
+				<td id = '4' onclick = 'crossNoughtLoad(4); setTimeout(function(){checkWinner();},2500)'>
+					<img name = 'img4'>
+				</td>
+				<td id = '5' onclick = 'crossNoughtLoad(5); setTimeout(function(){checkWinner();},2500)'>
+					<img name = 'img5'>
+				</td>
+				<td id = '6' onclick = 'crossNoughtLoad(6); setTimeout(function(){checkWinner();},2500)'>
+					<img name = 'img6'>
+				</td>
+			</tr>
+			<tr>
+				<td id = '7' onclick = 'crossNoughtLoad(7); setTimeout(function(){checkWinner();},2500)'>
+					<img name = 'img7'>
+				</td>
+				<td id = '8' onclick = 'crossNoughtLoad(8); setTimeout(function(){checkWinner();},2500)'>
+					<img name = 'img8'>
+				</td>
+				<td id = '9' onclick = 'crossNoughtLoad(9); setTimeout(function(){checkWinner();},2500)'>
+					<img name = 'img9'>
+				</td>
+			</tr>
+		</table>
+		<button id = 'home' onclick = 'home();'>Home</button>
+			<div class = 'game-end'>
+			<p>Game Over</p> <br />
+			</div>
+			<div class = 'result'>
+			<p id = 'cross-win'><span id = 'winner'>Cross</span> wins!</p>
+			<p id = 'nought-win'><span id = 'winner'>Nought</span> wins!</p>
+			<p id = 'draw'>Match <span id = 'winner'>drawn!</span></p>
+			</div>
+			<div class = 'replay'>
+				<button onclick = 'replay();'>Replay</button>
+			</div>
+	</div>
+</body>
+</html>
