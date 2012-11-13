@@ -19,7 +19,7 @@
 
 <div class="columns six float-right">
 	<?php
-		if($key == "iamaphpdeveloperandwillsoonswitchtopythonanddonttrytohackbecauseyournotahackerwhybecausehackerdontcallthemeselveshackers")
+		if($key == "")
 		{
 	?>
 	<div class="signin-box">
