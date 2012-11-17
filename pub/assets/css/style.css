@@ -488,7 +488,9 @@ span.grey
 
 .text-info { font-size: 80%; font-weight: bold; color: #777; }
 .disp-block { display: block !important; }
-input.smaller
+input.inline-small
 {
-	font-size: 90%;
+	display: inline !important;
+	font-size: 100%;
+	width: 40px !important;
 }

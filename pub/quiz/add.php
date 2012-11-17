@@ -58,6 +58,7 @@
 			<p class="disp-block text-info">Points to be deducted for viewing the hint.</p>
 			<input class="small smaller" type="text" name="q-hint" placeholder="Hint">
 		</div>
+		<p class="text-info">Points for Correct Answer: <input type="text" class="small inline-small" name="points-correct" value="2"></p>
 		<div id="form-buttons">
 			<button class="btn" type="submit" name="add-another">Save and Add More</button>
 			<button name="done" class="btn">Done</button>
