@@ -1,5 +1,10 @@
 <?php
-	$array = unserialize('a:1:{s:13:"administrator";b:1;}');
+	include('validate/do.php');
+	$oValidator = new Validator();
 
-print_r($array);
+	$oValidator->isValid("http://sklueh.de", 'url');
+	if($oValidator->isValid("http://sklueh.de", 'url'))
+	{
+		echo "hello";
+	}
 ?>

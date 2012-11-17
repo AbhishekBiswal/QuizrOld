@@ -37,6 +37,24 @@ $(document).ready(function(){
 	});
 
 	// add-hint:
+	$("a.add-image").click(function(){
+		if($("a.add-image").hasClass("add-image"))
+		{
+			$(this).removeClass("add-image");
+			$(this).addClass("remove-image");
+			$(this).html("Remove Image");
+			$("div.add-image").slideDown();
+		}
+		else
+		{
+			$("q-image").val("");
+			$(this).removeClass("remove-image");
+			$(this).addClass("add-image");
+			$(this).html("Add Image");
+			$("div.add-image").slideUp();
+		}
+	}); // button add-hint click
+
 	$("a.add-hint").click(function(){
 		if($("a.add-hint").hasClass("add-hint"))
 		{

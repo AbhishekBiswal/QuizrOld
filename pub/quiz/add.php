@@ -44,12 +44,19 @@
 	<form class="ajax" action="add-sub.php">
 	<p class="submitinfo"></p>
 		<input type="text" name="question" placeholder="Question"><br>
+		<a class="add-image btn btn-small">Add Image</a>
+		<div class="add-image hide">
+			<p class="disp-block text-info">The URL of the Image to be included in the question:</p>
+			<input class="image" type="text" name="q-image" placeholder="Image URL">
+		</div><br><br>
 		<textarea name="q-desc" placeholder="Description / More Info"></textarea><br>
 		<input type="text" class="small" name="answer" placeholder="Answer">
 		<input type="hidden" name="q-id" value="<?php echo $qid; ?>">
 		<a class="add-hint btn btn-small">Add Hint</a>
-		<div class="add-hint">
+		<div class="add-hint hide">
 			<input class="small" type="text" name="q-hint" placeholder="Hint">
+			<p class="disp-block text-info">Points to be deducted for viewing the hint.</p>
+			<input class="small smaller" type="text" name="q-hint" placeholder="Hint">
 		</div>
 		<div id="form-buttons">
 			<button class="btn" type="submit" name="add-another">Save and Add More</button>

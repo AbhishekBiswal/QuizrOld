@@ -1,6 +1,6 @@
-#php_value include_path "D:/Dropbox/ubuntuserver/quizr/inc"
-
 php_value include_path "/home/abhishekbiswal/server/quizr/inc"
+
+#php_value include_path "/var/vcap.local/dea/apps/quizr-0-31a7bbaffc47fbcbe8033ce7c0379fe6/app/inc"
 
 
 <ifModule mod_gzip.c>
@@ -21,3 +21,11 @@ RewriteCond %{SCRIPT_FILENAME} !-f
   
 RewriteRule ^u/(\d+)*$ ./u.php?id=$1  
 RewriteRule ^q/(\d+)*$ ./q.php?id=$1
+
+AuthUserFile /var/vcap.local/dea/apps/quizr-0-31a7bbaffc47fbcbe8033ce7c0379fe6/app/pub/.htpasswd
+#AuthGroupFile /dev/null
+AuthName Quizr_Pre-Beta
+AuthType Basic
+<Limit GET POST>
+#require user quizrbeta
+</Limit>

@@ -83,6 +83,7 @@
 			$qQuestion = $data['question'];
 			$qDesc = $data['qdesc'];
 			$qSeq = $data['seq'];
+			$qImage = $data['image'];
 		}
 	}
 ?>
@@ -109,6 +110,12 @@
 	<div class="quiz-area-in">
 		<span class="question"><?php echo $qQuestion; ?></span>
 		<?php if($qDesc != NULL) { echo $qDesc; } ?>
+		<?php
+			if($qImage != NULL)
+			{
+				echo '<br><img class="q-play-image" src="' . $qImage . '"><br>';
+			}
+		?>
 		<br><br><input type="text" name="ans" placeholder="Answer"><br>
 		<input type="hidden" name="q-id" value="<?php echo $questionID; ?>">
 		<input type="hidden" name="seq" value="<?php echo $qSeq; ?>">

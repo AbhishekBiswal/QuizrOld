@@ -23,7 +23,7 @@ ul.nav li
 { display: inline; }
 ul.nav a { padding: 0 10px; }
 ul.nav a:hover { text-decoration: none; }
-
+.hide { display: none; }
 /*header*/
 #dashbar
 {
@@ -271,6 +271,7 @@ li.dropit ul a:hover
 	margin: 5px;
 	display: inline-block;
 	min-height: 20px;
+	cursor: pointer;
 }
 .btn:hover
 {
@@ -292,6 +293,7 @@ li.dropit ul a:hover
 	padding: 5px 10px;
 	margin: 0;
 	margin-bottom: 5px;
+	background: #333 !important;
 }
 /*btn icons*/
 .btn .arrow-right
@@ -483,3 +485,10 @@ span.grey
 .content-about ul.team h4 { display: inline; font-size: 1.2em; }
 .content-about ul.team span { display: inline; font-size: 0.9em; margin-left: 5px; color: #777; }
 .content-about ul.team p { font-size: 0.9em; }
+
+.text-info { font-size: 80%; font-weight: bold; color: #777; }
+.disp-block { display: block !important; }
+input.smaller
+{
+	font-size: 90%;
+}
