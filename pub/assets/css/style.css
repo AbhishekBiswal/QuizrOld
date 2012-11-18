@@ -340,6 +340,15 @@ li.dropit ul a:hover
 	display: block;
 	margin: 10px 0;
 }
+.play-quiz .question-no
+{
+	font-size: 160%;
+	font-weight: bold;
+}
+.play-quiz .question-no span
+{
+	color: #26b !important;
+}
 .play-quiz .options
 {
 	padding-left: 30px;

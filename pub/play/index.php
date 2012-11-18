@@ -102,7 +102,7 @@
 <div id="quiz-area">
 
 	<div class="question-no">
-		<?php echo $qSeq; ?>
+		<?php echo $qSeq . ' <span>/</span> ' . $qQuestions; ?>
 	</div>
 	
 	<form class="ajax" action="sub.php">
