@@ -193,17 +193,13 @@ input.small
 {
 	display: none;
 	width: 400px;
-	color: #555;
-	padding: 5px;
-	border: 2px solid #999;
+	color: #777;
+	padding: 10px;
 	margin: 5px 0;
 	font-weight: bold;
-	background-image: #d4d6d0;
-	background-image: -webkit-linear-gradient(top, #eeeeec 0%, #d3d7cf 50%, #babdb6 100%);
-	background-image: -moz-linear-gradient(top, #eeeeec 0%, #d3d7cf 50%, #babdb6 100%);
-	background-image: -o-linear-gradient(top, #eeeeec 0%, #d3d7cf 50%, #babdb6 100%);
-	background-image: -ms-linear-gradient(top, #eeeeec 0%, #d3d7cf 50%, #babdb6 100%);
-	background-image: linear-gradient(top, #eeeeec 0%, #d3d7cf 50%, #babdb6 100%);
+	/*background: #FFCE1B;*/
+	background: #FFE482;
+	line-height: 1;
 }
 .grayinfo
 {
@@ -464,7 +460,7 @@ span.grey
 .u-page-header
 {
 	color: #444;
-	font-size: 100%;
+	font-size: 140%;
 	font-weight: bold;
 	padding: 5px;
 }
@@ -473,10 +469,15 @@ span.grey
 	border-top: 4px solid #336699;
 }
 .u-page-list { list-style-type: none; margin-left: 10px; }
-.u-page-list li { display: block; font-size: 90%; }
+.u-page-list li { display: block; font-size: 100%; }
 .u-page-list a
 {
-	color: #26b;
+	color: #444;
+	font-weight: bold;
+}
+.u-page-list a:hover
+{
+	text-decoration: underline;
 }
 
 .hidden-quiz-area

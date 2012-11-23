@@ -56,8 +56,19 @@
 	</div>
 </div>
 
+<?php include_once('fn/loadquiz.php'); ?>
+
 <div class="u-page-box ten columns">
 
+<div class="u-page-header">Quizzes:</div>
+<ul class="u-page-list">
+	<!-- <li><span class="grey">20 Questions</span> <a href="/">First Quiz :P</a></li> -->
+	<?php
+		loadQuizlist($userId,$DBH);
+		
+		quizList($fetch);
+	?>
+</ul>
 <div class="u-page-header">Quizzes:</div>
 <ul class="u-page-list">
 	<li><span class="grey">20 Questions</span> <a href="/">First Quiz :P</a></li>
