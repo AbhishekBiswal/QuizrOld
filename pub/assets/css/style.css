@@ -2,7 +2,12 @@
 	Quizr
 	Rev. 2.
 */
-* { margin: 0; padding: 0; border: 0; }
+* 
+{ 
+	margin: 0; 
+	padding: 0; 
+	border: 0; 
+}
 
 body
 {
@@ -11,20 +16,54 @@ body
 	font-family: "Segoe UI Semibold", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 }
+
 /*links*/
-a { text-decoration: none; color: #3366CC; }
-a:hover { text-decoration: underline; }
-a:active, a:focus { outline: 0; }
+
+a 
+{ 
+	text-decoration: none; 
+	color: #3366CC; 
+}
+
+a:hover 
+{ 
+	text-decoration: underline; 
+}
+
+a:active, a:focus 
+{ 
+	outline: 0; 
+}
 
 /*navigation*/
+
 ul.nav
-{ list-style-type: none; }
+{ 
+	list-style-type: none; 
+}
+
 ul.nav li
-{ display: inline; }
-ul.nav a { padding: 0 10px; }
-ul.nav a:hover { text-decoration: none; }
-.hide { display: none; }
+{ 
+	display: inline; 
+}
+
+ul.nav a 
+{ 
+	padding: 0 10px; 
+}
+
+ul.nav a:hover 
+{ 
+	text-decoration: none; 
+}
+
+.hide 
+{ 
+	display: none; 
+}
+
 /*header*/
+
 #dashbar
 {
 	background: rgba(0,0,0,0.5);

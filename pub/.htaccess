@@ -1,4 +1,4 @@
-php_value include_path "/home/abhishekbiswal/server/quizr/inc"
+php_value include_path "c:/xampp/htdocs/inc"
 
 #php_value include_path "/var/vcap.local/dea/apps/quizr-0-31a7bbaffc47fbcbe8033ce7c0379fe6/app/inc"
 
