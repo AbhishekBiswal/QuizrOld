@@ -28,19 +28,9 @@
 	<ul class="u-page-list">
 		<!-- <li><span class="grey">20 Questions</span> <a href="/">First Quiz :P</a></li> -->
 	<?php
-
-	/* To load the unpublished quizzes */
-	$checkUnpub = $DBH->prepare("SELECT * FROM quizmeta WHERE user=? AND pub=0");
-	$checkUnpub->execute(array($curUser));
-	while($row = $checkUnpub->fetch())
-	{
-	?>
-	<li><span class="grey two columns"><?php echo $row['questions']; ?> Questions</span> <a href="<?php echo "/q/".$row['id']; ?>"><?php echo $row['title']; ?></a></li>
-	<?php
-	} // while
-
-	// unpublished quizzes loads. done.
-
+		include_once('fn/loadquiz.php');
+		loadQuizlist($curUser,$DBH,0);
+		quizList($fetch);
 	?>
 	</ul>
 

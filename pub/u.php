@@ -64,14 +64,10 @@
 <ul class="u-page-list">
 	<!-- <li><span class="grey">20 Questions</span> <a href="/">First Quiz :P</a></li> -->
 	<?php
-		loadQuizlist($userId,$DBH);
+		loadQuizlist($userId,$DBH,1);
 		
 		quizList($fetch);
 	?>
-</ul>
-<div class="u-page-header">Quizzes:</div>
-<ul class="u-page-list">
-	<li><span class="grey">20 Questions</span> <a href="/">First Quiz :P</a></li>
 </ul>
 
 </div>
