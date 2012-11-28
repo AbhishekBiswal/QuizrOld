@@ -1,3 +1,5 @@
+<link rel="script" type="text/javascript" href="/assets/js/main.js">
+
 <?php
 	session_start();
 	include('fn/loggedin.php');
@@ -10,6 +12,10 @@
 	include('temp/header.php');
 	@$key = $_GET['beta_key'];
 ?>
+
+<script type="text/javascript">
+	document.write('<div id="content">');
+</script>
 
 <div class="det-head"><h2>Welcome To <span class="lblue">Quizr</span></h2></div>
 <div class="main">
@@ -51,6 +57,10 @@
 </div>
 
 </div><!--main-->
+
+<script type="text/javascript">
+	document.write('</div>');
+</script>
 
 <?php
 	include('temp/footer.php');

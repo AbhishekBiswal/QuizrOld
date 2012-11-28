@@ -1,3 +1,18 @@
+var script = document.createElement('script');
+script.src = '/assets/js/jquery.js';
+script.type = 'text/javascript';
+document.getElementsByTagName('head')[0].appendChild(script);
+
+// vfx
+$(document).ready(function() 
+{
+	setTimeout(5000)
+	{
+		$( '#content' ).fadeIn("medium");		
+	}
+});
+// Not Working :|
+
 $(document).ready(function(){
 
 	/*ajax*/

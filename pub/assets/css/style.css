@@ -107,6 +107,7 @@ ul.nav li
 	font-size: 0.8em;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	border-top: solid 3px rgba(0,0,0,0.7);
 	transition: all 0.5s;
 	-webkit-transition: all 0.5s; 
 	-moz-transition: all 0.5s; 
@@ -117,12 +118,14 @@ ul.nav li
 {
 	color: #e4e4e4;
 	text-shadow: 1px 1px 5px rgba(0,0,0,0.9);
+	border-top: solid 3px #36c;
 }
 
 #dashbar a:active
 {
-	color: #;
+	color: #e4e4e4;
 	text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+	border-top: solid 3px #36c;
 }
 
 #dashbar a:hover
