@@ -13,17 +13,15 @@
 
 <div id="dashbar">
 	<div class="container">
-		<ul class="nav columns four">
+		<ul class="nav columns sixteen">
 			<li><a href="/">Home</a></li>
 			<li><a href="/browse.php">Browse</a></li>
 			<li><a href="/create.php">Create</a></li>
-		</ul>
-		<ul class="nav float-right text-center columns three">
 		<?php
 			if($loggedin == 1)
 			{
 		?>
-			<li class="dropit"><a class="dropit" href="#"><?php echo $_SESSION['qu']; ?></a>
+			<li class="dropit text-right float-right"><a class="dropit" href="#"><?php echo $_SESSION['qu']; ?></a>
 				<ul class="dropdown">
 					<li><a href="/u/">Profile</a></li>
 					<li><a href="/logout.php">Logout</a></li>
@@ -34,7 +32,7 @@
 			else
 			{
 		?>
-			<li><a href="/beta.php">Sign Up For Beta</a></li>
+			<li class="text-right float-right"><a href="/beta.php">Sign Up For Beta</a></li>
 		<?php		
 			}
 		?>

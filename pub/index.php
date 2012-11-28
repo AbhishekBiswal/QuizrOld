@@ -11,20 +11,35 @@
 	@$key = $_GET['beta_key'];
 ?>
 
-<div class="det-head"><h2>Welcome To Quizr</h2></div>
+<div class="det-head"><h2>Welcome To <span class="lblue">Quizr</span></h2></div>
 <div class="main">
-<div class="u-page-box columns nine">
-	<div class="intro-text"><h3>Quizr is a quizzing platform for smart people to make and play online quizzes.</h3></div>
+<div class="u-page-box columns ten">
+	<div class="intro-text">
+		<h3>Hi! I am  <span class="lblue">Quizr</span>. Are you also a <span class="lblue">Quizr</span>?</h3>
+		<h4>If you're wondering, Quizr is an online portal for inquisitive people to <a href="/create.php">create</a>, <a href="/create.php">share</a> and <a href="/browse.php">attempt</a> quizzes</h4>
+	</div>
 </div>
 
-<div class="columns six float-right">
+<div class="columns four text-right float-right">
 	<?php
 		if($key == "")
 		{
 	?>
 	<div class="signin-box">
-		<a href="/fb/fbauth.php"><img src="/assets/img/icons/facebooksignin.png"></a>
-		<a href="/tw/signin.php"><img src="/assets/img/icons/twittersignin.png"></img></a>
+		<p>
+			<span class="lblue">Quizr</span> is very social
+			<br>
+			To know <span class="lblue">Quizr</span>, login with any of the following
+			<br>
+		</p>
+		<div class="login-btns">
+			<!-- To replace with icons -->
+			<a href="/fb/fbauth.php"><!-- <img src="/assets/img/icons/facebooksignin.png"> --><div class="button">f</div></a>
+			<a href="/tw/signin.php"><!-- <img src="/assets/img/icons/twittersignin.png"></img> --><div class="button">t</div></a>
+			<!-- Add Google login -->
+			<a href="/tw/signin.php"><!-- <img src="/assets/img/icons/twittersignin.png"></img> --><div class="button">G</div></a>
+		</div>
+		<!-- Add fb like/comment button -->
 	</div>
 	<?php
 		}
