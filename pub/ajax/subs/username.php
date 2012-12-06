@@ -1,18 +1,9 @@
 <?php
-	session_start();
-	include('fn/loggedin.php');
-	echo $loggedin;
-	if($loggedin == 0)
-	{
-		echo "You must be logged in";
-		exit();
-	}
-
+	
+	include_once('db.php');
+	include_once('fn/loadquiz.php');
+	// todo : add exception for usernames not null
 	$userName = $_POST['username'];
+	checkUsername($userName,$DBH);
 
-	if((strlen($userName)<3) || (strlen($userName)>30))
-	{
-		echo "The UserName enetered is invalid";
-		exit();
-	}
 ?>
