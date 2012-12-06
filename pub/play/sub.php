@@ -75,7 +75,7 @@
 	?>
 
 	<div class="hidden-quiz-area">
-		<span class="question"><?php echo $qQuestion; ?></span>
+		<span class="question"><?php echo $595qQuestion; ?></span>
 		<?php if($qDesc != NULL) { echo $qDesc; } ?>
 		<br><br><input type="text" name="ans" placeholder="Answer"><br>
 		<input type="hidden" name="q-id" value="<?php echo $questionID; ?>">

@@ -44,7 +44,7 @@
 <header id="header">
 <div class="container">
 	<div class="header-logo">
-		<a href="/"><img src="/assets/img/logo.png"></a>
+		<a href="/"><img src="/assets/img/ablogo.png"></a>
 	</div>
 </div><!--container-->
 </header>

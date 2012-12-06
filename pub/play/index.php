@@ -41,6 +41,8 @@
 		$questionTostart = 1;
 		$createRecord = $DBH->prepare("INSERT INTO played(qid,user,playedtill) VALUES(?,?,?)");
 		$createRecord->execute(array($qid,$curUser,0));
+		$addPlays = $DBH->prepare("UPDATE quizmeta SET plays=plays+1 WHERE id=?");
+		$addPlays->execute(array($qid));
 	}
 	else
 	{
@@ -51,7 +53,7 @@
 		$questionTostart = $playedTill+1;
 		if($questionTostart > $qQuestions)
 		{
-			header('Location:/q.php?id=' . $qid);
+			header('Location:/q/?id=' . $qid);
 			exit();
 		}
 	}

@@ -6,7 +6,7 @@
 ?>
 
 <div class="det-head">
-	<h2>About <span class="lblue">Quizr</span></h2>
+	<h2>About Quizr</h2>
 </div>
 
 <div class="u-page-box ten columns content content-about">
@@ -15,7 +15,7 @@
 		<span class="lblue">Quizr</span> is an online quizzing platform where you can play quizzes made by other users, or create your own for other people to play. By playing quizzes, you earn points. You can use the points earned to create and promote your own Quizzes.
 	</p> 
 
-	<h3>The <span class="lblue">Team</span> Behind <span class="lblue">Quizr</span></h3>
+	<h3>The Team Behind Quizr</h3>
 	<p>
 		<ul class="team">
 			<li>
@@ -28,6 +28,12 @@
 				<h4>Trijeet<span class="lblue">Mukhopadhyay</span></h4><span>co-founder, lead designer</span>
 				<p>
 					Web Developer, Graphic Designer, Currently studying in Delhi Public School, R.K. Puram.
+				</p>
+			</li>
+			<li>
+				<h4>Bharat<span class="lblue">Kashyap</span></h4><span>co-founder, idea man </span>
+				<p>
+					Avid quizzer and web developer. Currently studying in Delhi Public School, R.K. Puram.
 				</p>
 			</li>
 			<li>

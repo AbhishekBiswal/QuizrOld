@@ -6,12 +6,11 @@ document.getElementsByTagName('head')[0].appendChild(script);
 // vfx
 $(document).ready(function() 
 {
-	setTimeout(5000)
-	{
-		$( '#content' ).fadeIn("medium");		
-	}
+	setTimeout(function(){
+		$("#content").fadeIn("medium");
+	},5000)
 });
-// Not Working :|
+// Not Working
 
 $(document).ready(function(){
 

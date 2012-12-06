@@ -21,8 +21,8 @@
  
 ::-webkit-scrollbar-track 
 {
-	background: #e4e4e4;
-	box-shadow: 0 0 6px rgba(0,0,0,0.4);
+	background: #f5f5f5;
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.4);
 }
  
 ::-webkit-scrollbar-thumb 
@@ -30,7 +30,7 @@
 	border-radius: 5px;
 	box-shadow: 0 0 3px rgba(0,0,0,0.4);
 	width: 8px;
-    background : #369;
+    background : #777;
 }
 
 * 
@@ -44,7 +44,7 @@ body
 {
 	background: #ccc url('/assets/img/greybg.png');
 	color: #444;
-	font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+	font-family: "+ UI", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 }
 
@@ -103,11 +103,11 @@ ul.nav li
 	vertical-align: middle;
 	font-family: "Segoe UI";	
 	line-height: 30px;
-	color: #36c;
+	color: #e8e8e8;
 	font-size: 0.8em;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
-	border-top: solid 3px rgba(0,0,0,0.7);
+	border-top: solid 3px transparent;
 	transition: all 0.5s;
 	-webkit-transition: all 0.5s; 
 	-moz-transition: all 0.5s; 
@@ -698,7 +698,7 @@ span.dblue
 
 .u-page-box
 {
-/*	border-top: 4px solid #336699;*/
+	border-top: 4px solid #336699;
 }
 
 .u-page-list { list-style-type: none; margin-left: 10px; }
@@ -731,17 +731,20 @@ span.dblue
 	margin-bottom: 10px; 
 }
 
-.content-about ul.team { display: block; list-style-type: none; margin-left: 10px; }
+.content-about ul.team
+{
+	display: block; list-style-type: none; margin-left: 10px;
+}
 
 .content-about ul.team li 
 { 
-	display: block; 
+	display: block;
+	border-left: 5px solid #36c;
+	margin-left: -5px;
 }
 
 .content-about ul.team h4 
-{ 
-	border-left: 5px solid #36c;
-	margin-left: -5px;
+{
 	padding-left: 5px;
 	display: inline; font-size: 1.2em; 
 }
@@ -765,4 +768,46 @@ input.inline-small
 	display: inline !important;
 	font-size: 100%;
 	width: 40px !important;
+}
+
+.tred { color: #dd4b39 !important; }
+.tgreen { color: #9cd610 !important; }
+
+/* Browse Page */
+.browse-quizzes ul { list-style-type: none; }
+.browse-quizzes li
+{
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 10px;
+	padding: 5px 0;
+	display: inline-block;
+}
+.browse-quizzes h3 a
+{
+	font-size: 120%;
+	font-weight: bold;
+}
+
+.browse-quizzes p { font-size: 100%; font-weight: bold; color: #666; }
+
+.browse-quizzes .quiz-info
+{
+	color: #999;
+	display: block;
+	font-size: 85%;
+}
+
+.browse-quizzes .quiz-info span
+{
+	margin-right: 4px;
+}
+
+.br-info .number, .br-info .number-text
+{
+	display: block;
+	text-align: center;
+}
+.br-info .number
+{
+	font-size: 140%;
 }

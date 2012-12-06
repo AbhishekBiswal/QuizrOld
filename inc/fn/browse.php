@@ -29,15 +29,17 @@
 	
 	function browseCat($cat, $DBH)
 	{
-		if($cat == "all")
+		if($cat == "") $cat="all";
+		if($cat != "all")
 		{
 			$fetch = $DBH->prepare("SELECT * FROM quizmeta WHERE cat=?");
+			$fetch->execute(array($cat));
 		}
 		else
 		{
-			$fetch = $DBH->prepare("SELECT * FROM quizmeta LIMIT 15");
+			$fetch = $DBH->prepare("SELECT * FROM quizmeta WHERE pub=1 ORDER BY plays DESC LIMIT 10");
+			$fetch->execute();
 		}
-		$fetch->execute(array($cat));
 		browseLoad($fetch);
 
 	}
