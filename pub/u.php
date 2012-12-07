@@ -10,7 +10,7 @@
 	}
 
 	include('db.php');
-	$checkUser = $DBH->prepare("SELECT * FROM users WHERE id=?");
+	$checkUser = $DBH->prepare("SELECT * FROM users WHERE username=?");
 	$checkUser->execute(array($userId));
 
 	if($checkUser->rowCount() == 0)
