@@ -23,7 +23,7 @@
 		?>
 			<li class="dropit text-right float-right"><a class="dropit" href="#"><?php echo $_SESSION['qu']; ?></a>
 				<ul class="dropdown">
-					<li><a href="/u/">Profile</a></li>
+					<li><a href="/<?php echo $_SESSION['qu']; ?>/">Profile</a></li>
 					<li><a href="/logout.php">Logout</a></li>
 				</ul>
 			</li>
@@ -32,7 +32,7 @@
 			else
 			{
 		?>
-			<li class="text-right float-right"><a href="/beta.php">Sign Up For Beta</a></li>
+			
 		<?php		
 			}
 		?>

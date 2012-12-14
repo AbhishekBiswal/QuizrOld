@@ -15,6 +15,8 @@
 	$hint = $_POST['q-hint'];
 	$qDesc = $_POST['q-desc'];
 	$qImage = $_POST['q-image'];
+	$qPlus = $_POST['plus'];
+	//$qMinus = $_POST['minus'];
 	//$qsecAnswer = $_POST['sec-answer'];
 
 	if($hint == NULL)
@@ -24,14 +26,31 @@
 	else
 	{
 		$hasHint = 1;
-		$hint = "";
 	}
+
+	$qPlusp = 0;
+	if($qPlus == "easy") $qPlusp = 4;
+	elseif($qPlus == "moderate") $qPlusp = 6;
+	elseif($qPlus == "hard") $qPlusp = 10;
+	else exit();
 
 	if(!$qAnswer)
 	{
 			echo "Error! {Ans}";
 			exit();
 	}
+
+	/*if(($qPlus<2) || ($qPlus>10))
+	{
+		echo "Plus Points invalid! The Value must be between 2 and 10";
+		exit();
+	}
+	if(($qMinus<2) || ($qMinus>10))
+	{
+		echo "Minus Points invalid! The Value must be between 2 and 10";
+		exit();
+	}
+*/	
 
 	include_once('validate/do.php');
 	$validator = new Validator();
@@ -64,8 +83,8 @@
 	$qAnswer = str_replace(" ","",$qAnswer);
 
 	// everything's alright
-	$insert = $DBH->prepare("INSERT INTO questions(qid,question,answer,hashint,hint,user,qdesc,dt,seq,image) VALUES(?,?,?,?,?,?,?,'NOW()',?,?)");
-	$insert->execute(array($qid,$qQuestion,$qAnswer,$hasHint,$hint,$curUser,$qDesc,$seq,$qImage));
+	$insert = $DBH->prepare("INSERT INTO questions(qid,question,answer,hint,user,qdesc,dt,seq,image,plus) VALUES(?,?,?,?,?,?,'NOW()',?,?,?)");
+	$insert->execute(array($qid,$qQuestion,$qAnswer,$hint,$curUser,$qDesc,$seq,$qImage,$qPlusp));
 	//done {insert}
 
 	$updateMeta = $DBH->prepare("UPDATE quizmeta SET questions=questions+1 WHERE id=?");

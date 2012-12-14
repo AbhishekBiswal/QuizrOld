@@ -37,8 +37,13 @@
 	{
 		while($row = $checkUser->fetch())
 		{
-			$_SESSION['qu'] = $row['fullname'];
+			$_SESSION['qu'] = $row['username'];
 			$_SESSION['qp'] = $row['id'];
+		}
+		if($_SESSION['qu'] == "")
+		{
+			header('Location:/username.php');
+			exit();
 		}
 		if($cont)
 		{

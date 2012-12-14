@@ -1,5 +1,3 @@
-<link rel="script" type="text/javascript" href="/assets/js/main.js">
-
 <?php
 	session_start();
 	include('fn/loggedin.php');
@@ -13,54 +11,46 @@
 	@$key = $_GET['beta_key'];
 ?>
 
-<script type="text/javascript">
-	document.write('<div id="content">');
-</script>
-
 <div class="det-head"><h2>Welcome To <span class="lblue">Quizr</span></h2></div>
-<div class="main">
-<div class="u-page-box columns ten">
+<div class="main homepage">
+<div class="u-page-box columns nine content">
 	<div class="intro-text">
-		<h3>Hi! I am  <span class="lblue">Quizr</span>. Are you also a <span class="lblue">Quizr</span>?</h3>
-		<h4>If you're wondering, Quizr is an online portal for inquisitive people to <a href="/create.php">create</a>, <a href="/create.php">share</a> and <a href="/browse.php">attempt</a> quizzes</h4>
+		<h3>Quizr is a platform for sharing, creating and playing quizzes. Earn points by playing quizzes, and use them to promote your quizzes.</h3>
+		<h4>We are currently in beta. Enter you email address below and we'll let you know when we open to public.</h4>
 	</div>
 </div>
+<div class="columns six text-right float-right">
+	<div class="beta-reg">Status: Closed Beta</div>
+</div>
+<br>
 
-<div class="columns four text-right float-right">
-	<?php
-		if($key == "")
-		{
-	?>
-	<div class="signin-box">
-		<p>
-			<span class="lblue">Quizr</span> is very social
-			<br>
-			To know <span class="lblue">Quizr</span>, login with any of the following
-			<br>
-		</p>
-		<div class="login-btns">
-			<!-- To replace with icons -->
-			<a href="/fb/fbauth.php"><!-- <img src="/assets/img/icons/facebooksignin.png"> --><div class="button">f</div></a>
-			<a href="/tw/signin.php"><!-- <img src="/assets/img/icons/twittersignin.png"></img> --><div class="button">t</div></a>
-			<!-- Add Google login -->
-			<a href="/tw/signin.php"><!-- <img src="/assets/img/icons/twittersignin.png"></img> --><div class="button">G</div></a>
-		</div>
-		<!-- Add fb like/comment button -->
+<div class="clear"></div>
+
+<div class="beta-email"><center>
+	<form class="ajax" action="/ajax/beta.php">
+		<p class="submitinfo"></p>
+		<input type="text" name="email" placeholder="Email Address"><br>
+		<input type="submit" class="btn" value="Submit">
+	</form>
+</center></div>
+
+<div class="hp-intro">
+	<div class="columns nine"><img class="home" src="/assets/hp/play.png"></div>
+	<div class="columns six">
+		<div class="home-text" style="line-height: 155px;">Play.</div>
 	</div>
-	<?php
-		}
-		else
-		{
-			echo "<br><br>Registration Closed - Beta";
-		}
-	?>
+	<div class="clear"></div><br>
+
+	<div class="columns six">
+		<div class="home-text" style="line-height: 403px;">Create.</div>
+	</div>
+	<div class="columns nine"><img class="home" src="/assets/hp/create.png"></div>
+	<div class="clear"></div>
 </div>
 
 </div><!--main-->
 
-<script type="text/javascript">
-	document.write('</div>');
-</script>
+<!--aks-->
 
 <?php
 	include('temp/footer.php');

@@ -16,7 +16,6 @@
 	$qseq = $_POST['seq'];
 	$quizID = $_POST['qid'];
 	$answer = $_POST['ans'];
-	echo $curUser;
 	if(!$quid)
 	{
 		echo "An Error occured. Please try again later. (1)";
@@ -53,6 +52,8 @@
 		// if the answer is correct :
 		$addtoRecords = $DBH->prepare("UPDATE played SET playedtill=playedtill+1 WHERE qid=? AND user=?");
 		$addtoRecords->execute(array($quizID,$curUser)); 
+		echo '<script>location.reload();</script>';
+		exit();
 		//load question:
 		$qseq++;
 		$load = $DBH->prepare("SELECT * FROM questions WHERE qid=? AND seq=?");
@@ -75,7 +76,7 @@
 	?>
 
 	<div class="hidden-quiz-area">
-		<span class="question"><?php echo $595qQuestion; ?></span>
+		<span class="question"><?php echo $qQuestion; ?></span>
 		<?php if($qDesc != NULL) { echo $qDesc; } ?>
 		<br><br><input type="text" name="ans" placeholder="Answer"><br>
 		<input type="hidden" name="q-id" value="<?php echo $questionID; ?>">
@@ -103,7 +104,7 @@
 	}
 	else
 	{
-		echo "incorrect!";
+		echo "Incorrect! Try Again?";
 	}
 	
 ?>

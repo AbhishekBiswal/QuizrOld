@@ -102,5 +102,20 @@ $(document).ready(function(){
 		}
 	});
 
+	$(".view-hint-button").click(function(e){
+		e.preventDefault();
+		var id = $(this).attr("id");
+		var hintData = "id="+id;
+		$.ajax({
+			url: '/ajax/hint.php',
+			data : hintData,
+			type : 'post',
+			success : function(result)
+			{
+				$(".area-hint").html(result);
+			}
+		})
+	})
+
 
 }); // ready

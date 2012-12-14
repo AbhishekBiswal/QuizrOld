@@ -2,6 +2,11 @@
 
 	session_start();
 	include('fn/loggedin.php');
+	if($loggedin == 0)
+	{
+		header('Location:/');
+		exit();
+	}
 
 	$pageName = "Browse Quizzes";
 	include('temp/header.php');

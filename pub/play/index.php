@@ -86,12 +86,13 @@
 			$qDesc = $data['qdesc'];
 			$qSeq = $data['seq'];
 			$qImage = $data['image'];
+			$qPlus = $data['plus'];
+			$qHint = $row['hint'];
 		}
 	}
 ?>
+<div class="content play-quiz columns eleven u-page-box">
 <input type="hidden" value="<?php echo $questionID; ?>" class="q">
-<div class="content play-quiz">
-
 <?php
 	if($noquestions == 1)
 	{
@@ -127,6 +128,27 @@
 	</form>
 
 </div>
+
+</div><!--content-->
+
+<div class="sidebar columns four">
+
+	<div class="area-points">
+		<span class="points-big">+<?php echo $qPlus; ?></span>
+	</div>
+
+	<div class="area-hint">
+		<?php
+		if($qHint != NULL)
+		{
+		?>
+			<h3>HINT</h3>
+			<center><a class="btn disp-block view-hint-button" id="<?php echo $questionID; ?>">View Hint</a></center>
+
+		<?php
+		}
+		?>
+	</div>
 
 </div>
 

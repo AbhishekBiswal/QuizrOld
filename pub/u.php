@@ -30,6 +30,7 @@
 		$useroauthid = $userData['oauthid'];
 		$userBio = $userData['bio'];
 		$userPoints = $userData['points'];
+		$usertwusername = $userData['twusername'];
 	}
 	
 	$pageName = "$userfName on Quizr";
@@ -46,7 +47,15 @@
 ?>
 
 <div class="det-head">
-	<h2><img src="http://graph.facebook.com/<?php echo $useroauthid; ?>/picture"><span class="picheight"><?php echo $userfName; ?></span></h2>
+	<h2>
+		<?php if($useroauthp == "facebook") { ?>
+		<img src="http://graph.facebook.com/<?php echo $useroauthid; ?>/picture">
+		<?php
+			} elseif($useroauthp == "twitter") {
+		?>
+		<img src="https://api.twitter.com/1/users/profile_image/<?php echo $usertwusername; ?>">
+		<?php } ?>
+		<span class="picheight"><?php echo $userfName; ?></span></h2>
 	<h3><?php echo $userBio; ?></h3>
 	<div class="info-boxes">
 		<div class="info-box">

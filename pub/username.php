@@ -1,16 +1,16 @@
 <?php
 	session_start();
 	include('fn/loggedin.php');
-	if($loggedin == 0)
+	/*if($loggedin == 0)
 	{
 		header('Location:/');
 		exit();
-	}
+	}*/
 
 	include_once('db.php');
-	include('fn/loadquiz.php');
-	loadUser($curUser,$DBH);
-	if($userName != NULL)
+	include('fn/loaduser.php');
+	loadUName($curUser,$DBH); 
+	if(loadUName($curUser,$DBH) != NULL)
 	{
 		header('Location:/');
 		exit();

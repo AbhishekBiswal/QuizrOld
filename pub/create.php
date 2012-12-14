@@ -3,7 +3,7 @@
 	include('fn/loggedin.php');
 	if($loggedin == 0)
 	{
-		header('Location:/login');
+		header('Location:/');
 		exit();
 	}
 
@@ -14,7 +14,7 @@
 <header class="page-head">
 	<hgroup>
 		<h2>Create a New Quiz</h2>
-		<h3>Create a new Quiz, publish it and share it with your friends!</h3>
+		<h3>Create.Publish.Share.</h3>
 	</hgroup>
 </header>
 
@@ -22,9 +22,9 @@
 	<div class="quiz">
 		<form class="create-quiz-det ajax withhelp" action="/ajax/create/createnew.php">
 			<p class="submitinfo"></p>
-			<div><input type="text" name="title" placeholder="Title"><span class="helpinline">Title Here</span></div>
+			<div><input type="text" name="title" placeholder="Title"></div>
 			<textarea name="desc" placeholder="Description Here (Optional)"></textarea>
-			<button class="btn" type="submit">CREATE</button>
+			<button class="btn disp-block" type="submit">CREATE</button>
 		</form>
 	</div>
 </section>

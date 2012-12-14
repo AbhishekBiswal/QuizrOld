@@ -13,6 +13,14 @@
 	src: url("fonts/coolvetica rg.ttf");
 }
 
+::-webkit-input-placeholder {
+   color: #666;
+}
+
+:-moz-placeholder {  
+   color: #666;  
+}
+
 ::-webkit-scrollbar 
 {
     width: 10px;
@@ -48,6 +56,7 @@ body
 	font-size: 16px;
 }
 
+.clear { clear: both; }
 /*links*/
 
 a 
@@ -100,14 +109,12 @@ ul.nav li
 	/*margin: 0 10px;*/
 	padding: 0 10px;
 	height: 30px;
-	vertical-align: middle;
-	font-family: "Segoe UI";	
+	vertical-align: middle;	
 	line-height: 30px;
-	color: #e8e8e8;
-	font-size: 0.8em;
+	color: #999;
+	font-size: 80%;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
-	border-top: solid 3px transparent;
 	transition: all 0.5s;
 	-webkit-transition: all 0.5s; 
 	-moz-transition: all 0.5s; 
@@ -118,7 +125,6 @@ ul.nav li
 {
 	color: #e4e4e4;
 	text-shadow: 1px 1px 5px rgba(0,0,0,0.9);
-	border-top: solid 3px #36c;
 }
 
 #dashbar a:active
@@ -178,7 +184,7 @@ ul.nav li
 
 .content
 {
-	padding: 40px;
+	padding: 10px;
 }
 
 /*page-head*/
@@ -298,22 +304,17 @@ span.picheight
 .intro-text h3 
 { 
 	margin: 10px 0px;
-	border-left: 5px solid #369;
 /*	border-radius: 20px 0 0 20px;
-*/	font-size: 180%; 
+*/	font-size: 140%; 
 	color: #555; 
-	padding-left: 5px;
-	line-height: 170%;
+	line-height: 1.4;
 }
 
 .intro-text h4 
 { 
 	margin: 10px 0px;
-	padding-right: 8px;
-	border-right: 5px solid #36c;
-	font-size: 110%; 
+	font-size: 100%; 
 	color: #777; 
-	text-align: right;
 }
 
 .intro-text h4 > a
@@ -336,11 +337,15 @@ input, button
 	outline: 0;
 	border: 0;
 }
-
+label
+{
+	font-size: 120%;
+	margin: 0 10px;
+}
 input[type=text], input[type=password], textarea
 {
 	width: 320px;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid #999;
 	background: transparent;
 	padding: 5px;
 	margin-bottom: 10px;
@@ -534,7 +539,7 @@ li.dropit ul a:hover
 /*Play-Quiz*/
 .play-quiz .question
 {
-	border-left: 4px solid #336699;
+	/*border-left: 4px solid #336699;*/
 	padding: 10px;
 	font-weight: bold;
 	font-size: 1.5em;
@@ -543,7 +548,7 @@ li.dropit ul a:hover
 }
 .play-quiz .question-no
 {
-	font-size: 160%;
+	font-size: 200%;
 	font-weight: bold;
 }
 .play-quiz .question-no span
@@ -723,7 +728,7 @@ span.dblue
 
 .content-about h3
 {
-	font-size: 140%;
+	font-size: 180%;
 }
 
 .content-about p 
@@ -746,7 +751,7 @@ span.dblue
 .content-about ul.team h4 
 {
 	padding-left: 5px;
-	display: inline; font-size: 1.2em; 
+	display: inline; font-size: 140%; 
 }
 
 .content-about ul.team span { display: inline; font-size: 0.9em; margin-left: 5px; color: #777; }
@@ -758,7 +763,9 @@ span.dblue
 	border-left: 5px solid #369;
 	margin-left: -5px;
 	padding-left: 5px;
-	font-size: 0.9em; 
+	font-size: 90%;
+	font-weight: bold; 
+	line-height: 1.2;
 }
 
 .text-info { font-size: 80%; font-weight: bold; color: #777; }
@@ -810,4 +817,72 @@ input.inline-small
 .br-info .number
 {
 	font-size: 140%;
+}
+
+.sidebar { text-align: center; }
+.area-points .points-big
+{
+	color: #6FBF4D;
+	font-size: 700%;
+}
+
+.area-hint
+{
+	font-size: 120%;
+}
+
+ .difficulty 
+ {
+	margin : 3%;
+	height : 30px;
+	background : #FFF;
+	outline : none;
+	color : #333;
+	text-shadow : 0px 0px 4px rgba(0,0,0,0.3);
+	border : 2px solid #AAA;
+}
+
+.hp-intro .home-text
+{
+	color: #444;
+	text-align: center !important;
+	font-size: 400%;
+	font-weight: bold;
+}
+
+.hp-intro img
+{
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.6);
+	max-width: 500px;
+	border: 6px solid #ccc;
+}
+
+.hp-intro .clear
+{
+	margin-bottom: 20px;
+	display: block;
+}
+
+.beta-reg
+{
+	display: block;
+	background: #f0f0f0;
+	padding: 20px 0;
+	margin-top: 20px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 140%;
+}
+
+.beta-email
+{
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding: 10px 0;
+	margin: 20px 0;
+}
+.beta-email h2 { text-align: center; margin: 20px 0; }
+.beta-email input[type=text]
+{
+	width: 50%;
 }

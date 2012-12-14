@@ -1,6 +1,6 @@
 <?php
 
-	$server_type_pdo = "local";
+	$server_type_pdo = "nlocal";
 
 	if($server_type_pdo == "local")
 	{
@@ -11,10 +11,10 @@
 	}
 	else
 	{
-		$host = "mysql-shared-02.phpfog.com";
-		$dbname = "beta_scoopd_in";
-		$seruser = "Custom App-32140";
-		$pass = "chunmunr14612";
+		$host = "aksdadcom.fatcowmysql.com";
+		$dbname = "quizr";
+		$seruser = "abhishekbiswal";
+		$pass = "thestartupkids:P";
 	}
 
 	try 

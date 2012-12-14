@@ -13,7 +13,7 @@
 			while($row = $fetch->fetch())
 			{
 ?>
-				<li><span class="grey two columns"><?php echo $row['questions']; ?> Questions</span> <a href="<?php echo "/q/".$row['id']; ?>"><?php echo $row['title']; ?></a></li>
+				<li><span class="grey two columns"><?php echo $row['questions']; ?> Questions</span> <a href="/q/?id=<?php echo $row['id']; ?>"><?php echo $row['title']; ?></a></li>
 <?php
 			}
 		}
@@ -54,19 +54,9 @@
 	function checkUsername($username,$DBH)
 	{
 		$result = 0;
-		if(strlen($username) < 3)
-		{
-			echo '<span class="tred">Username not Valid.</span>';
-			exit();
-		}
 		$check = $DBH->prepare("SELECT id FROM users WHERE username=?");
 		$check->execute(array($username));
 		if($check->rowCount() == 1)
-		{
-			echo '<span class="tred">Username not available.</span>';
-			exit();
-		}
-		else
 		{
 			$result = 1;
 		}

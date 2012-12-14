@@ -1,8 +1,8 @@
 <?php
 	session_start();
 	$pageName = "About Quizr";
-	include('fn/loggedin.php');
-	include('temp/header.php');
+	include('../inc/fn/loggedin.php');
+	include('../inc/temp/header.php');
 ?>
 
 <div class="det-head">
@@ -19,27 +19,21 @@
 	<p>
 		<ul class="team">
 			<li>
-				<h4>Abhishek<span class="lblue">Biswal</span></h4><span>co-founder, lead developer</span>
+				<h4>Abhishek<span class="lblue">Biswal</span></h4><span>Co-Founder / Lead Developer</span>
 				<p>
-					A tech enthusiast, app developer, designer. Currently studying in Delhi Public School, R.K. Puram.
+					Developer/Designer, Tech Enthusiast, currently studying in Delhi Public School, R.K. Puram.
 				</p>
 			</li>
 			<li>
-				<h4>Trijeet<span class="lblue">Mukhopadhyay</span></h4><span>co-founder, lead designer</span>
-				<p>
-					Web Developer, Graphic Designer, Currently studying in Delhi Public School, R.K. Puram.
-				</p>
-			</li>
-			<li>
-				<h4>Bharat<span class="lblue">Kashyap</span></h4><span>co-founder, idea man </span>
-				<p>
-					Avid quizzer and web developer. Currently studying in Delhi Public School, R.K. Puram.
-				</p>
-			</li>
-			<li>
-				<h4>Achal<span class="lblue">Varma</span></h4><span>co-founder, business head</span>
+				<h4>Achal<span class="lblue">Varma</span></h4><span>Co-Founder / Idea Guy</span>
 				<p>
 					Designer, Photographer, Currently studying computer science at University of Illinois.
+				</p>
+			</li>
+			<li>
+				<h4>Trijeet<span class="lblue">Mukhopadhyay</span></h4><span>Co-Founder / Lead Designer</span>
+				<p>
+					Web Developer, Graphic Designer, Currently studying in Delhi Public School, R.K. Puram.
 				</p>
 			</li>
 		</ul>
@@ -47,5 +41,5 @@
 </div>
 
 <?php
-	include('temp/footer.php');
+	include('../inc/temp/footer.php');
 ?>

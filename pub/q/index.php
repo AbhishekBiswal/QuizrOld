@@ -36,15 +36,13 @@
 		$thegod = 1;
 	}
 
-	include('fn/loaduser.php');
-	loadUser($qUser,$DBH);
-	
+	include_once('fn/loaduser.php');
 	$pageName = $qTitle . " - Quizr";
 	include('temp/header.php');
 ?>
 
 <div class="det-head">
-	<h2><?php echo $qTitle; ?><span class="quizby">By <a href="/u/<?php echo $qUser; ?>/"><?php echo $loadfName; ?></a></span></h2>
+	<h2><?php echo $qTitle; ?><span class="quizby">By <a href="/<?php echo loadUName($qUser,$DBH); ?>/"><?php echo loadUser($qUser,$DBH); ?></a></span></h2>
 	<div class="info-boxes">
 		<div class="info-box">
 			<span class="one"><?php echo $qQuestions; ?></span>

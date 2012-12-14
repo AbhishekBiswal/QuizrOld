@@ -37,7 +37,7 @@
 	{
 		$delQuiz = $DBH->prepare("UPDATE quizmeta SET pub=1 WHERE id=?");
 		$delQuiz->execute(array($quizID));
-		header('Location:/q/'.$quizID);
+		header('Location:/q/?id='.$quizID);
 		exit();
 	}
 
