@@ -30,6 +30,6 @@
 	$updUname->execute(array($userName,$curUser));
 	$_SESSION['qu'] = $userName;
 	//header('Location:/' . $userName);
-	echo '<script>location.href = "/' . $userName . '/"</script>';
+	echo '<script>location.href = "/' . $userName . '/";</script>';
 
 ?>

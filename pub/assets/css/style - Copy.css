@@ -3,12 +3,6 @@
 	Rev. 2.
 */
 
-/*
-	Quizr
-	Rev. 2.
-	TM
-*/
-
 @font-face
 {
 	font-family: Segoe UI;
@@ -19,6 +13,14 @@
 	src: url("fonts/coolvetica rg.ttf");
 }
 
+::-webkit-input-placeholder {
+   color: #666;
+}
+
+:-moz-placeholder {  
+   color: #666;  
+}
+
 ::-webkit-scrollbar 
 {
     width: 10px;
@@ -27,22 +29,16 @@
  
 ::-webkit-scrollbar-track 
 {
-	background: #e4e4e4;
-	box-shadow: 0 0 6px rgba(0,0,0,0.4);
+	background: #f5f5f5;
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.4);
 }
  
-/*::-webkit-scrollbar-corner
-{
-	background: #369;
-	border-radius: 5px;
-}
-*/
 ::-webkit-scrollbar-thumb 
 {
 	border-radius: 5px;
 	box-shadow: 0 0 3px rgba(0,0,0,0.4);
 	width: 8px;
-    background : #999;
+    background : #777;
 }
 
 * 
@@ -60,6 +56,7 @@ body
 	font-size: 16px;
 }
 
+.clear { clear: both; }
 /*links*/
 
 a 
@@ -112,14 +109,12 @@ ul.nav li
 	/*margin: 0 10px;*/
 	padding: 0 10px;
 	height: 30px;
-	vertical-align: middle;
-	font-family: "Segoe UI", Arial, sans-serif;	
+	vertical-align: middle;	
 	line-height: 30px;
-	color: #ccc;
-	font-size: 0.8em;
-	font-weight: 600;
+	color: #999;
+	font-size: 80%;
+	font-weight: bold;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
-	border-top: solid 3px rgba(0,0,0,0);
 	transition: all 0.5s;
 	-webkit-transition: all 0.5s; 
 	-moz-transition: all 0.5s; 
@@ -130,7 +125,6 @@ ul.nav li
 {
 	color: #e4e4e4;
 	text-shadow: 1px 1px 5px rgba(0,0,0,0.9);
-	border-top: solid 3px #36c;
 }
 
 #dashbar a:active
@@ -150,7 +144,7 @@ ul.nav li
 {
 	background-color: #2a343a;
 	border-bottom: 3px groove #999;
-	padding-bottom: 80px;
+	padding-bottom: 100px;
 	padding-top: 30px;
 	background-image: #22517e;
 	background-image: -webkit-radial-gradient(50% 50%, circle closest-corner, #2775C2 0%, #113b63 100%);
@@ -190,7 +184,7 @@ ul.nav li
 
 .content
 {
-	padding: 20px;
+	padding: 10px;
 }
 
 /*page-head*/
@@ -250,8 +244,7 @@ ul.nav li
 
 .det-head h2
 {
-	font-size: 2.8em;
-	font-weight: 600;
+	font-size: 44px;
 }
 
 span.picheight
@@ -289,7 +282,7 @@ span.picheight
 	height: 35px;
 	width: 35px;
 	line-height: 35px;
-	font-weight: normal;
+	font-weight: bold;
 	font-size: 30px;
 	color: #fff;
 	border-radius: 3px;
@@ -308,30 +301,20 @@ span.picheight
 
 /*intro*/
 
-.intro-text
-{
-	padding-left: 5px;
-}
-
 .intro-text h3 
 { 
-	border-left: 5px solid #369;
-	font-size: 1em; 
+	margin: 10px 0px;
+/*	border-radius: 20px 0 0 20px;
+*/	font-size: 140%; 
 	color: #555; 
-	padding-left: 5px;
-	line-height: 1.4em;
-	font-weight: 600;
+	line-height: 1.4;
 }
 
 .intro-text h4 
 { 
 	margin: 10px 0px;
-	padding-right: 8px;
-	border-right: 5px solid #36c;
-	font-size: 1em;
-	font-weight: 400; 
+	font-size: 100%; 
 	color: #777; 
-	text-align: right;
 }
 
 .intro-text h4 > a
@@ -354,11 +337,15 @@ input, button
 	outline: 0;
 	border: 0;
 }
-
+label
+{
+	font-size: 120%;
+	margin: 0 10px;
+}
 input[type=text], input[type=password], textarea
 {
 	width: 320px;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid #999;
 	background: transparent;
 	padding: 5px;
 	margin-bottom: 10px;
@@ -416,7 +403,7 @@ input.small
 	color: #777;
 	padding: 10px;
 	margin: 5px 0;
-	font-weight: normal;
+	font-weight: bold;
 	/*background: #FFCE1B;*/
 	background: #FFE482;
 	line-height: 1;
@@ -427,7 +414,7 @@ input.small
 	font-size: 1.2em;
 	display: block;
 	text-align: center;
-	font-weight: normal;
+	font-weight: bold;
 }
 
 /*Head-Nav*/
@@ -485,7 +472,7 @@ li.dropit ul a:hover
 	padding: 10px 40px;
 	text-decoration: none;
 	font-size: 100%;
-	font-weight: normal;
+	font-weight: bold;
 	color: #fff;
 	margin: 5px;
 	display: inline-block;
@@ -501,10 +488,6 @@ li.dropit ul a:hover
 	background-image: -o-linear-gradient(top, #2266bb 21%, #2255bb 100%);
 	background-image: -ms-linear-gradient(top, #2266bb 21%, #2255bb 100%);
 	background-image: linear-gradient(top, #2266bb 21%, #2255bb 100%);
-}
-.btn:focus
-{
-	box-shadow: 0 0 10px 1px #36c;
 }
 .btn:active
 {
@@ -549,24 +532,24 @@ li.dropit ul a:hover
 {
 	display: block;
 	font-size: 1.2em;
-	font-weight: normal;
+	font-weight: bold;
 	color: #666;
 }
 
 /*Play-Quiz*/
 .play-quiz .question
 {
-	border-left: 4px solid #336699;
+	/*border-left: 4px solid #336699;*/
 	padding: 10px;
-	font-weight: normal;
+	font-weight: bold;
 	font-size: 1.5em;
 	display: block;
 	margin: 10px 0;
 }
 .play-quiz .question-no
 {
-	font-size: 160%;
-	font-weight: normal;
+	font-size: 200%;
+	font-weight: bold;
 }
 .play-quiz .question-no span
 {
@@ -584,7 +567,7 @@ li.dropit ul a:hover
 	background: #ccc;
 	color: #666;
 	padding: 10px;
-	font-weight: normal;
+	font-weight: bold;
 }
 .play-quiz .options a:hover
 {
@@ -619,7 +602,7 @@ li.dropit ul a:hover
 	width: 200px;
 	display: block;
 	text-align: center;
-	font-weight: normal;
+	font-weight: bold;
 	margin: 10px auto;
 }
 .fb-btn
@@ -714,13 +697,13 @@ span.dblue
 {
 	color: #444;
 	font-size: 140%;
-	font-weight: normal;
+	font-weight: bold;
 	padding: 5px;
 }
 
 .u-page-box
 {
-/*	border-top: 4px solid #336699;*/
+	border-top: 4px solid #336699;
 }
 
 .u-page-list { list-style-type: none; margin-left: 10px; }
@@ -730,7 +713,7 @@ span.dblue
 .u-page-list a
 {
 	color: #444;
-	font-weight: normal;
+	font-weight: bold;
 }
 
 .u-page-list a:hover
@@ -743,21 +726,49 @@ span.dblue
 	display: none;
 }
 
-.photu
+.content-about h3
 {
-	background: #36c;
-	width: 100px;
-	height: 100px;
-	margin-right: 10px;
-	box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
-	-webkit-filter:grayscale(100%);
-	transition: all 0.5s;
-	-webkit-transition: all 0.5s; 
-	-moz-transition: all 0.5s; 
-	-o-transition: all 0.5s;	
+	font-size: 180%;
 }
 
-.text-info { font-size: 80%; font-weight: normal; color: #777; }
+.content-about p 
+{ 
+	margin-bottom: 10px; 
+}
+
+.content-about ul.team
+{
+	display: block; list-style-type: none; margin-left: 10px;
+}
+
+.content-about ul.team li 
+{ 
+	display: block;
+	border-left: 5px solid #36c;
+	margin-left: -5px;
+}
+
+.content-about ul.team h4 
+{
+	padding-left: 5px;
+	display: inline; font-size: 140%; 
+}
+
+.content-about ul.team span { display: inline; font-size: 0.9em; margin-left: 5px; color: #777; }
+
+.content-about ul.team .lblue { display: inline; font-size: 1.1em; color: #36c; }
+
+.content-about ul.team p 
+{ 
+	border-left: 5px solid #369;
+	margin-left: -5px;
+	padding-left: 5px;
+	font-size: 90%;
+	font-weight: bold; 
+	line-height: 1.2;
+}
+
+.text-info { font-size: 80%; font-weight: bold; color: #777; }
 .disp-block { display: block !important; }
 input.inline-small
 {
@@ -783,10 +794,10 @@ input.inline-small
 .browse-quizzes h3 a
 {
 	font-size: 120%;
-	font-weight: normal;
+	font-weight: bold;
 }
 
-.browse-quizzes p { font-size: 100%; font-weight: normal; color: #666; }
+.browse-quizzes p { font-size: 100%; font-weight: bold; color: #666; }
 
 .browse-quizzes .quiz-info
 {
@@ -838,7 +849,7 @@ input.inline-small
 	color: #444;
 	text-align: center !important;
 	font-size: 400%;
-	font-weight: normal;
+	font-weight: bold;
 }
 
 .hp-intro img
@@ -858,22 +869,11 @@ input.inline-small
 {
 	display: block;
 	background: #f0f0f0;
-	padding: 30px 0;
-	margin-top: 25px;
-	margin-right: 10px;
+	padding: 20px 0;
+	margin-top: 20px;
 	text-align: center;
-	font-weight: normal;
+	font-weight: bold;
 	font-size: 140%;
-	transition: all 0.5s;
-	-webkit-transition: all 0.5s; 
-	-moz-transition: all 0.5s; 
-	-o-transition: all 0.5s;	
-}
-
-.beta-reg:hover
-{
-	color: #e4e4e4;
-	background: #36c;
 }
 
 .beta-email

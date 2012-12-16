@@ -1,0 +1,46 @@
+.content-about
+{
+	padding: 10px;
+}
+
+.content-about ul
+{
+	display: block;
+	list-style-type: none;
+}
+
+.content-about li
+{
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	margin: 10px 0;
+	padding: 5px;
+}
+
+.content-about p
+{
+	margin-bottom: 10px;
+	line-height: 1.4;
+}
+
+.content-about
+{
+	padding: 20px;
+}
+
+.content-about h4
+{
+	font-size: 160%;
+}
+.content-about h5
+{
+	font-size:70%;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.home-join
+{
+	background: #ddd;
+	padding: 10px 0;
+}

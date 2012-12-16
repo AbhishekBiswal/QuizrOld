@@ -1,6 +1,6 @@
 <?php
 
-	$server_type_pdo = "nlocal";
+	$server_type_pdo = "local";
 
 	if($server_type_pdo == "local")
 	{

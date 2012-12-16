@@ -1,45 +1,54 @@
 <?php
 	session_start();
 	$pageName = "About Quizr";
-	include('../inc/fn/loggedin.php');
-	include('../inc/temp/header.php');
+	include('fn/loggedin.php');
+	include('temp/header.php');
 ?>
 
 <div class="det-head">
-	<h2>About Quizr</h2>
+	<h2>About <span class="lblue">Quizr</span></h2>
 </div>
 
-<div class="u-page-box ten columns content content-about">
+<div class="u-page-box content content-about">
 
 	<p>
-		<span class="lblue">Quizr</span> is an online quizzing platform where you can play quizzes made by other users, or create your own for other people to play. By playing quizzes, you earn points. You can use the points earned to create and promote your own Quizzes.
+		<span class="lblue">Quizr</span> is an online quizzing platform where you can play quizzes made by other users, or create your own for other people to play. It is a global platform for quiz enthusiasts to share their love for quizzing. 
+	</p>
+	<p>
+		With <span class="lblue">Quizr</span>, an user can start a quiz by creating a set of questions, choosing from a multitude of question types, like <span class="lblue">Dry Questions</span>, <span class="lblue">A/V Questions</span>, and so on. The user also has the options of setting the marking scheme of questions. Once done, this quiz can be shared with all the users of <span class="lblue">Quizr</span> to attempt.
 	</p> 
 
-	<h3>The Team Behind Quizr</h3>
+
+	<h3>The <span class="lblue">Team</span> Behind <span class="lblue">Quizr</span></h3>
+<!-- 	<div class="teambehind fifteen columns"> -->
 	<p>
 		<ul class="team">
-			<li>
-				<h4>Abhishek<span class="lblue">Biswal</span></h4><span>Co-Founder / Lead Developer</span>
-				<p>
-					Developer/Designer, Tech Enthusiast, currently studying in Delhi Public School, R.K. Puram.
-				</p>
+			<li class="columns seven">
+				<h4>Abhishek <span class="lblue">Biswal</span></h4><h5>founder, lead developer</h5>
 			</li>
-			<li>
-				<h4>Achal<span class="lblue">Varma</span></h4><span>Co-Founder / Idea Guy</span>
-				<p>
-					Designer, Photographer, Currently studying computer science at University of Illinois.
-				</p>
+			<!-- <div class="clear"></div> -->
+			<li class="columns seven">
+				<h4>Trijeet <span class="lblue">Mukhopadhyay</span></h4><h5>founder, lead designer</h5>
 			</li>
-			<li>
-				<h4>Trijeet<span class="lblue">Mukhopadhyay</span></h4><span>Co-Founder / Lead Designer</span>
-				<p>
-					Web Developer, Graphic Designer, Currently studying in Delhi Public School, R.K. Puram.
-				</p>
+			<div class="clear"></div>
+
+			<li class="columns seven">
+				<h4>Achal <span class="lblue">Varma</span></h4><h5>Founder</h5>
 			</li>
+			<!-- <div class="clear"></div> -->
+			<li class="columns seven">
+				<h4>Bharat <span class="lblue">Kashyap</span></h4><h5>Founder</h5>
+			</li>
+			<div class="clear"></div>
+			<li class="columns seven">
+				<h4>Akshay <span class="lblue">Dadhwal</span></h4><h5>Technical Officer</h5>
+			</li>
+			<div class="clear"></div>
 		</ul>
 	</p>
+	<!-- </div> -->
 </div>
 
 <?php
-	include('../inc/temp/footer.php');
+	include('temp/footer.php');
 ?>

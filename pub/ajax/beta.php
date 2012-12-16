@@ -3,6 +3,7 @@
 	$eMail = htmlspecialchars($eMail);
 	if(!$eMail)
 	{
+		echo "Please enter an email address";
 		exit();
 	}
 
@@ -13,6 +14,8 @@
 		echo "Invalid Email Address.";
 		exit();
 	}
+
+	/*echo "Due to some technical error we have disabled this service for a while.";*/
 
 	include('db.php');
 	$check = $DBH->prepare("SELECT * FROM beta WHERE email=?");

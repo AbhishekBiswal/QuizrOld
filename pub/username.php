@@ -1,11 +1,11 @@
 <?php
 	session_start();
 	include('fn/loggedin.php');
-	/*if($loggedin == 0)
+	if($loggedin == 0)
 	{
 		header('Location:/');
 		exit();
-	}*/
+	}
 
 	include_once('db.php');
 	include('fn/loaduser.php');

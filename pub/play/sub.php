@@ -26,7 +26,7 @@
 		echo "No Answer?";
 		exit();
 	}
-
+	include_once('fn/points.php');
 	include('db.php');
 	$checkquid = $DBH->prepare("SELECT * FROM questions WHERE id=?");
 	$checkquid->execute(array($quid));
@@ -40,11 +40,13 @@
 	while($row = $checkquid->fetch())
 	{
 		$qAnswer = $row['answer'];
+		$qPlus = $row['plus'];
 	}
 	$correct = 0;
 	if($qAnswer == $answer)
 	{
 		$correct = 1;
+		addPoints($curUser,$qPlus,$DBH);
 	}
 
 	function answerCorrect($quid,$DBH,$qseq,$quizID,$curUser)
