@@ -1,17 +1,3 @@
-var script = document.createElement('script');
-script.src = '/assets/js/jquery.js';
-script.type = 'text/javascript';
-document.getElementsByTagName('head')[0].appendChild(script);
-
-// vfx
-$(document).ready(function() 
-{
-	setTimeout(function(){
-		$("#content").fadeIn("medium");
-	},5000)
-});
-// Not Working
-
 $(document).ready(function(){
 
 	/*ajax*/
@@ -116,6 +102,8 @@ $(document).ready(function(){
 			}
 		})
 	})
+
+	$(".leaderb tr:even").addClass("tr-even");
 
 
 }); // ready

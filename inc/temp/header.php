@@ -1,7 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title><?php echo $pageName; ?></title>
+	<title><?php echo $pageName; ?> / Quizr</title>
+
+	<meta name="description" content="An online quizzing platform to play, create and share quizzes.">
+	<meta name="keywords" content="quiz,quizzing,quizr,create,play,tech,share">
+	<meta name="robot" content="index,follow">
+	<meta name="copyright" content="Copyright © 2012 Quizr. All Rights Reserved.">
+	<meta name="author" content="Abhishek Biswal">
+	<meta name="language" content="English">
+
 	<link href="/assets/css/grid.css" rel="stylesheet" type="text/css">
 	<link href="/assets/css/style.css" rel="stylesheet" type="text/css">
 	<link href="/assets/css/edit.css" rel="stylesheet" type="text/css">

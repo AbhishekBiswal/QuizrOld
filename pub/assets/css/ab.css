@@ -44,3 +44,15 @@
 	background: #ddd;
 	padding: 10px 0;
 }
+
+.leaderb 
+{
+	text-align: left;
+	width: 100%;
+}
+.leaderb td, .leaderb th { padding: 10px; }
+.leaderb .tr-even
+{
+	background: #f5f5f5;
+}
+
