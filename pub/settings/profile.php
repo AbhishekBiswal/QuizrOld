@@ -33,7 +33,6 @@
 	<ul class="head-nav">
 		<li><a href="general.php">General</a></li>
 		<li><a href="profile.php" class="active">Profile</a></li>
-		<li><a href="general.php">Password</a></li>
 	</ul>
 </div>
 

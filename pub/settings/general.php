@@ -19,7 +19,7 @@
 
 	while($u = $load->fetch())
 	{
-		$userMail = $u['fullname'];
+		$userfName = $u['fullname'];
 		$userBio = $u['bio'];
 	}
 
@@ -31,19 +31,19 @@
 	<h2>Edit Your Profile</h2>
 	<h3>Settings</h3>
 	<ul class="head-nav">
-		<li><a href="general.php">General</a></li>
-		<li><a href="profile.php" class="active">Profile</a></li>
-		<li><a href="general.php">Password</a></li>
+		<li><a href="general.php" class="active">General</a></li>
+		<li><a href="profile.php">Profile</a></li>
 	</ul>
 </div>
 
 <div class="content">
-	<form class="ajax" action="profile-sub.php">
+	<!-- <form class="ajax" action="profile-sub.php">
 		<p class="submitinfo"></p>
 		<input type="text" name="fname" value="<?php echo $userfName; ?>"></input><span class="helpinline">Your Name</span><br>
 		<textarea name="bio"><?php echo $userBio; ?></textarea><span class="helpinline">Your Bio</span><br>
 		<input type="submit" class="btn" value="Save">
-	</form>
+	</form> -->
+	<h3>Under Construction</h3>
 </div>
 
 <?php

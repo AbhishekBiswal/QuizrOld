@@ -7,7 +7,6 @@
 	<meta name="keywords" content="quiz,quizzing,quizr,create,play,tech,share">
 	<meta name="robot" content="index,follow">
 	<meta name="copyright" content="Copyright © 2012 Quizr. All Rights Reserved.">
-	<meta name="author" content="Abhishek Biswal">
 	<meta name="language" content="English">
 
 	<link href="/assets/css/grid.css" rel="stylesheet" type="text/css">
@@ -32,6 +31,7 @@
 			<li class="dropit text-right float-right"><a class="dropit" href="#"><?php echo $_SESSION['qu']; ?></a>
 				<ul class="dropdown">
 					<li><a href="/<?php echo $_SESSION['qu']; ?>/">Profile</a></li>
+					<li><a href="/settings/profile.php">Settings</a></li>
 					<li><a href="/logout.php">Logout</a></li>
 				</ul>
 			</li>
