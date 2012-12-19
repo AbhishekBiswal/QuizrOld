@@ -58,6 +58,12 @@
 		}
 	}
 
+		$hintTaken = 0;
+		while($row = $checkPlay->fetch())
+		{
+			$hintTaken = $row['hint'];
+		}
+
 	$pageName = $qTitle . " - Quizr";
 	include('temp/header.php');
 
@@ -87,7 +93,7 @@
 			$qSeq = $data['seq'];
 			$qImage = $data['image'];
 			$qPlus = $data['plus'];
-			$qHint = $row['hint'];
+			$qHint = $data['hint'];
 		}
 	}
 ?>
@@ -141,11 +147,18 @@
 		<?php
 		if($qHint != NULL)
 		{
+			if($hintTaken == 1){
 		?>
-			<h3>HINT</h3>
-			<center><a class="btn disp-block view-hint-button" id="<?php echo $questionID; ?>">View Hint</a></center>
+			<p class="hintbox"><?php echo $qHint; ?></p>
 
 		<?php
+			}
+			else
+			{
+		?>
+			<center><a class="btn disp-block view-hint-button" id="<?php echo $questionID; ?>">View Hint</a></center>
+		<?php
+			}
 		}
 		?>
 	</div>

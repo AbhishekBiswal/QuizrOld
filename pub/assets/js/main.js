@@ -104,6 +104,7 @@ $(document).ready(function(){
 	})
 
 	$(".leaderb tr:even").addClass("tr-even");
+	$(".browse-quizzes li:even").addClass("br-even");
 
 
 }); // ready
