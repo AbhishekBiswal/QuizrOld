@@ -25,7 +25,7 @@
 </div>
 <div class="columns six text-right float-right">
 	<?php
-	if($key == "dadhujaisakoinahi") {
+	if(($key == "dadhujaisakoinahi") || ($key == "KNC8C2G1")) {
 ?>
 
 	<div class="home-join"><center>

@@ -11,6 +11,7 @@
 
 	// todo : add exception for usernames not null
 	$userName = $_POST['username'];
+	$userMail = $_POST['email'];
 
 	if((strlen($userName)<3) || (strlen($userName)>20))
 	{
@@ -18,10 +19,26 @@
 		exit();
 	}
 
-	$checkU = checkUsername($userName,$DBH);
+	$checkU = checkEmail($userName,$DBH);
 	if($checkU == 1)
 	{
 		echo "The Username is not available!";
+		//echo '<script>$("input[type=submit]").val("Check");</script>';
+		exit();
+	}
+
+	include_once('validate/do.php');
+	$validator = new Validator();
+	if($validator->isValid($userMail,'email') == false)
+	{
+		echo "Invalid Email Address.";
+		exit();
+	}
+
+	$checkE = checkUsername($userMail,$DBH);
+	if($checkE == 1)
+	{
+		echo "This Email Address is already in use.";
 		//echo '<script>$("input[type=submit]").val("Check");</script>';
 		exit();
 	}

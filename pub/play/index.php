@@ -58,11 +58,6 @@
 		}
 	}
 
-		$hintTaken = 0;
-		while($row = $checkPlay->fetch())
-		{
-			$hintTaken = $row['hint'];
-		}
 
 	$pageName = $qTitle . " - Quizr";
 	include('temp/header.php');
@@ -94,6 +89,13 @@
 			$qImage = $data['image'];
 			$qPlus = $data['plus'];
 			$qHint = $data['hint'];
+		}
+		$hintTaken = 0;
+		$checkHintTaken = $DBH->prepare("SELECT id FROM hints WHERE uid=? AND quid=?");
+		$checkHintTaken->execute(array($curUser,$questionID));
+		if($checkHintTaken->rowCount() == 1)
+		{
+			$hintTaken = 1;
 		}
 	}
 ?>
@@ -140,15 +142,17 @@
 <div class="sidebar columns four">
 
 	<div class="area-points">
-		<span class="points-big">+<?php echo $qPlus; ?></span>
+		<span class="points-big disp-block">+<?php echo $qPlus; ?></span>
+		<span class="points-big-h">Points</span>
 	</div>
-
+	<div class="divider"></div>
 	<div class="area-hint">
 		<?php
 		if($qHint != NULL)
 		{
 			if($hintTaken == 1){
 		?>
+			<span class="points-big-h">HINT</span>
 			<p class="hintbox"><?php echo $qHint; ?></p>
 
 		<?php
@@ -156,11 +160,21 @@
 			else
 			{
 		?>
-			<center><a class="btn disp-block view-hint-button" id="<?php echo $questionID; ?>">View Hint</a></center>
+			<center><a id="<?php echo $questionID; ?>" class="btn disp-block view-hint-button">View Hint</a></center>
 		<?php
 			}
 		}
+		else {
 		?>
+			<span class="points-big-h">No Hint</span>
+		<?php } ?>
+	</div>
+	<div class="divider"></div>
+	<div class="area-hint-minus">
+		<div class="area-points">
+			<span class="points-big red">-2</span>
+			<span class="points-big-h">For The Hint</span>
+		</div>
 	</div>
 
 </div>

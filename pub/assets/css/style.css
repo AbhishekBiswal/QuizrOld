@@ -813,6 +813,7 @@ input.inline-small
 {
 	color: #6FBF4D;
 	font-size: 700%;
+	line-height: 1;
 }
 
 .area-hint

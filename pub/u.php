@@ -79,6 +79,13 @@
 	?>
 </ul>
 
+<div class="u-page-header">Favourites:</div>
+<ul class="u-page-list">
+	<?php
+		loadFavs($userId,$DBH);
+	?>
+</ul>
+
 </div>
 
 <?php

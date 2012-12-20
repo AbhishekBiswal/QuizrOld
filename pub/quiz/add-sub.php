@@ -16,8 +16,17 @@
 	$qDesc = $_POST['q-desc'];
 	$qImage = $_POST['q-image'];
 	$qPlus = $_POST['plus'];
+
+	$qQuestion = htmlentities($qQuestion);
+	$qAnswer = htmlentities($qAnswer);
+	$hint = htmlentities($hint);
+	$qDesc = htmlentities($qDesc);
+	$qImage = htmlentities($qImage);
+	$qPlus = htmlentities($qPlus);
 	//$qMinus = $_POST['minus'];
 	//$qsecAnswer = $_POST['sec-answer'];
+
+	$qAnswer = str_replace(" ","",$qAnswer);
 
 	if($hint == NULL)
 	{

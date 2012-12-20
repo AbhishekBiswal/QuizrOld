@@ -103,6 +103,21 @@ $(document).ready(function(){
 		})
 	})
 
+	/*$("#fav-btn").click(function(e){
+		e.preventDefault();
+		var id = $(this).attr("data-id");
+		var hintData = "id="+id;
+		$.ajax({
+			url: '/ajax/fav.php',
+			data : hintData,
+			type : 'post',
+			success : function(result)
+			{
+				$(".fav-btn-area").html(result);
+			}
+		})
+	})*/
+
 	$(".leaderb tr:even").addClass("tr-even");
 	$(".browse-quizzes li:even").addClass("br-even");
 

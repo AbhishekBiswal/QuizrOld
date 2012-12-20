@@ -8,10 +8,10 @@
 
 		<li>
 			<div class="columns six">
-			<h3><a href="/q/<?php echo $data['id']; ?>/"><?php echo $data['title']; ?></a></h3>
+			<h3><a href="/q/?id=<?php echo $data['id']; ?>/"><?php echo $data['title']; ?></a></h3>
 			<p class="description"><?php echo $data['qdesc']; ?></p>
 			<div class="quiz-info">
-				<span><a href="/q/<?php echo $data['id']; ?>">Permalink</a></span>
+				<span><a href="/q/?id=<?php echo $data['id']; ?>">Permalink</a></span>
 			</div>
 			</div>
 			<div class="columns three">

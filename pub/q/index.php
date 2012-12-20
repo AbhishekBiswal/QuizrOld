@@ -60,6 +60,8 @@
 		<p class="grayinfo"><?php echo $qDesc; ?></p>
 	</div>
 	<a href="/play/?id=<?php echo $qid; ?>" class="btn">PLAY</a>
+	<!-- <a id="fav-btn" data-id="" class="btn btn-grey">Favourite</a>
+	<div class="hidden-quiz-area fav-btn-area"></div> -->
 
 	<div>
 

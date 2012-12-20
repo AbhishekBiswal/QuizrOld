@@ -16,6 +16,8 @@
 	$qseq = $_POST['seq'];
 	$quizID = $_POST['qid'];
 	$answer = $_POST['ans'];
+	$answer = htmlentities($answer);
+	$answer = str_replace(" ","",$answer);
 	if(!$quid)
 	{
 		echo "An Error occured. Please try again later. (1)";
@@ -28,6 +30,14 @@
 	}
 	include_once('fn/points.php');
 	include('db.php');
+
+	$checkUser = $DBH->prepare("SELECT user FROM quizmeta WHERE id=?");
+	$checkUser->execute(array($quizID));
+	while($userData = $checkUser->fetch())
+	{
+		$quizOwner = $userData['user'];
+	}
+
 	$checkquid = $DBH->prepare("SELECT * FROM questions WHERE id=?");
 	$checkquid->execute(array($quid));
 	if($checkquid->rowCount() == 0)
@@ -42,11 +52,23 @@
 		$qAnswer = $row['answer'];
 		$qPlus = $row['plus'];
 	}
+
+	$hintTaken = 0;
+		$checkHintTaken = $DBH->prepare("SELECT id FROM hints WHERE uid=? AND quid=?");
+		$checkHintTaken->execute(array($curUser,$quid));
+		if($checkHintTaken->rowCount() == 1)
+		{
+			$qPlus = $qPlus - 2;
+		}
+
 	$correct = 0;
 	if($qAnswer == $answer)
 	{
 		$correct = 1;
-		addPoints($curUser,$qPlus,$DBH);
+		if($quizOwner != $curUser)
+		{
+			addPoints($curUser,$qPlus,$DBH);
+		}
 	}
 
 	function answerCorrect($quid,$DBH,$qseq,$quizID,$curUser)

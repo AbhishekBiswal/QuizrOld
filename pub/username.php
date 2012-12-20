@@ -32,6 +32,8 @@
 
 	<p class="submitinfo disp-block">Choose a Unique Username</p>
 	<input type="text" class="disp-block" placeholder="Username" name="username">
+
+	<input type="text" class="disp-block" placeholder="Email Address" name="email">
 	
 	<input type="submit" class="btn disp-block" value="Save">
 

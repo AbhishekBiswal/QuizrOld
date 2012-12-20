@@ -63,4 +63,37 @@
 		return $result;
 	}
 
+	function checkEmail($email,$DBH)
+	{
+		$result = 0;
+		$check = $DBH->prepare("SELECT id FROM users WHERE email=?");
+		$check->execute(array($email));
+		if($check->rowCount() == 1)
+		{
+			$result = 1;
+		}
+		return $result;
+	}
+
+	function loadFavs($user,$DBH)
+	{
+		global $fetchfav;
+		$fav = $DBH->prepare("SELECT * FROM favs WHERE user=?");
+		$fav->execute(array($user));
+		if($fav->rowCount() == 0)
+		{
+			echo '<p class="grayinfo">Nothing Here.</p>';
+		}
+		else
+		{
+			while($favdata = $fav->fetch())
+			{
+				$favqid = $favdata['quizid'];
+				$fetchfav = $DBH->prepare("SELECT * FROM quizmeta WHERE id=?");
+				$fetchfav->execute(array($favqid));
+			}
+			quizList($fetchfav);
+		}
+	}
+
 ?>
