@@ -16,6 +16,7 @@
 	$qseq = $_POST['seq'];
 	$quizID = $_POST['qid'];
 	$answer = $_POST['ans'];
+	$answer = strtolower($answer);
 	$answer = htmlentities($answer);
 	$answer = str_replace(" ","",$answer);
 	if(!$quid)

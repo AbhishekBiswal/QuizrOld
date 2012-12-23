@@ -19,6 +19,7 @@
 
 	$qQuestion = htmlentities($qQuestion);
 	$qAnswer = htmlentities($qAnswer);
+	$qAnswer = strtolower($qAnswer);
 	$hint = htmlentities($hint);
 	$qDesc = htmlentities($qDesc);
 	$qImage = htmlentities($qImage);
