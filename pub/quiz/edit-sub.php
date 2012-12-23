@@ -16,6 +16,7 @@
 	$qDesc = $_POST['q-desc'];
 	$qImage = $_POST['q-image'];
 	$qPlus = $_POST['plus'];
+	$questionid = $_POST['id'];
 
 	$qQuestion = htmlentities($qQuestion);
 	$qAnswer = htmlentities($qAnswer);
@@ -23,7 +24,7 @@
 	$qDesc = htmlentities($qDesc);
 	$qImage = htmlentities($qImage);
 	$qPlus = htmlentities($qPlus);
-	$questionid = htmlentities($_POST['id']);
+	$questionid = htmlentities($questionid);
 	//$qMinus = $_POST['minus'];
 	//$qsecAnswer = $_POST['sec-answer'];
 
@@ -92,7 +93,7 @@
 	$insert->execute(array($qQuestion,$qAnswer,$hint,$qDesc,$qImage,$qPlusp,$questionid));
 	//done {update}
 
-	//echo "Updated.";
+	echo "Updated.";
 	//echo '<script>location.reload();</script>';
 
 	// done. working rev. 06/8/12
