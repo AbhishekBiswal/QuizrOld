@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<!-- v0.1 23/12/12 ab -->
 <head>
 	<title><?php echo $pageName; ?> / Quizr</title>
 
@@ -24,6 +25,7 @@
 			<li><a href="/">Home</a></li>
 			<li><a href="/browse.php">Browse</a></li>
 			<li><a href="/create.php">Create</a></li>
+			<li><a href="/leaderboard.php">Leaderboard</a></li>
 		<?php
 			if($loggedin == 1)
 			{

@@ -55,11 +55,7 @@
 		<a class="add-hint btn btn-small">Add Hint</a>
 		<div class="add-hint hide">
 			<input class="small" type="text" name="q-hint" placeholder="Hint">
-		<!-- 	<p class="disp-block text-info">Points to be deducted for viewing the hint.</p> -->
 		</div>
-		<!-- <p class="text-info">Points for Correct Answer: <input type="text" class="small inline-small" name="plus" value="2"></p>
-
-		<p class="text-info">Points to deducted for viewing hint: <input type="text" class="small inline-small" name="minus" value="2"></p> -->
 		<p class="text-info">Select difficulty for question :
 		<select class="difficulty" name="plus">
 			<option value="easy">Easy</option>

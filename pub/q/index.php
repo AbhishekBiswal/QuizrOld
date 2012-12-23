@@ -72,6 +72,7 @@
 		?>
 		<div class="u-page-header">Admin Tools:</div>
 		<a class="btn" href="/quiz/add.php?id=<?php echo $qid; ?>">Add Questions</a>
+		<a class="btn" href="/quiz/questions.php?id=<?php echo $qid; ?>">Edit Questions</a>
 
 		<?php if($qPub == 0) { ?> <a class="btn" href="/quiz/pub.php?id=<?php echo $qid; ?>">Publish</a> <?php } ?>
 
