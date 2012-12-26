@@ -96,4 +96,9 @@
 		}
 	}
 
+	function notify($user,$msg,$DBH)
+	{
+		//$createNotif = $DBH->prepare("INSERT INTO notifs ")
+	}
+
 ?>

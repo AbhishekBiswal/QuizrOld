@@ -30,31 +30,49 @@
 		$qTitle = $row['title'];
 		$qDesc = $row['qdesc'];
 		$qUser = $row['user'];
+		$qPlays = $row['plays'];
+	}
+
+	$plusPoints = $qPlays+1;
+	if($plusPoints%10 == 0)
+	{
+		include_once('fn/points.php');
+		addPoints($qUser,5,$DBH);
+	}
+
+	$thegod = 0;
+	if($qUser == $curUser)
+	{
+		$thegod = 1;
 	}
 
 	/*Todo - check if user is the current user. dont' allow*/
 
-	$checkPlay = $DBH->prepare("SELECT * FROM played WHERE qid=? AND user=?");
-	$checkPlay->execute(array($qid,$curUser));
-	if($checkPlay->rowCount() == 0)
+	if($thegod == 1)
 	{
-		$questionTostart = 1;
-		$createRecord = $DBH->prepare("INSERT INTO played(qid,user,playedtill) VALUES(?,?,?)");
-		$createRecord->execute(array($qid,$curUser,0));
-		$addPlays = $DBH->prepare("UPDATE quizmeta SET plays=plays+1 WHERE id=?");
-		$addPlays->execute(array($qid));
-	}
-	else
-	{
-		while($row = $checkPlay->fetch())
+		$checkPlay = $DBH->prepare("SELECT * FROM played WHERE qid=? AND user=?");
+		$checkPlay->execute(array($qid,$curUser));
+		if($checkPlay->rowCount() == 0)
 		{
-			$playedTill = $row['playedtill'];
+			$questionTostart = 1;
+			$createRecord = $DBH->prepare("INSERT INTO played(qid,user,playedtill) VALUES(?,?,?)");
+			$createRecord->execute(array($qid,$curUser,0));
+			$addPlays = $DBH->prepare("UPDATE quizmeta SET plays=plays+1 WHERE id=?");
+
+			$addPlays->execute(array($qid));
 		}
-		$questionTostart = $playedTill+1;
-		if($questionTostart > $qQuestions)
+		else
 		{
-			header('Location:/q/?id=' . $qid);
-			exit();
+			while($row = $checkPlay->fetch())
+			{
+				$playedTill = $row['playedtill'];
+			}
+			$questionTostart = $playedTill+1;
+			if($questionTostart > $qQuestions)
+			{
+				header('Location:/q/?id=' . $qid);
+				exit();
+			}
 		}
 	}
 

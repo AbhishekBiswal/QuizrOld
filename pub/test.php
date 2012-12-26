@@ -1,10 +1,11 @@
 <?php
-	include('validate/do.php');
-	$oValidator = new Validator();
-
-	$oValidator->isValid("http://sklueh.de", 'url');
-	if($oValidator->isValid("http://sklueh.de", 'url'))
+	$qPlays = 100;
+	if($qPlays%50 == 0)
 	{
-		echo "hello";
+		echo "yes";
+	}
+	else
+	{
+		echo "no";
 	}
 ?>
