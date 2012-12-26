@@ -51,18 +51,19 @@
 
 	/*Todo - check if user is the current user. dont' allow*/
 
-	if($thegod == 1)
-	{
 		$checkPlay = $DBH->prepare("SELECT * FROM played WHERE qid=? AND user=?");
 		$checkPlay->execute(array($qid,$curUser));
 		if($checkPlay->rowCount() == 0)
 		{
 			$questionTostart = 1;
-			$createRecord = $DBH->prepare("INSERT INTO played(qid,user,playedtill) VALUES(?,?,?)");
-			$createRecord->execute(array($qid,$curUser,0));
-			$addPlays = $DBH->prepare("UPDATE quizmeta SET plays=plays+1 WHERE id=?");
+			if($thegod == 0)
+			{
+				$createRecord = $DBH->prepare("INSERT INTO played(qid,user,playedtill) VALUES(?,?,?)");
+				$createRecord->execute(array($qid,$curUser,0));
+				$addPlays = $DBH->prepare("UPDATE quizmeta SET plays=plays+1 WHERE id=?");
 
-			$addPlays->execute(array($qid));
+				$addPlays->execute(array($qid));
+			}
 		}
 		else
 		{
@@ -77,7 +78,7 @@
 				exit();
 			}
 		}
-	}
+	
 
 
 	$pageName = $qTitle . " - Quizr";
