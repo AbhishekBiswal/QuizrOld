@@ -19,8 +19,8 @@
 	}
 
 	include('db.php');
-		$loadQuiz = $DBH->prepare("SELECT * FROM quizmeta WHERE id=?");
-		$loadQuiz->execute(array($quizID));
+		$loadQuiz = $DBH->prepare("SELECT * FROM quizmeta WHERE id=? AND user=?");
+		$loadQuiz->execute(array($quizID,$curUser));
 		if($loadQuiz->rowCount() == 0)
 		{
 			include('404.php');

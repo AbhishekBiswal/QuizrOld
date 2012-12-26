@@ -33,11 +33,14 @@
 		$qPlays = $row['plays'];
 	}
 
+	include_once('fn/loadquiz.php');
 	$plusPoints = $qPlays+1;
 	if($plusPoints%10 == 0)
 	{
 		include_once('fn/points.php');
 		addPoints($qUser,5,$DBH);
+		$msg = "+5 for 10+ Views on the quiz '$qTitle'.";
+		notify($qUser,$msg,$DBH);
 	}
 
 	$thegod = 0;

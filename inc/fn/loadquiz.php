@@ -98,7 +98,8 @@
 
 	function notify($user,$msg,$DBH)
 	{
-		//$createNotif = $DBH->prepare("INSERT INTO notifs ")
+		$createNotif = $DBH->prepare("INSERT INTO notifs(user,msg) VALUES(?,?)");
+		$createNotif->execute(array($user,$msg));
 	}
 
 ?>
