@@ -104,9 +104,6 @@
 
 	function questionsList($quizid,$curUser,$DBH)
 	{
-<<<<<<< HEAD
-		
-=======
 		$loadList = $DBH->prepare("SELECT * FROM questions WHERE qid=? AND user=?");
 		$loadList->execute(array($quizid,$curUser));
 		if($loadList->rowCount() == 0)
@@ -124,7 +121,6 @@
 	<?php
 			}
 		}
->>>>>>> master
 	}
 
 ?>
