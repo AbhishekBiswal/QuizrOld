@@ -59,7 +59,7 @@
 	<div>
 		<p class="grayinfo"><?php echo $qDesc; ?></p>
 	</div>
-	<a href="/play/?id=<?php echo $qid; ?>" class="btn">PLAY</a>
+	<a href="/play/?id=<?php echo $qid; ?>" class="btn btn-blue">PLAY</a>
 	<!-- <a id="fav-btn" data-id="" class="btn btn-grey">Favourite</a>
 	<div class="hidden-quiz-area fav-btn-area"></div> -->
 
@@ -71,9 +71,9 @@
 		{
 		?>
 		<div class="u-page-header">Admin Tools:</div>
-		<a class="btn" href="/quiz/add.php?id=<?php echo $qid; ?>">Add Questions</a>
-		<a class="btn" href="/quiz/questions.php?id=<?php echo $qid; ?>">Edit Questions</a>
-		<a class="btn" href="/quiz/delete.php?id=<?php echo $qid; ?>">DELETE</a>
+		<a class="btn btn-small" href="/quiz/add.php?id=<?php echo $qid; ?>">Add Questions</a>
+		<a class="btn btn-small" href="/quiz/questions.php?id=<?php echo $qid; ?>">Edit Questions</a>
+		<a class="btn btn-small" href="/quiz/delete.php?id=<?php echo $qid; ?>">DELETE</a>
 
 		<?php if($qPub == 0) { ?> <a class="btn" href="/quiz/pub.php?id=<?php echo $qid; ?>">Publish</a> <?php } ?>
 

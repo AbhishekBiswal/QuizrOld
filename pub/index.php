@@ -9,6 +9,11 @@
 	$pageName = "Home";
 	include('temp/header.php');
 	@$key = $_GET['beta_key'];
+	$betaa = 0;
+	if(($key == "dadhujaisakoinahi") || ($key == "NC8C2G"))
+	{
+		$betaa = 1;
+	}
 ?>
 
 <script type="text/javascript">
@@ -25,32 +30,56 @@
 </div>
 <div class="columns six text-right float-right">
 	<?php
-	if(($key == "dadhujaisakoinahi") || ($key == "NC8C2G")) {
+	if($betaa == 0) {
 ?>
+	
+	<div class="beta-reg">Status: Closed Beta</div>
 
-	<div class="home-join"><center>
+	<!-- <div class="home-join"><center>
 		<h2>JOIN</h2>
 		<a href="/fb/fbauth.php" class="fb-btn">Facebook</a>
 		<a href="/tw/twitter_login.php" class="twitter-btn">Twitter</a>
-	</center></div>
+	</center></div> -->
 
 <?php
-	} else {
+	}
 ?>
-		<div class="beta-reg">Status: Closed Beta</div>	
-<?php } ?>
+		
 </div>
 <br>
 
 <div class="clear"></div>
 
+	<?php
+		if($betaa == 1)
+		{
+	?>
+		<div class="login-box">
+			<h2>Join In:</h2>
+			<div class="columns eight">
+				<a href="/fb/fbauth.php" class="login-btn login-fb float-right">Facebook</a>
+			</div>
+			<div class="columns eight">
+				<a href="/tw/twitter_login.php" class="login-btn login-twitter float-left">Twitter</a>
+			</div>
+		</div>
+		<div class="clear"></div>
+	<?php
+		}
+		else
+		{
+
+	?>
 		<div class="beta-email"><center>
 			<form class="ajax" action="/ajax/beta.php">
 				<p class="submitinfo"></p>
 				<input type="text" name="email" placeholder="Email Address"><br>
-				<input type="submit" class="btn" value="Submit">
+				<input type="submit" class="btn btn-blue" value="Request Invite">
 			</form>
 		</center></div>
+	<?php
+		}
+	?>
 
 <div class="hp-intro">
 	<div class="columns nine"><img class="home" src="/assets/hp/play.png" ></div>
