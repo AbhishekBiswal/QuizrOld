@@ -116,7 +116,7 @@
 			{
 	?>
 
-			<li><a href="#"><?php echo $quesData['question']; ?></a></li>
+			<li><a href="/quiz/edit.php?id=<?php echo $quesData['id']; ?>"><?php echo $quesData['question']; ?></a></li>
 
 	<?php
 			}

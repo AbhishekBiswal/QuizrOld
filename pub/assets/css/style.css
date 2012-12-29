@@ -853,7 +853,15 @@ input.inline-small
 	font-size: 140%;
 }
 
-.sidebar { text-align: center; }
+.sidebar
+{
+	text-align: center;
+	margin-top: 20px;
+}
+.sidebar h3
+{
+
+}
 .area-points .points-big
 {
 	color: #6FBF4D;

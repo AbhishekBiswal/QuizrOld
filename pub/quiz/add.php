@@ -64,23 +64,20 @@
 		</select>
 		</p>
 		<div id="form-buttons">
-			<button class="btn" type="submit" name="add-another">Save and Add More</button>
-			<button name="done" class="btn">Done</button>
+			<button class="btn btn-blue" type="submit" name="add-another">Save and Add More</button>
+			<!-- <button name="done" class="btn">Done</button> -->
 		</div>
 	</form>
 
 </div>
 
-<div class="columns five">
-	<?php
-		include_once('fn/loadquiz.php');
-		questionsList();
-	?>
+<div class="columns five sidebar">
 
+	<h3>Questions:</h3>
 	<ul class="edit-ques-list">
 	<?php
 		include_once('fn/loadquiz.php');
-		//questionsList($qid,$curUser,$DBH);
+		questionsList($qid,$curUser,$DBH);
 	?>
 	</ul>
 
