@@ -6,7 +6,7 @@
 		exit();
 	}
 
-	$user = $_SESSION['qp'];
+	$user = $curUser;
 
 	/*Creating a New Quiz -- Validate acche se.*/
 	$qTitle = $_POST['title'];
