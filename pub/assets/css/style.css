@@ -518,6 +518,10 @@ li.dropit ul a:hover
 	margin-bottom: 5px;
 	background: #333 !important;
 }
+.btn.btn-del
+{
+	background: #A40802;
+}
 /*btn icons*/
 .btn .arrow-right
 {
