@@ -39,7 +39,7 @@
 	</hgroup>
 </header>
 
-<div class="content">
+<div class="content columns ten">
 
 	<form class="ajax" action="add-sub.php">
 	<p class="submitinfo"></p>
@@ -69,6 +69,13 @@
 		</div>
 	</form>
 
+</div>
+
+<div class="columns five">
+	<?php
+		include_once('fn/loadquiz.php');
+		questionsList();
+	?>
 </div>
 
 <?php

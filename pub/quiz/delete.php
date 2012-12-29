@@ -33,7 +33,7 @@
 			$quiz_desc = $row['qdesc'];
 		}
 
-	$pageName = "Make Quiz public";
+	$pageName = "Delete Quiz";
 	include('temp/header.php');
 
 ?>
@@ -49,7 +49,7 @@
 		<p class="submitinfo"></p>
 		<input type="hidden" name="confirm" value="1">
 		<input type="hidden" name="id" value="<?php echo $quizID; ?>">
-		<input type="submit" value="DELETE" class="btn">
+		<input type="submit" value="DELETE" class="btn btn-red">
 	</form>
 </div>
 

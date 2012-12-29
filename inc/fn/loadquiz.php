@@ -102,4 +102,9 @@
 		$createNotif->execute(array($user,$msg));
 	}
 
+	function questionsList($quizid,$curUser,$DBH)
+	{
+		
+	}
+
 ?>
