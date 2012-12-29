@@ -72,10 +72,21 @@
 </div>
 
 <div class="columns five">
+<<<<<<< HEAD
 	<?php
 		include_once('fn/loadquiz.php');
 		questionsList();
 	?>
+=======
+
+	<ul class="edit-ques-list">
+	<?php
+		include_once('fn/loadquiz.php');
+		questionsList($qid,$curUser,$DBH);
+	?>
+	</ul>
+
+>>>>>>> master
 </div>
 
 <?php

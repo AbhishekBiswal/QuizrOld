@@ -94,6 +94,7 @@
 	margin: 20px 0;
 }
 
+<<<<<<< HEAD
 .login-box
 {
 	width: 100%;
@@ -137,4 +138,17 @@
 {
 	background: #4099FF url('/assets/img/login-twitter.png') no-repeat;
 	background-position: 0 50%;
+=======
+/* edit -questions - list*/
+.edit-ques-list
+{
+	list-style-type: none;
+}
+.edit-ques-list li
+{
+	padding: 4px;
+	background: #f5f5f5;
+	font-size: 90%;
+	margin: 5px 0;
+>>>>>>> master
 }

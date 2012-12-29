@@ -104,7 +104,27 @@
 
 	function questionsList($quizid,$curUser,$DBH)
 	{
+<<<<<<< HEAD
 		
+=======
+		$loadList = $DBH->prepare("SELECT * FROM questions WHERE qid=? AND user=?");
+		$loadList->execute(array($quizid,$curUser));
+		if($loadList->rowCount() == 0)
+		{
+			echo '<p class="grayinfo">Nothing Here.</p>';
+		}
+		else
+		{
+			while($quesData = $loadList->fetch())
+			{
+	?>
+
+			<li><a href="#"><?php echo $quesData['question']; ?></a></li>
+
+	<?php
+			}
+		}
+>>>>>>> master
 	}
 
 ?>
