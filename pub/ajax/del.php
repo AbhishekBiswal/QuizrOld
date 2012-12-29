@@ -21,6 +21,8 @@
 	{
 		$delQuiz = $DBH->prepare("DELETE FROM quizmeta WHERE id=? AND user=?");
 		$delQuiz->execute(array($quizid,$curUser));
+		$delQuizrecs = $DBH->prepare("DELETE FROM played WHERE qid=?");
+		$delQuizrecs->execute(array($quizid));
 		echo "<script>window.location='/';</script>";
 	}
 

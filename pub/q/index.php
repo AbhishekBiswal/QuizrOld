@@ -55,7 +55,9 @@
 	</div>
 </div>
 
+
 <div class="content u-page-box ten columns">
+
 	<div>
 		<p class="grayinfo"><?php echo $qDesc; ?></p>
 	</div>
@@ -63,7 +65,46 @@
 	<!-- <a id="fav-btn" data-id="" class="btn btn-grey">Favourite</a>
 	<div class="hidden-quiz-area fav-btn-area"></div> -->
 
-	<div>
+
+	<div class="quiz-lb">
+		<!--quiz-leaderboard-->
+
+		<?php
+			$quizLB = $DBH->prepare("SELECT * FROM users WHERE id IN(SELECT user FROM played WHERE qid=? AND playedtill=? ORDER BY TIMESTAMPDIFF(SECOND,stopped,started) ASC) LIMIT 10");
+			$quizLB->execute(array($qid,$qQuestions));
+			if($quizLB->rowCount() == 0)
+			{
+				echo '<p class="grayinfo">Nothing Here.</p>';
+			}
+			else
+			{
+				echo '<table><tbody>';
+				echo '<tr class="lb-header"><td width="100%" colspan="2">Leaderboard</td></tr>';
+				while($lbrow = $quizLB->fetch())
+				{
+		?>
+				<tr>
+					<td width="30%"><center>
+					<?php if($lbrow['oauthp'] == "facebook") { ?>
+					<img src="http://graph.facebook.com/<?php echo $lbrow['fbusername']; ?>/picture">
+					<?php } elseif($row['oauthp'] == "twitter") { ?>
+					<img src="https://api.twitter.com/1/users/profile_image/<?php echo $lbrow['twusername']; ?>">
+					<?php } ?>
+					</center></td>
+					<td width="70%"><a href="/<?php echo $lbrow['username']; ?>/"><?php echo $lbrow['fullname']; ?></a></td>
+				</tr>
+		<?php			
+				}
+				echo '</tbody></table>';
+			}
+		?>
+
+	</div>
+
+
+</div>
+
+<div class="admin-tools columns five"><center>
 
 		<?php
 
@@ -71,20 +112,18 @@
 		{
 		?>
 		<div class="u-page-header">Admin Tools:</div>
-		<a class="btn btn-small" href="/quiz/add.php?id=<?php echo $qid; ?>">Add Questions</a>
-		<a class="btn btn-small" href="/quiz/questions.php?id=<?php echo $qid; ?>">Edit Questions</a>
-		<a class="btn btn-small" href="/quiz/delete.php?id=<?php echo $qid; ?>">DELETE</a>
+		<a class="btn btn-small" href="/quiz/add.php?id=<?php echo $qid; ?>">Add Questions</a><br>
+		<a class="btn btn-small" href="/quiz/questions.php?id=<?php echo $qid; ?>">Edit Questions</a><br>
+		<a class="btn btn-small btn-red" href="/quiz/delete.php?id=<?php echo $qid; ?>">DELETE</a><br> 
 
-		<?php if($qPub == 0) { ?> <a class="btn" href="/quiz/pub.php?id=<?php echo $qid; ?>">Publish</a> <?php } ?>
+		<?php if($qPub == 0) { ?> <a class="btn btn-small btn-blue" href="/quiz/pub.php?id=<?php echo $qid; ?>">Publish</a> <?php } ?>
 
 		<?php
 		}
 
 		?>
 
-	</div>
-
-</div>
+</center></div>
 
 <?php
 	include('temp/footer.php');

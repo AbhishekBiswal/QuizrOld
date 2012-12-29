@@ -5,7 +5,7 @@
 	include('fn/loggedin.php');
 	if($loggedin == 0)
 	{
-		header('Location:/login.php?continue=/play/?id=' . $qid);
+		header('Location:/');
 		exit();
 	}
 
@@ -58,7 +58,7 @@
 			$questionTostart = 1;
 			if($thegod == 0)
 			{
-				$createRecord = $DBH->prepare("INSERT INTO played(qid,user,playedtill) VALUES(?,?,?)");
+				$createRecord = $DBH->prepare("INSERT INTO played(qid,user,playedtill, started) VALUES(?,?,?, NOW())");
 				$createRecord->execute(array($qid,$curUser,0));
 				$addPlays = $DBH->prepare("UPDATE quizmeta SET plays=plays+1 WHERE id=?");
 
@@ -74,7 +74,18 @@
 			$questionTostart = $playedTill+1;
 			if($questionTostart > $qQuestions)
 			{
-				header('Location:/q/?id=' . $qid);
+				$checkTime = $DBH->prepare("SELECT stopped FROM played WHERE qid=? AND user=?");
+				$checkTime->execute(array($qid,$curUser));
+				while($checkRow = $checkTime->fetch())
+				{
+					$stopTime = $checkRow['stopped'];
+				}
+				if($stopTime == NULL)
+				{
+					$addTime = $DBH->prepare("UPDATE played SET stopped=NOW() WHERE qid=? AND user=?");
+					$addTime->execute(array($qid,$curUser));
+				}
+				header('Location:/q/' . $qid);
 				exit();
 			}
 		}

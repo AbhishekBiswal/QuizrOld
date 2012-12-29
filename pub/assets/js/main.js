@@ -119,6 +119,7 @@ $(document).ready(function(){
 	})*/
 
 	$(".leaderb tr:even").addClass("tr-even");
+	$(".quiz-lb tr:even").addClass("quiz-lb-even");
 	$(".browse-quizzes li:even").addClass("br-even");
 
 

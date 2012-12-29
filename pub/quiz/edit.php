@@ -33,7 +33,7 @@
 		$hint = $row['hint'];
 		$qImage = $row['image'];
 		$qPlus = $row['plus'];
-		$qid = $row['id'];
+		$qid = $row['qid'];
 	}
 		
 	$pageName = "Edit a Question - Quizr";
@@ -46,7 +46,7 @@
 	</hgroup>
 </header>
 
-<div class="content">
+<div class="content columns ten">
 
 	<form class="ajax" action="edit-sub.php">
 	<p class="submitinfo"></p>
@@ -59,7 +59,7 @@
 		</div><br><br>
 		<textarea name="q-desc" placeholder="Description / More Info" value="<?php echo $qdesc; ?>"></textarea><br>
 		<input type="text" class="small" name="answer" placeholder="Answer" value="<?php echo $answer; ?>">
-		<input type="hidden" name="q-id" value="<?php echo $qid; ?>">
+		<input type="hidden" name="q-id" value="<?php echo $questionid; ?>">
 		<a class="add-hint btn btn-small"><?php if($hint == "") { ?>Add Hint<?php } else { ?>Remove Hint<?php } ?></a>
 		<div class="add-hint <?php if($hint == "") { ?>hide<?php } ?>">
 			<input class="small" type="text" name="q-hint" placeholder="Hint" value="<?php echo $hint; ?>">
@@ -86,6 +86,18 @@
 			<button class="btn" type="submit" name="add-another">Update</button>
 		</div>
 	</form> -->
+
+</div>
+
+<div class="columns five sidebar">
+
+	<h3>Questions:</h3>
+	<ul class="edit-ques-list">
+	<?php
+		include_once('fn/loadquiz.php');
+		questionsList($qid,$curUser,$DBH);
+	?>
+	</ul>
 
 </div>
 
