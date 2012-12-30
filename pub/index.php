@@ -22,30 +22,15 @@
 
 <div class="det-head"><h2>Welcome To <span class="lblue">Quizr</span></h2></div>
 <div class="main homepage">
-<div class="u-page-box columns nine content">
-	<div class="intro-text">
-		<h3>Quizr is a platform for sharing, creating and playing quizzes. Earn points by playing quizzes, and use them to promote your quizzes.</h3>
-		<h4>We are currently in beta. Enter you email address below and we'll let you know when we open to public.</h4>
-	</div>
-</div>
-<div class="columns six text-right float-right">
-	<?php
-	if($betaa == 0) {
-?>
+<div class="u-page-box content">
 	
-	<div class="beta-reg">Status: Closed Beta</div>
+	<div class="quizr-dict">
+		<h2>"quiz-zer"</h2>
+		<!-- <div class="pron">"qui-zer"</div> -->
+		<div class="pron">noun</div>
+		<div class="desc">An online quizzing platform that takes the Google out of online quizzing - handcrafted for the modern quizzer.</div>
+	</div>
 
-	<!-- <div class="home-join"><center>
-		<h2>JOIN</h2>
-		<a href="/fb/fbauth.php" class="fb-btn">Facebook</a>
-		<a href="/tw/twitter_login.php" class="twitter-btn">Twitter</a>
-	</center></div> -->
-
-<?php
-	}
-?>
-		
-</div>
 <br>
 
 <div class="clear"></div>
@@ -95,7 +80,9 @@
 	<div class="clear"></div>
 </div>
 
-</div><!--main-->
+</div></div><!--main-->
+
+<div class="clear"></div>
 
 <script type="text/javascript">
 	document.write('</div>');

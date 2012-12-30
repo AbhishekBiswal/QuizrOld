@@ -19,7 +19,7 @@
 	</p> 
 
 
-	<h3>The <span class="lblue">Team</span> Behind <span class="lblue">Quizr</span></h3>
+	<h3>The Team Behind <span class="lblue">Quizr.</span></h3>
 <!-- 	<div class="teambehind fifteen columns"> -->
 	<p>
 		<ul class="team">
@@ -42,6 +42,9 @@
 			<div class="clear"></div>
 			<li class="columns seven">
 				<h4>Akshay <span class="lblue">Dadhwal</span></h4><h5>Technical Officer</h5>
+			</li>
+			<li class="columns seven">
+				<h4>Siddharth <span class="lblue">Bhogra</span></h4><h5>Designer</h5>
 			</li>
 			<div class="clear"></div>
 		</ul>
