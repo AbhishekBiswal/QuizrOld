@@ -25,7 +25,7 @@
 <div class="u-page-box content">
 	
 	<div class="quizr-dict">
-		<h2>"quiz-zer"</h2>
+		<h2>"kwiz-zer"</h2>
 		<!-- <div class="pron">"qui-zer"</div> -->
 		<div class="pron">noun</div>
 		<div class="desc">An online quizzing platform that takes the Google out of online quizzing - handcrafted for the modern quizzer.</div>
