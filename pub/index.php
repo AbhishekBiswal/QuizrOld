@@ -22,7 +22,7 @@
 
 <div class="det-head"><h2>Welcome To <span class="lblue">Quizr</span></h2></div>
 <div class="main homepage">
-<div class="u-page-box content">
+<div class="u-page-box">
 	
 	<div class="quizr-dict">
 		<h2>"kwiz-zer"</h2>
