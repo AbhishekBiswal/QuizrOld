@@ -1,11 +1,13 @@
 <?php
 	session_start();
-	include('fn/loggedin.php');
-	if($loggedin == 0)
+	//include('fn/loggedin.php');
+	$curUser = $_SESSION['qp'];
+	if(!isset($_SESSION['qp']))
 	{
 		header('Location:/');
 		exit();
 	}
+	$loggedin = 1;
 
 	include_once('db.php');
 	include('fn/loaduser.php');

@@ -1,11 +1,13 @@
 <?php
 	session_start();
-	include_once('fn/loggedin.php');
-	if($loggedin == 0)
+	//include('fn/loggedin.php');
+	$curUser = $_SESSION['qp'];
+	if(!isset($_SESSION['qp']))
 	{
 		header('Location:/');
 		exit();
 	}
+	$loggedin = 1;
 	include_once('db.php');
 	include_once('fn/loadquiz.php');
 
@@ -13,13 +15,26 @@
 	$userName = $_POST['username'];
 	$userMail = $_POST['email'];
 
+	include_once('validate/do.php');
+	$validator = new Validator();
+
 	if((strlen($userName)<3) || (strlen($userName)>20))
 	{
 		echo "Username is invalid";
 		exit();
 	}
 
-	$checkU = checkEmail($userName,$DBH);
+	function validate_username($str) 
+	{
+	    return preg_match('/^[a-zA-Z0-9_]+$/',$str);
+	}
+	if(validate_username($userName) == 0)
+	{
+		echo "The Username is not valid";
+		exit();
+	}
+
+	$checkU = checkUsername($userName,$DBH);
 	if($checkU == 1)
 	{
 		echo "The Username is not available!";
@@ -27,15 +42,13 @@
 		exit();
 	}
 
-	include_once('validate/do.php');
-	$validator = new Validator();
 	if($validator->isValid($userMail,'email') == false)
 	{
 		echo "Invalid Email Address.";
 		exit();
 	}
 
-	$checkE = checkUsername($userMail,$DBH);
+	$checkE = checkEmail($userMail,$DBH);
 	if($checkE == 1)
 	{
 		echo "This Email Address is already in use.";
@@ -43,8 +56,8 @@
 		exit();
 	}
 	
-	$updUname = $DBH->prepare("UPDATE users SET username=? WHERE id=?");
-	$updUname->execute(array($userName,$curUser));
+	$updUname = $DBH->prepare("UPDATE users SET username=?, email=? WHERE id=?");
+	$updUname->execute(array($userName,$userMail,$curUser));
 	$_SESSION['qu'] = $userName;
 	//header('Location:/' . $userName);
 	echo '<script>location.href = "/' . $userName . '/";</script>';
