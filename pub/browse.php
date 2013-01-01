@@ -38,7 +38,7 @@
 
 	<div class="u-page-box columns ten">
 
-		<h2 class="big-title"><?php echo checkCat($cat) . " Quizzes"; ?></h2>
+		<h2 class="big-title">All Quizzes</h2>
 		<ul class="head-nav">
 			<li><a href="#" class="active">Popular</a></li>
 			<li><a href="#">Most Liked</a></li>
