@@ -9,10 +9,13 @@
 			$loggedin = 1;
 			$curUser = $_SESSION['qp'];
 		}
-		if($_SESSION['qu'] == NULL)
+		if($loggedin == 1)
 		{
-			header('Location:/username.php');
-			exit();
+			if((!isset($_SESSION['qu'])) || ($_SESSION['qu'] == NULL))
+			{
+				header('Location:/username.php');
+				exit();
+			}
 		}
 	}
 	loggedin();
