@@ -27,21 +27,45 @@
 	}
 
 	
-	function browseCat($cat, $DBH)
+	function browseCat($cat, $what, $DBH)
 	{
 		if($cat == "") $cat="all";
-		if($cat != "all")
+		if($cat != 0)
 		{
-			$fetch = $DBH->prepare("SELECT * FROM quizmeta WHERE cat=?");
-			$fetch->execute(array($cat));
+			if($what == "popular")
+			{
+				$fetch = $DBH->prepare("SELECT * FROM quizmeta WHERE cat=? AND pub= 1 ORDER BY plays DESC LIMIT 10");
+				$fetch->execute(array($cat));
+			}
+			else
+			{
+				$fetch = $DBH->prepare("SELECT * FROM quizmeta WHERE cat=? AND pub = 1 ORDER BY favs DESC LIMIT 10");
+				$fetch->execute(array($cat));
+			}
 		}
 		else
 		{
-			$fetch = $DBH->prepare("SELECT * FROM quizmeta WHERE pub=1 ORDER BY plays DESC LIMIT 10");
-			$fetch->execute();
+			if($what == "popular")
+			{
+				$fetch = $DBH->prepare("SELECT * FROM quizmeta WHERE pub = 1 ORDER BY plays DESC LIMIT 10");
+				$fetch->execute();
+			}
+			else
+			{
+				$fetch = $DBH->prepare("SELECT * FROM quizmeta WHERE pub = 1 ORDER BY favs DESC LIMIT 10");
+				$fetch->execute();
+			}
 		}
 		browseLoad($fetch);
 
+	}
+
+	function checkCat($cat)
+	{
+		if($cat == 0) return "All";
+		elseif($cat == 1) return "General";
+		elseif($cat == 2) return "Tech";
+		elseif ($cat == 3) return "Gaming";
 	}
 
 ?>

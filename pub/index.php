@@ -16,10 +16,6 @@
 	}
 ?>
 
-<script type="text/javascript">
-	document.write('<div id="content">');
-</script>
-
 <div class="det-head"><h2>Welcome To <span class="lblue">Quizr</span></h2></div>
 <div class="main homepage">
 <div class="u-page-box">
