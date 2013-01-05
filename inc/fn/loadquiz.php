@@ -36,7 +36,7 @@
 
 
 	// loadUser:
-	function loadUser($uid,$DBH)
+	/*function loadUser($uid,$DBH)
 	{
 		$fetch = $DBH->prepare("SELECT * FROM users WHERE id=?");
 		$fetch->execute(array($uid));
@@ -49,7 +49,7 @@
 		}
 
 		// todo : populate it with other rows.
-	}
+	}*/
 
 	function checkUsername($username,$DBH)
 	{
@@ -114,12 +114,27 @@
 		{
 			while($quesData = $loadList->fetch())
 			{
-	?>
+?>
 
 			<li><a href="/quiz/edit.php?id=<?php echo $quesData['id']; ?>"><?php echo $quesData['question']; ?></a></li>
 
-	<?php
+<?php
 			}
+		}
+	}
+
+	function liked($quizid,$user,$DBH)
+	{
+		/* checks if a user has liked a quiz or not. */
+		$check = $DBH->prepare("SELECT * FROM liked WHERE quizid=? AND user=?");
+		$check->execute(array($quizid,$user));
+		if($check->rowCount() == 1)
+		{
+			return 1;
+		}
+		else
+		{
+			return 0;
 		}
 	}
 

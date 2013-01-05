@@ -1,6 +1,7 @@
 <?php
 	session_start();
 	include('fn/loggedin.php');
+	include_once('fn/loadquiz.php');
 	$qid = $_GET['id'];
 	if(!$qid)
 	{
@@ -21,7 +22,7 @@
 	//load vars:
 	while($row = $check->fetch())
 	{
-		$qid = $row['id'];
+		$qid = $row['id']; // quizid
 		$qTitle = $row['title'];
 		$qDesc = $row['qdesc'];
 		$qUser = $row['user'];
@@ -39,6 +40,13 @@
 	include_once('fn/loaduser.php');
 	$pageName = $qTitle . " - Quizr";
 	include('temp/header.php');
+
+	/* Check if user liked this quiz / not */
+	if($loggedin == 1)
+	{
+		$liked = liked($qid,$curUser,$DBH);
+	}
+
 ?>
 
 <div class="det-head">
@@ -57,6 +65,7 @@
 
 
 <div class="content u-page-box ten columns">
+
 
 	<div>
 		<p class="grayinfo"><?php echo $qDesc; ?></p>
@@ -108,6 +117,15 @@
 </div>
 
 <div class="admin-tools columns five"><center>
+
+		<div class="quiz-opts">
+			<a id="<?php echo $qid; ?>" class="like-btn btn btn-small <?php if($liked==1) echo "btn-blue liked"; ?>">
+				<?php
+				if($liked==1) echo "Liked";
+				else echo "Like";
+				?>
+			</a>
+		</div>
 
 		<?php
 

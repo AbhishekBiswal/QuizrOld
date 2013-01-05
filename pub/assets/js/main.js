@@ -103,6 +103,21 @@ $(document).ready(function(){
 		})
 	})
 
+	$(".like-btn").click(function(e){
+		e.preventDefault();
+		var quizid = $(this).attr("id");
+		var data = "quizid="+quizid;
+		$.ajax({
+			url: '/ajax/like.php',
+			data : data,
+			type : 'post',
+			success : function(result)
+			{
+				$("#query").html(result);
+			}
+		})
+	})
+
 	/*$("#fav-btn").click(function(e){
 		e.preventDefault();
 		var id = $(this).attr("data-id");
@@ -121,6 +136,14 @@ $(document).ready(function(){
 	$(".leaderb tr:even").addClass("tr-even");
 	$(".quiz-lb tr:even").addClass("quiz-lb-even");
 	$(".browse-quizzes li:even").addClass("br-even");
+	$(".det-head").after('<div class="notif"></div>');
 
 
 }); // ready
+
+function notify(text)
+{
+	$(".notif").slideUp();
+	$(".notif").html(text);
+	$(".notif").slideDown();
+}
