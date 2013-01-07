@@ -11,6 +11,11 @@
 	/*Creating a New Quiz -- Validate acche se.*/
 	$qTitle = $_POST['title'];
 	$qDesc = $_POST['desc'];
+	$qCat = $_POST['cat'];
+
+	$qTitle = htmlentities($qTitle);
+	$qDesc = htmlentities($qDesc);
+	$qCat = htmlentities($qCat);
 
 	if((empty($qTitle)) || (empty($qDesc)))
 	{
@@ -30,6 +35,14 @@
 		exit();
 	}
 
+	/* Select Category */
+	include_once('fn/browse.php');
+	if(checkCat($qCat) == false)
+	{
+		echo "Error Occured. Reload and Try Again?";
+		exit();
+	}
+
 	include('db.php');
 	$check = $DBH->prepare("SELECT id FROM quizmeta WHERE user=? AND title=?");
 	$check->execute(array($user,$qTitle));
@@ -38,8 +51,8 @@
 		echo "Please Choose another Title.";
 		exit();
 	}
-	$insert = $DBH->prepare("INSERT INTO quizmeta(title,qdesc,user,dt) VALUES(?,?,?,NOW())");
-	$insert->execute(array($qTitle,$qDesc,$user));
+	$insert = $DBH->prepare("INSERT INTO quizmeta(title,qdesc,user,dt,cat) VALUES(?,?,?,NOW(),?)");
+	$insert->execute(array($qTitle,$qDesc,$user,$qCat));
 	$selectId = $DBH->prepare("SELECT id FROM quizmeta WHERE user=? AND title=?");
 	$selectId->execute(array($user,$qTitle));
 	while($row = $selectId->fetch())

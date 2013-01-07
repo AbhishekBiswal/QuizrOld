@@ -19,6 +19,10 @@
 					<span class="number"><?php echo $data['plays']; ?></span>
 					<span class="number-text">Plays</span>
 				</div>
+				<div class="br-info">
+					<span class="number"><?php echo $data['likes']; ?></span>
+					<span class="number-text">Likes</span>
+				</div>
 			</div>
 		</li>
 
@@ -29,7 +33,7 @@
 	
 	function browseCat($cat, $what, $DBH)
 	{
-		if($cat == "") $cat="all";
+		if($cat == "") $cat=0;
 		if($cat != 0)
 		{
 			if($what == "popular")
@@ -39,7 +43,7 @@
 			}
 			else
 			{
-				$fetch = $DBH->prepare("SELECT * FROM quizmeta WHERE cat=? AND pub = 1 ORDER BY favs DESC LIMIT 10");
+				$fetch = $DBH->prepare("SELECT * FROM quizmeta WHERE cat=? AND pub = 1 ORDER BY likes DESC LIMIT 10");
 				$fetch->execute(array($cat));
 			}
 		}
@@ -52,7 +56,7 @@
 			}
 			else
 			{
-				$fetch = $DBH->prepare("SELECT * FROM quizmeta WHERE pub = 1 ORDER BY favs DESC LIMIT 10");
+				$fetch = $DBH->prepare("SELECT * FROM quizmeta WHERE pub = 1 ORDER BY likes DESC LIMIT 10");
 				$fetch->execute();
 			}
 		}
@@ -66,6 +70,9 @@
 		elseif($cat == 1) return "General";
 		elseif($cat == 2) return "Tech";
 		elseif ($cat == 3) return "Gaming";
+		elseif ($cat == 4) return "Sports";
+		elseif ($cat == 5) return "History";
+		else return false;
 	}
 
 ?>

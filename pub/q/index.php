@@ -9,6 +9,7 @@
 		exit();
 	}
 
+	include_once('fn/browse.php');
 	include('db.php');
 	$check = $DBH->prepare("SELECT * FROM quizmeta WHERE id=?");
 	$check->execute(array($qid));
@@ -29,6 +30,7 @@
 		$qQuestions = $row['questions'];
 		$qPlays = $row['plays'];
 		$qPub = $row['pub'];
+		$qCat = $row['cat'];
 	}
 
 	$thegod = 0;
@@ -42,6 +44,7 @@
 	include('temp/header.php');
 
 	/* Check if user liked this quiz / not */
+	$liked = 0; // for loggedin == 0
 	if($loggedin == 1)
 	{
 		$liked = liked($qid,$curUser,$DBH);
@@ -59,6 +62,10 @@
 		<div class="info-box">
 			<span class="one"><?php echo $qPlays; ?></span>
 			<span class="two">plays</span>
+		</div>
+		<div class="info-box">
+			<span class="one"><a href="/browse.php?cat=<?php echo $qCat; ?>"><?php echo checkCat($qCat); ?></a></span>
+			<span class="two">Quiz</span>
 		</div>
 	</div>
 </div>

@@ -63,6 +63,7 @@
 			<option value="hard">Hard</option>
 		</select>
 		</p>
+
 		<div id="form-buttons">
 			<button class="btn btn-blue" type="submit" name="add-another">Save and Add More</button>
 			<!-- <button name="done" class="btn">Done</button> -->

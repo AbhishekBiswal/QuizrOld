@@ -24,6 +24,16 @@
 			<p class="submitinfo"></p>
 			<div><input type="text" name="title" placeholder="Title"></div>
 			<textarea name="desc" placeholder="Description Here (Optional)"></textarea>
+
+			<br>
+			<p class="text-info">Select a Category:
+			<select class="select-cat" name="cat">
+				<option value="1">General</option>
+				<option value="2">Technology</option>
+				<option value="3">Gaming</option>
+			</select>
+			</p>
+			
 			<button class="btn disp-block" type="submit">CREATE</button>
 		</form>
 	</div>

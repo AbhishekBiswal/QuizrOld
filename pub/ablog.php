@@ -1,5 +1,5 @@
 <?php
 	session_start();
-	$_SESSION['qu'] = "Abhishek Biswal";
+	$_SESSION['qu'] = "AbhishekBiswal";
 	$_SESSION['qp'] = 1;
 ?>

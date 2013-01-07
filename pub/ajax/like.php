@@ -23,6 +23,8 @@
 		// exists. delete.
 		$delete = $DBH->prepare("DELETE FROM liked WHERE quizid=? AND user=?");
 		$delete->execute(array($quizID,$userID));
+		$upd = $DBH->prepare("UPDATE quizmeta SET likes=likes-1 WHERE id=?");
+		$upd->execute(array($quizID));
 		// done. deleted.
 		echo '<script>$(".like-btn").removeClass("btn-blue");</script>';
 		echo '<script>$(".like-btn").html("Like");</script>';
@@ -32,7 +34,9 @@
 		// create.
 		$insert = $DBH->prepare("INSERT INTO liked(quizid,user) VALUES(?,?)");
 		$insert->execute(array($quizID,$userID));
-		// done. deleted.
+		// done. created.
+		$upd = $DBH->prepare("UPDATE quizmeta SET likes=likes+1 WHERE id=?");
+		$upd->execute(array($quizID));
 		echo '<script>$(".like-btn").addClass("btn-blue");</script>';
 		echo '<script>$(".like-btn").html("Liked");</script>';
 	}
