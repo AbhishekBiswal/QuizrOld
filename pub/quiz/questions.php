@@ -33,7 +33,7 @@
 		$qUser = $row['user'];
 	}
 
-	$load = $DBH->prepare("SELECT * FROM questions WHERE qid=?");
+	$load = $DBH->prepare("SELECT * FROM questions WHERE qid=? ORDER BY seq ASC");
 	$load->execute(array($qID));
 	$noQuestions = 0;
 	if($load->rowCount() == 0)
@@ -41,6 +41,7 @@
 		$noQuestions = 1;
 	}
 
+	$page = "questionslist";
 	$pageName = $qTitle . " - Quizr";
 	include('temp/header.php');
 
@@ -63,15 +64,15 @@
 		else
 		{
 	?>
-
-	<div class="questions-list">
+	<div id="list" class="questions-list">
+		<div id="response" class="submitinfo"></div>
 
 		<ul>
 			<?php
 				while($row = $load->fetch())
 				{
 			?>
-				<li>
+				<li id="arrayorder_<?php echo $row['id'];?>">
 					<span class="question"><?php echo $row['question']; ?></span>
 					<span><a href="/quiz/edit.php?id=<?php echo $row['id']; ?>">edit</a></span>
 				</li>

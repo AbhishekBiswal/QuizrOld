@@ -963,3 +963,44 @@ input.inline-small
 	text-align: center;
 	display: none;
 }
+
+/* Home page dict */
+
+.quizr-dict
+{
+	text-align: center;
+	width: 100%;
+	font-size: 200%;
+}
+.quizr-dict h2
+{
+	font-size: 180%;
+	font-weight: normal;
+	font-style: italic;
+}
+.quizr-dict .pron
+{
+	font-style: italic;
+	font-size: 80%;
+}
+.quizr-dict .desc
+{
+	font-size: 80%;
+	width: 60%;
+	margin: 0 auto;
+	font-family : "Open Sans Light", sans-serif;
+}
+
+
+/* Edit.css */
+#editquiz .quiz
+{
+	margin-bottom: 10px;
+	display: block;
+	padding: 10px;
+}
+
+div.add-hint
+{
+	display: none;
+}
