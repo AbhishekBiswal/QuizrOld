@@ -69,6 +69,20 @@
 	font-weight: bold;
 	display: block;
 }
+ .hintbox:after
+  {
+	   content: "";
+	   border: solid 15px transparent;
+	   border-right-color: #FFE482;
+	   border-left: 0;
+	   width: 0;
+	   height: 0;
+	   overflow: hidden;
+	   display: block;
+	   position: relative;
+	top: -40px;
+	   right: 20px;
+  }
 
 .points-big-h
 {

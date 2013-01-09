@@ -52,7 +52,7 @@
 	<h3><?php echo $qDesc; ?></h3>
 </div>
 
-<div class="content">
+<div class="content columns eight">
 
 	<?php
 		if($noQuestions == 1)
@@ -86,6 +86,14 @@
 	<?php		
 		}
 	?>
+
+</div>
+
+<div class="columns four sidebar float-right">
+
+	<div class="hintbox">
+		Drag the questions to reorder them.
+	</div>
 
 </div>
 
