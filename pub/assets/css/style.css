@@ -184,7 +184,10 @@ ul.nav li
 .content
 {
 	padding: 20px;
+<<<<<<< HEAD
 	border-bottom: 1px solid #ddd;
+=======
+>>>>>>> 35464cf... fixe?
 }
 
 /*page-head*/
@@ -989,6 +992,7 @@ input.inline-small
 	font-size: 80%;
 	width: 60%;
 	margin: 0 auto;
+<<<<<<< HEAD
 	font-family : "Segoe UI" , "Open Sans Light", sans-serif;
 }
 
@@ -997,6 +1001,11 @@ input.inline-small
 	color : #989898;
 	line-height : 
 }
+=======
+	font-family : "Open Sans Light", sans-serif;
+}
+
+>>>>>>> 35464cf... fixe?
 
 /* Edit.css */
 #editquiz .quiz

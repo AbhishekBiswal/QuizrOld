@@ -3,10 +3,13 @@
 	padding: 10px;
 }
 
+<<<<<<< HEAD
 .content-about h1 {
 	border-top: 1px solid #ddd;
 }
 
+=======
+>>>>>>> 35464cf... fixe?
 .content-about ul
 {
 	display: block;
@@ -27,10 +30,13 @@
 	line-height: 1.4;
 }
 
+<<<<<<< HEAD
 .content-about p:nth-child(2)
 {
 	margin-bottom: 30px;
 }
+=======
+>>>>>>> 35464cf... fixe?
 .content-about
 {
 	padding: 20px;
@@ -122,6 +128,7 @@
 	border-top: 1px solid #ddd;
 	border-bottom: 1px solid #ddd;
 	padding: 20px 0 60px;
+<<<<<<< HEAD
 	background: #F0F0F0;
 	margin-bottom: 20px;
 	box-shadow : 1px 1px 5px 1px #989898;
@@ -133,6 +140,17 @@
 	text-align: center;
 	text-shadow: 0px 1px 1px #333;
 	margin : -5px 0 15px 0;
+=======
+	background: #F0F0D8;
+	margin-bottom: 20px;
+}
+.login-box h2
+{
+	color: #444;
+	text-align: center;
+	text-shadow: 0px 0px 2px rgba(0,0,0,0.6);
+	margin-bottom: 10px;
+>>>>>>> 35464cf... fixe?
 }
 .login-btn
 {
@@ -156,13 +174,19 @@
 {
 	background: #3B5998 url('/assets/img/login-facebook.png') no-repeat;
 	background-position: 0 50%;
+<<<<<<< HEAD
 	letter-spacing: 0.5px;
+=======
+>>>>>>> 35464cf... fixe?
 }
 .login-twitter
 {
 	background: #4099FF url('/assets/img/login-twitter.png') no-repeat;
 	background-position: 0 50%;
+<<<<<<< HEAD
 	letter-spacing: 0.5px;
+=======
+>>>>>>> 35464cf... fixe?
 }
 /* edit -questions - list*/
 .edit-ques-list
