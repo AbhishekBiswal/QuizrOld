@@ -14,7 +14,11 @@ $(document).ready(function(){
 			cache: false,
 			success: function(msg){
 					$("form input[type=submit]").val(oldVal);
+<<<<<<< HEAD
 					$("#query").html(msg).fadeIn();
+=======
+					$("p.submitinfo").html(msg).fadeIn();
+>>>>>>> ad4086c5104cfe849cedcbfc7cedf88948d8f0ee
 			}
 		})
 	})

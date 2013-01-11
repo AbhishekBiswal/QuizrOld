@@ -123,7 +123,11 @@
 
 </div>
 
+<<<<<<< HEAD
 <div class="admin-tools columns four float-right"><center>
+=======
+<div class="admin-tools columns five"><center>
+>>>>>>> ad4086c5104cfe849cedcbfc7cedf88948d8f0ee
 
 		<div class="quiz-opts">
 			<a id="<?php echo $qid; ?>" class="like-btn btn btn-small <?php if($liked==1) echo "btn-blue liked"; ?>">
@@ -140,7 +144,10 @@
 		{
 		?>
 		<div class="u-page-header">Admin Tools:</div>
+<<<<<<< HEAD
 		<a class="btn btn-small" href="/quiz/edit-quiz.php?id=<?php echo $qid; ?>">Edit Quiz</a><br>
+=======
+>>>>>>> ad4086c5104cfe849cedcbfc7cedf88948d8f0ee
 		<a class="btn btn-small" href="/quiz/add.php?id=<?php echo $qid; ?>">Add Questions</a><br>
 		<a class="btn btn-small" href="/quiz/questions.php?id=<?php echo $qid; ?>">Edit Questions</a><br>
 		<a class="btn btn-small btn-red" href="/quiz/delete.php?id=<?php echo $qid; ?>">DELETE</a><br> 

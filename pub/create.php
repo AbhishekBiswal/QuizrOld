@@ -17,6 +17,14 @@
 </div>
 
 <div id="editquiz" class="columns ten content">
+<header class="page-head">
+	<hgroup>
+		<h2>Create a New Quiz</h2>
+		<h3>Create.Publish.Share.</h3>
+	</hgroup>
+</header>
+
+<section id="editquiz">
 	<div class="quiz">
 		<form class="create-quiz-det ajax withhelp" action="/ajax/create/createnew.php">
 			<p class="submitinfo"></p>
@@ -31,10 +39,12 @@
 				<option value="3">Gaming</option>
 			</select>
 			</p><br>
+			</p>
 			
 			<button class="btn disp-block" type="submit">CREATE</button>
 		</form>
 	</div>
+
 </div>
 
 <div class="sidebar columns five">
@@ -42,6 +52,9 @@
 		People can't view/play your quiz immediately after its creation. After adding questions to your quiz, you can make the quiz public, which would allow other users to play your quiz, and get indexed on the browse page.
 	</div>
 </div>
+
+</section>
+
 
 <?php
 	include('temp/footer.php');

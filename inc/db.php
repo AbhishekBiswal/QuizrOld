@@ -7,7 +7,11 @@
 		$host = "localhost";
 		$dbname = "quizr";
 		$seruser = "root";
+<<<<<<< HEAD
 		$pass = "abhishekbiswal";	
+=======
+		$pass = "bharatkashyap";	
+>>>>>>> ad4086c5104cfe849cedcbfc7cedf88948d8f0ee
 	}
 	else
 	{
