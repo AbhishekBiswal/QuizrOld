@@ -16,27 +16,31 @@
 	}
 ?>
 
-<div class="det-head"><h2>Welcome To <span class="lblue">Quizr</span></h2></div>
+<div class="det-head"><h2>Welcome to <span class="lblue">Quizr</span></h2></div>
 <div class="main homepage">
 <div class="u-page-box">
 	
 	<div class="quizr-dict">
-		<h2>"kwiz-zer"</h2>
+		<h2>[<strong>kwiz</strong>-<strong>zer</strong>]</h2>
 		<!-- <div class="pron">"qui-zer"</div> -->
 		<div class="pron">noun</div>
-		<div class="desc">An online quizzing platform that takes the Google out of online quizzing - handcrafted for the modern quizzer.</div>
+		<div class="desc">An online quizzing platform that's just handcrafted for the modern quizzer. <br /><a href="http://quizr.me/about/" target="_blank">Here</a>'s how.</div>
 	</div>
 
 <br>
 
 <div class="clear"></div>
 
+<div class="video-box">
+</div>
+
 	<?php
 		if($betaa == 1)
 		{
 	?>
+		
 		<div class="login-box">
-			<h2>Join In:</h2>
+			<h1>Join In:</h1>
 			<div class="columns eight">
 				<a href="/fb/fbauth.php" class="login-btn login-fb float-right">Facebook</a>
 			</div>
@@ -61,8 +65,10 @@
 	<?php
 		}
 	?>
-
-<div class="hp-intro">
+<div class="intro-video">
+	<div class="columns nine">
+		<h1> Watch a video<h1>
+<!-- <div class="hp-intro">
 	<div class="columns nine"><img class="home" src="/assets/hp/play.png" ></div>
 	<div class="columns six">
 		<div class="home-text" style="line-height: 155px;">Play.</div>
@@ -74,7 +80,7 @@
 	</div>
 	<div class="columns nine"><img class="home" src="/assets/hp/create.png"></div>
 	<div class="clear"></div>
-</div>
+</div> -->
 
 </div></div><!--main-->
 

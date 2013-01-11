@@ -184,6 +184,7 @@ ul.nav li
 .content
 {
 	padding: 20px;
+	border-bottom: 1px solid #ddd;
 }
 
 /*page-head*/
@@ -988,9 +989,14 @@ input.inline-small
 	font-size: 80%;
 	width: 60%;
 	margin: 0 auto;
-	font-family : "Open Sans Light", sans-serif;
+	font-family : "Segoe UI" , "Open Sans Light", sans-serif;
 }
 
+.descunder {
+	font-size : 60%;
+	color : #989898;
+	line-height : 
+}
 
 /* Edit.css */
 #editquiz .quiz
