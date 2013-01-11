@@ -12,14 +12,16 @@
 <div class="u-page-box content content-about">
 
 	<p>
-		<span class="lblue">Quizr</span> is an online quizzing platform where you can play quizzes made by other users, or create your own for other people to play. It is a global platform for quiz enthusiasts to share their love for quizzing. 
+		Quizr is here to redefine how you've always thought about online quizzing - answering questions on Facebook pages has always been a pain, hasn't it?
+		Quizr is an online platform where you can create quizzes, share them with your friends, and attempt other quizzes yourself. </p>
+
+	<p>Holding an online cryptic hunt?  Interested in opening up a quizzing channel to post regular questions? <br> With timed questions, hints, leaderboards, and a systematic point distribution system, Quizr meets all these needs and more - which is exactly what we mean when we say, <span class="lblue">handcrafted for the modern quizzer</span>. <br> We're gonna go public <em>really</em> soon, so make sure you're email address is right there in our mailing lists. 
 	</p>
-	<p>
-		With <span class="lblue">Quizr</span>, an user can start a quiz by creating a set of questions, choosing from a multitude of question types, like <span class="lblue">Dry Questions</span>, <span class="lblue">A/V Questions</span>, and so on. The user also has the options of setting the marking scheme of questions. Once done, this quiz can be shared with all the users of <span class="lblue">Quizr</span> to attempt.
-	</p> 
 
 
-	<h3>The Team Behind <span class="lblue">Quizr.</span></h3>
+
+
+	<h1>The <span class="lblue">people </span></h1>
 <!-- 	<div class="teambehind fifteen columns"> -->
 	<p>
 		<ul class="team">
@@ -33,7 +35,7 @@
 			<div class="clear"></div>
 
 			<li class="columns seven">
-				<h4>Achal <span class="lblue">Varma</span></h4><h5>Founder</h5>
+				<h4>Achal <span class="lblue">Varma</span></h4><h5>Founder, Consultant</h5>
 			</li>
 			<!-- <div class="clear"></div> -->
 			<li class="columns seven">
@@ -41,7 +43,7 @@
 			</li>
 			<div class="clear"></div>
 			<li class="columns seven">
-				<h4>Akshay <span class="lblue">Dadhwal</span></h4><h5>Technical Officer</h5>
+				<h4>Akshay <span class="lblue">Dadhwal</span></h4><h5>Developer</h5>
 			</li>
 			<li class="columns seven">
 				<h4>Siddharth <span class="lblue">Bhogra</span></h4><h5>Designer</h5>
