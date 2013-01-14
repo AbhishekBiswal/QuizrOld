@@ -17,12 +17,6 @@
 </div>
 
 <div id="editquiz" class="columns ten content">
-<header class="page-head">
-	<hgroup>
-		<h2>Create a New Quiz</h2>
-		<h3>Create.Publish.Share.</h3>
-	</hgroup>
-</header>
 
 <section id="editquiz">
 	<div class="quiz">

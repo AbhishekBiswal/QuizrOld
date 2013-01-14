@@ -1,30 +1,7 @@
 /*
 	Quizr
-<<<<<<< HEAD
 	http://quizr.me
 */
-
-=======
-	Rev. 2.
-*/
-
-/*
-	Quizr
-	Rev. 2.
-	TM
-*/
-
-/*@font-face
-{
-	font-family: Segoe UI;
-	src: url("fonts/Segoe UI.ttf");
-	font-family: Kulturista;
-	src: url("fonts/Kulturista Light.otf");
-	font-family: Coolvetica;
-	src: url("fonts/coolvetica rg.ttf");
-}*/
-
->>>>>>> ad4086c5104cfe849cedcbfc7cedf88948d8f0ee
 ::-webkit-scrollbar 
 {
     width: 10px;
@@ -54,7 +31,7 @@ body
 {
 	background: #ccc url('/assets/img/greybg.png');
 	color: #444;
-	font-family: "Open Sans Semibold", "Segoe UI", Helvetica, Arial, sans-serif;
+	font-family: "Open Sans", "Segoe UI", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 }
 
@@ -190,14 +167,8 @@ ul.nav li
 .content
 {
 	padding: 20px;
-<<<<<<< HEAD
 	border-bottom: 1px solid #ddd;
-=======
-<<<<<<< HEAD
 	border-bottom: 1px solid #ddd;
-=======
->>>>>>> 35464cf... fixe?
->>>>>>> ad4086c5104cfe849cedcbfc7cedf88948d8f0ee
 }
 
 /*page-head*/
@@ -364,20 +335,14 @@ input, button
 
 input[type=text], input[type=password], textarea
 {
-<<<<<<< HEAD
 	width: 400px;
-=======
 	width: 320px;
->>>>>>> ad4086c5104cfe849cedcbfc7cedf88948d8f0ee
 	border-bottom: 1px solid #ccc;
 	background: transparent;
 	padding: 5px;
 	margin-bottom: 10px;
-<<<<<<< HEAD
 	font-size: 160%;
-=======
 	font-size: 120%;
->>>>>>> ad4086c5104cfe849cedcbfc7cedf88948d8f0ee
 	transition: border 0.4s;
 	-moz-transition: border 0.4s;
 	-webkit-transition: border 0.4s;
@@ -387,11 +352,8 @@ input[type=text], input[type=password], textarea
 
 textarea
 {
-<<<<<<< HEAD
 	font-size: 140%;
-=======
 	font-size: 100%;
->>>>>>> ad4086c5104cfe849cedcbfc7cedf88948d8f0ee
 	border: 2px dashed #ccc;
 	height: 100px;
 }
@@ -406,14 +368,11 @@ input[type=text]:focus, input[type=password]:focus, textarea:focus
 	border-color: #26B;
 }
 
-<<<<<<< HEAD
-=======
 input[type=text]
 {
 	width: 320px;
 }
 
->>>>>>> ad4086c5104cfe849cedcbfc7cedf88948d8f0ee
 input.small
 {
 	width: 200px;
@@ -908,22 +867,16 @@ input.inline-small
 
  select
  {
-<<<<<<< HEAD
-=======
 	margin : 3%;
 	height : 30px;
->>>>>>> ad4086c5104cfe849cedcbfc7cedf88948d8f0ee
 	background : #FFF;
 	outline : none;
 	color : #333;
 	text-shadow : 0px 0px 4px rgba(0,0,0,0.3);
 	border : 2px solid #AAA;
-<<<<<<< HEAD
 	font-size: 140%;
 	text-align: center;
 	padding: 5px;
-=======
->>>>>>> ad4086c5104cfe849cedcbfc7cedf88948d8f0ee
 }
 
 .hp-intro .home-text
@@ -1026,11 +979,7 @@ input.inline-small
 	font-size: 80%;
 	width: 60%;
 	margin: 0 auto;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> ad4086c5104cfe849cedcbfc7cedf88948d8f0ee
-	font-family : "Segoe UI" , "Open Sans Light", sans-serif;
+	font-family : "Open Sans Light", sans-serif;
 }
 
 .descunder {
@@ -1038,28 +987,14 @@ input.inline-small
 	color : #989898;
 	line-height : 
 }
-<<<<<<< HEAD
-	font-family : "Open Sans Light", sans-serif;
-}
 
-=======
-=======
-	font-family : "Open Sans Light", sans-serif;
-}
-
->>>>>>> 35464cf... fixe?
-
->>>>>>> ad4086c5104cfe849cedcbfc7cedf88948d8f0ee
 /* Edit.css */
 #editquiz .quiz
 {
 	margin-bottom: 10px;
 	display: block;
-<<<<<<< HEAD
 	padding: 0px;
-=======
 	padding: 10px;
->>>>>>> ad4086c5104cfe849cedcbfc7cedf88948d8f0ee
 }
 
 div.add-hint

@@ -2,21 +2,10 @@
 {
 	padding: 10px;
 }
-
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
->>>>>>> ad4086c5104cfe849cedcbfc7cedf88948d8f0ee
 .content-about h1 {
 	border-top: 1px solid #ddd;
 }
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 35464cf... fixe?
->>>>>>> ad4086c5104cfe849cedcbfc7cedf88948d8f0ee
 .content-about ul
 {
 	display: block;
@@ -37,19 +26,12 @@
 	line-height: 1.4;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> ad4086c5104cfe849cedcbfc7cedf88948d8f0ee
+
 .content-about p:nth-child(2)
 {
 	margin-bottom: 30px;
 }
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 35464cf... fixe?
->>>>>>> ad4086c5104cfe849cedcbfc7cedf88948d8f0ee
+
 .content-about
 {
 	padding: 20px;
@@ -91,7 +73,6 @@
 .hintbox
 {
 	background: #FFE482;
-<<<<<<< HEAD
 	padding: 10px;
 	color: #444;
 	font-weight: bold;
@@ -102,27 +83,6 @@
 {
 	text-align: left !important;
 }
-=======
-	padding: 5px;
-	color: #444;
-	font-weight: bold;
-	display: block;
-}
- .hintbox:after
-  {
-	   content: "";
-	   border: solid 15px transparent;
-	   border-right-color: #FFE482;
-	   border-left: 0;
-	   width: 0;
-	   height: 0;
-	   overflow: hidden;
-	   display: block;
-	   position: relative;
-	top: -40px;
-	   right: 20px;
-  }
->>>>>>> ad4086c5104cfe849cedcbfc7cedf88948d8f0ee
 
 .points-big-h
 {
@@ -154,10 +114,6 @@
 	border-top: 1px solid #ddd;
 	border-bottom: 1px solid #ddd;
 	padding: 20px 0 60px;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> ad4086c5104cfe849cedcbfc7cedf88948d8f0ee
 	background: #F0F0F0;
 	margin-bottom: 20px;
 	box-shadow : 1px 1px 5px 1px #989898;
@@ -169,10 +125,6 @@
 	text-align: center;
 	text-shadow: 0px 1px 1px #333;
 	margin : -5px 0 15px 0;
-<<<<<<< HEAD
-=======
-=======
->>>>>>> ad4086c5104cfe849cedcbfc7cedf88948d8f0ee
 	background: #F0F0D8;
 	margin-bottom: 20px;
 }
@@ -182,10 +134,6 @@
 	text-align: center;
 	text-shadow: 0px 0px 2px rgba(0,0,0,0.6);
 	margin-bottom: 10px;
-<<<<<<< HEAD
-=======
->>>>>>> 35464cf... fixe?
->>>>>>> ad4086c5104cfe849cedcbfc7cedf88948d8f0ee
 }
 .login-btn
 {
@@ -209,27 +157,15 @@
 {
 	background: #3B5998 url('/assets/img/login-facebook.png') no-repeat;
 	background-position: 0 50%;
-<<<<<<< HEAD
 	letter-spacing: 0.5px;
-=======
-<<<<<<< HEAD
 	letter-spacing: 0.5px;
-=======
->>>>>>> 35464cf... fixe?
->>>>>>> ad4086c5104cfe849cedcbfc7cedf88948d8f0ee
 }
 .login-twitter
 {
 	background: #4099FF url('/assets/img/login-twitter.png') no-repeat;
 	background-position: 0 50%;
-<<<<<<< HEAD
 	letter-spacing: 0.5px;
-=======
-<<<<<<< HEAD
 	letter-spacing: 0.5px;
-=======
->>>>>>> 35464cf... fixe?
->>>>>>> ad4086c5104cfe849cedcbfc7cedf88948d8f0ee
 }
 /* edit -questions - list*/
 .edit-ques-list
@@ -251,11 +187,8 @@
 
 .admin-tools a
 {
-<<<<<<< HEAD
 	width: 80%;
-=======
 	width: 90%;
->>>>>>> ad4086c5104cfe849cedcbfc7cedf88948d8f0ee
 }
 
 .quiz-lb table
