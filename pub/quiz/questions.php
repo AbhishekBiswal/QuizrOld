@@ -42,7 +42,7 @@
 	}
 
 	$page = "questionslist";
-	$pageName = $qTitle . " - Quizr";
+	$pageName = $qTitle;
 	include('temp/header.php');
 
 ?>
@@ -91,7 +91,7 @@
 
 <div class="columns four sidebar float-right">
 
-	<div class="hintbox">
+	<div class="hintbox helpbox">
 		Drag the questions to reorder them.
 	</div>
 

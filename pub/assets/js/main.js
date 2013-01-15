@@ -121,6 +121,16 @@ $(document).ready(function(){
 		})
 	})
 
+	$("form.search").click(function(a)
+	{
+		a.preventDefault();
+		$.post("/ajax/search.php", $("form.search").serialize(), function(data)
+			{
+				$(".search-result").html(data);
+			}
+		);
+	})
+
 	/*$("#fav-btn").click(function(e){
 		e.preventDefault();
 		var id = $(this).attr("data-id");

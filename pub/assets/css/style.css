@@ -167,8 +167,6 @@ ul.nav li
 .content
 {
 	padding: 20px;
-	border-bottom: 1px solid #ddd;
-	border-bottom: 1px solid #ddd;
 }
 
 /*page-head*/
@@ -331,6 +329,7 @@ input, button
 {
 	outline: 0;
 	border: 0;
+	line-height: 1;
 }
 
 input[type=text], input[type=password], textarea
@@ -868,7 +867,6 @@ input.inline-small
  select
  {
 	margin : 3%;
-	height : 30px;
 	background : #FFF;
 	outline : none;
 	color : #333;
@@ -877,6 +875,7 @@ input.inline-small
 	font-size: 140%;
 	text-align: center;
 	padding: 5px;
+	line-height: 1;
 }
 
 .hp-intro .home-text
@@ -1000,4 +999,15 @@ input.inline-small
 div.add-hint
 {
 	display: none;
+}
+
+/* Search */
+form.search input[type=text]
+{
+	width: 100%;
+	font-size: 300%;
+}
+form.search .btn
+{
+	width: 100%;
 }
