@@ -132,6 +132,7 @@ ul.nav li
 	background-image: -o-radial-gradient(50% 50%, circle closest-corner, #2775C2 0%, #113b63 100%);
 	background-image: -ms-radial-gradient(50% 50%, circle closest-corner, #2775C2 0%, #113b63 100%);
 	background-image: radial-gradient(50% 50%, circle closest-corner, #2775C2 0%, #113b63 100%);
+	z-index: -2000;
 }
 
 .header-logo img
@@ -139,14 +140,15 @@ ul.nav li
 	display: block;
 	width: 300px;
 	margin: 0 auto;
-	margin-top: 10px;
+	margin-top: 5px;
+	z-index: 1000;
 }
 
 #wrap
 {
 	background: #fff;
 	box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
-	margin-top: -92px;
+	margin-top: -100px;
 	min-height: 350px;
 	padding-bottom: 50px;
 	border-radius: 3px;
@@ -155,6 +157,7 @@ ul.nav li
 	background-clip: padding-box;
 	overflow: hidden;
 	border: 10px solid rgba(0,0,0,0.3);
+	z-index: 10;
 }
 
 .main
