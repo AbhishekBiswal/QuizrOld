@@ -78,7 +78,7 @@
 	function loadFavs($user,$DBH)
 	{
 		global $fetchfav;
-		$fav = $DBH->prepare("SELECT * FROM favs WHERE user=?");
+		$fav = $DBH->prepare("SELECT * FROM liked WHERE user=?");
 		$fav->execute(array($user));
 		if($fav->rowCount() == 0)
 		{

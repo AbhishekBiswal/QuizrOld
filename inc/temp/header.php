@@ -4,7 +4,7 @@
 <head>
 	<title><?php echo $pageName; ?> / Quizr</title>
 
-	<meta name="description" content="An online quizzing platform to play, create and share quizzes.">
+	<meta name="description" content="Quizr is here to redefine how you've always thought about online quizzing - answering questions on Facebook pages has always been a pain, hasn't it? Quizr is an online platform where you can create quizzes, share them with your friends, and attempt other quizzes yourself.">
 	<meta name="keywords" content="quiz,quizzing,quizr,create,play,tech,share">
 	<meta name="robot" content="index,follow">
 	<meta name="copyright" content="Copyright © 2012 Quizr. All Rights Reserved.">
@@ -13,6 +13,12 @@
 	<link href="/assets/css/grid.css" rel="stylesheet" type="text/css">
 	<link href="/assets/css/style.css" rel="stylesheet" type="text/css">
 	<link href="/assets/css/ab.css" rel="stylesheet" type="text/css">
+	<?php
+	if(getenv('HOST_ENV') == "dotme")
+	{
+		echo "<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>";
+	}
+	?>
 	<script src="/assets/js/jquery.js"></script>
 	<script src="/assets/js/main.js"></script>
 	<?php if(@$page == "questionslist") echo '<script src="/assets/js/jqueryui.js"></script>'; ?>
