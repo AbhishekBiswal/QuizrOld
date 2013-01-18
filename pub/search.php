@@ -12,9 +12,16 @@
 
 <div class="content">
 	<form class="search">
-		<input type="text" placeholder="Search Term">
+		<input name="search-term" type="text" placeholder="Search Term">
 		<input type="submit" class="btn btn-blue" value="SEARCH">
 	</form>
+
+	<div class="browse-quizzes">
+		<ul>
+			<div class="search-result"></div>
+		</ul>
+	</div>
+
 </div>
 
 <?php

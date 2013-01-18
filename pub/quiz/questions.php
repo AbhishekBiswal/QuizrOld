@@ -76,7 +76,7 @@
 					<span class="question"><?php echo $row['question']; ?></span>
 					<span><a href="/quiz/edit.php?id=<?php echo $row['id']; ?>">edit</a></span>
 				</li>
-			<?		
+			<?php		
 				}
 			?>
 		</ul>

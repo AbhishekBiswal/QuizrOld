@@ -7,9 +7,9 @@
 	?>
 
 		<li>
-			<div class="columns six">
+			<div class="columns ten">
 			<h3><a href="/q/?id=<?php echo $data['id']; ?>/"><?php echo $data['title']; ?></a></h3>
-			<p class="description"><?php echo $data['qdesc']; ?></p>
+			<p class="description"><a href="/browse/<?php echo $data['cat']; ?>/"><?php echo checkCat($data['cat']); ?></a> - <?php echo $data['qdesc']; ?></p>
 			<div class="quiz-info">
 				<span><a href="/q/?id=<?php echo $data['id']; ?>">Permalink</a></span>
 			</div>

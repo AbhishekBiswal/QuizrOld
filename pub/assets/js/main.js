@@ -121,14 +121,17 @@ $(document).ready(function(){
 		})
 	})
 
-	$("form.search").click(function(a)
+	$("form.search").submit(function(a)
 	{
 		a.preventDefault();
-		$.post("/ajax/search.php", $("form.search").serialize(), function(data)
+		var searchTerm = $("input[name=search-term]").val();
+		$("input").attr("disabled","disabled");
+		$.post("/ajax/search.php", "search-term="+searchTerm, function(data)
 			{
 				$(".search-result").html(data);
 			}
 		);
+		$("input").removeAttr("disabled");
 	})
 
 	/*$("#fav-btn").click(function(e){

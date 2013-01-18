@@ -28,15 +28,15 @@
 	<div class="det-head">
 		<h2>Browse Quizzes</h2>
 		<ul class="head-nav">
-			<li><a href="#" class="active">All</a></li>
-			<li><a href="#">General</a></li>
-			<li><a href="#">Tech</a></li>
-			<li><a href="#">Gaming</a></li>
+			<li><a href="#" <?php if(!$cat) echo 'class="active"'; ?>>All</a></li>
+			<li><a href="#" <?php if(checkCat($cat) == "General") echo 'class="active"'; ?>>General</a></li>
+			<li><a href="#" <?php if(checkCat($cat) == "Tech") echo 'class="active"'; ?>>Tech</a></li>
+			<li><a href="#" <?php if(checkCat($cat) == "Gaming") echo 'class="active"'; ?>>Gaming</a></li>
 		</ul>
 	</div>
 
 
-	<div class="u-page-box columns ten">
+	<div class="u-page-box content">
 
 		<h2 class="big-title"><?php echo checkCat($cat); ?> Quizzes</h2>
 		<ul class="head-nav">

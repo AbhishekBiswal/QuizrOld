@@ -65,10 +65,10 @@
 	<?php
 		}
 	?>
-<div class="intro-video">
+<!-- <div class="intro-video">
 	<div class="columns nine">
-		<h1> Watch a video<h1>
-<!-- <div class="hp-intro">
+		<h1> Watch a video<h1> -->
+<div class="hp-intro">
 	<div class="columns nine"><img class="home" src="/assets/hp/play.png" ></div>
 	<div class="columns six">
 		<div class="home-text" style="line-height: 155px;">Play.</div>
@@ -80,7 +80,7 @@
 	</div>
 	<div class="columns nine"><img class="home" src="/assets/hp/create.png"></div>
 	<div class="clear"></div>
-</div> -->
+</div>
 
 </div></div><!--main-->
 

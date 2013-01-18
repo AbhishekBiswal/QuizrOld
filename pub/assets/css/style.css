@@ -88,12 +88,10 @@ ul.nav li
 	/*margin: 0 10px;*/
 	padding: 0 10px;
 	height: 30px;
-	vertical-align: middle;
-	font-family: "Segoe UI", Arial, sans-serif;	
 	line-height: 30px;
 	color: #ccc;
 	font-size: 0.8em;
-	font-weight: 600;
+	font-weight: 400;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 	border-top: solid 3px rgba(0,0,0,0);
 	transition: all 0.5s;
@@ -796,8 +794,6 @@ input.inline-small
 	width: 40px !important;
 }
 
-/*Biswal*/
-
 .tred { color: #dd4b39 !important; }
 .tgreen { color: #9cd610 !important; }
 
@@ -808,9 +804,10 @@ input.inline-small
 	padding: 5px 0;
 	display: inline-block;
 }
+.browse-quizzes h3 {  }
 .browse-quizzes h3 a
 {
-	font-size: 120%;
+	font-size: 120% !important;
 	font-weight: normal;
 }
 
@@ -1010,4 +1007,18 @@ form.search input[type=text]
 form.search .btn
 {
 	width: 100%;
+}
+
+.search-result h3.search-title
+{
+	font-size: 300%;
+	text-align: center;
+}
+
+
+.loudtext
+{
+	color: #999;
+	font-size: 120%;
+	font-weight: normal;
 }
