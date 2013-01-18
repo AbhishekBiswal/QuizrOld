@@ -82,6 +82,7 @@
 <div class="u-page-header">Favourites:</div>
 <ul class="u-page-list">
 	<?php
+		include_once('fn/loadquiz.php');
 		loadFavs($userId,$DBH);
 	?>
 </ul>
