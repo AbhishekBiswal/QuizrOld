@@ -29,9 +29,10 @@
 	<div class="container">
 		<ul class="nav columns sixteen">
 			<li><a href="/">Home</a></li>
-			<li><a href="/browse.php">Browse</a></li>
-			<li><a href="/create.php">Create</a></li>
-			<li><a href="/leaderboard.php">Leaderboard</a></li>
+			<li><a href="/browse/">Browse</a></li>
+			<li><a href="/create/">Create</a></li>
+			<li><a href="/leaderboard/">Leaderboard</a></li>
+			<li><a href="/search/">Search</a></li>
 		<?php
 			if($loggedin == 1)
 			{

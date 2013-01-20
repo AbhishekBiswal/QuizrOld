@@ -38,6 +38,46 @@
 	<br></br>
 	<div class="search-users">
 		<h3 class="search-title">Users:</h3>
-
+<?php
+	$users = $DBH->prepare("SELECT * FROM users WHERE username LIKE ? OR fullname LIKE ?");
+	$users->execute(array("%$term%","%$term%"));
+	if($users->rowCount() == 0)
+	{
+		// nothing.
+		echo '<p class="grayinfo">Nothing Found.</p>';
+	}
+	else
+	{
+?>
+		<table class="leaderb">
+		<tbody>
+			<tr>
+				<th width="10%"></th>
+				<th width="50%">User</th>
+				<th width="40%">Points</th>
+			</tr>
+<?php
+		while($row = $users->fetch())
+		{
+?>
+		<tr>
+				<td width="10%"><center>
+					<?php if($row['oauthp'] == "facebook") { ?>
+					<img src="http://graph.facebook.com/<?php echo $row['fbusername']; ?>/picture">
+					<?php } elseif($row['oauthp'] == "twitter") { ?>
+					<img src="https://api.twitter.com/1/users/profile_image/<?php echo $row['twusername']; ?>">
+					<?php } ?>
+				</center></td>
+				<td width="50%"><a href="/<?php echo $row['username']; ?>/"><?php echo $row['fullname']; ?></a></td>
+				<td width="40%"><?php echo $row['points']; ?></td>
+		</tr>
+<?php
+		}
+?>
+		</tbody>
+		</table>
+<?php
+	}
+?>
 
 	</div>

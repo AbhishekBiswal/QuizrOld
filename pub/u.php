@@ -1,8 +1,27 @@
 <?php
+	
+	$userId = $_GET['id'];
+
+	/* Redirection */
+	if($userId == "browse")
+	{
+		include('browse.php');
+		exit();
+	}
+	elseif($userId == "search")
+	{
+		include('search.php');
+		exit();
+	}
+	elseif($userId == "leaderboard")
+	{
+		include('leaderboard.php');
+		exit();
+	}
+
 	session_start();
 	include('fn/loggedin.php');
 
-	$userId = $_GET['id'];
 	if(!$userId)
 	{
 		include('404.php');
