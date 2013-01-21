@@ -17,7 +17,7 @@
 	// to search : quizzes/users
 
 	// quizzes:
-	$quizzes = $DBH->prepare("SELECT * FROM quizmeta WHERE title LIKE ?");
+	$quizzes = $DBH->prepare("SELECT * FROM quizmeta WHERE title LIKE ? AND pub=1");
 	$quizzes->execute(array("%$term%"));
 ?>
 	<div class="search-quiz">
