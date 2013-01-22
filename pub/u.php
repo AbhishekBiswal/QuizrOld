@@ -102,6 +102,26 @@
 <ul class="u-page-list">
 	<?php
 		include_once('fn/loadquiz.php');
+		function loadFavs($user,$DBH)
+		{
+			global $fetchfav;
+			$fav = $DBH->prepare("SELECT * FROM liked WHERE user=?");
+			$fav->execute(array($user));
+			if($fav->rowCount() == 0)
+			{
+				echo '<p class="grayinfo">Nothing Here.</p>';
+			}
+			else
+			{
+				while($favdata = $fav->fetch())
+				{
+					$favqid = $favdata['quizid'];
+					$fetchfav = $DBH->prepare("SELECT * FROM quizmeta WHERE id=?");
+					$fetchfav->execute(array($favqid));
+				}
+				quizList($fetchfav);
+			}
+		}
 		loadFavs($userId,$DBH);
 	?>
 </ul>

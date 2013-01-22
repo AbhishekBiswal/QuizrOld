@@ -75,7 +75,7 @@
 		return $result;
 	}
 
-	function loadFavs($user,$DBH)
+	/*function loadFavs($user,$DBH)
 	{
 		global $fetchfav;
 		$fav = $DBH->prepare("SELECT * FROM liked WHERE user=?");
@@ -94,7 +94,7 @@
 			}
 			quizList($fetchfav);
 		}
-	}
+	}*/
 
 	function notify($user,$msg,$DBH)
 	{
