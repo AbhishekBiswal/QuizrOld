@@ -8,7 +8,7 @@
 		include('browse.php');
 		exit();
 	}*/
-	elseif($userId == "search")
+	if($userId == "search")
 	{
 		include('search.php');
 		exit();

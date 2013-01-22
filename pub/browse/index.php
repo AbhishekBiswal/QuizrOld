@@ -42,8 +42,8 @@
 
 		<h2 class="big-title"><?php echo checkCat($cat); ?> Quizzes</h2>
 		<ul class="head-nav">
-			<li><a href="#" class="active">Popular</a></li>
-			<li><a href="#">Most Liked</a></li>
+			<li><a href="/browse/?cat=<?php echo "$cat&get=popular"; ?>" <?php if($what == "popular") echo 'class="active"'; ?>>Popular</a></li>
+			<li><a href="/browse/?cat=<?php echo "$cat&get=popular"; ?>" <?php if($what == "popular") echo 'class="active"'; ?>>Popular</a></li>
 		</ul>
 		<br>
 

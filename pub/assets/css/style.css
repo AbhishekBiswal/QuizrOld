@@ -434,6 +434,7 @@ ul.head-nav
 .head-nav a:hover
 {
 	background: #ddd;
+	text-decoration: none;
 }
 .head-nav a.active
 {
