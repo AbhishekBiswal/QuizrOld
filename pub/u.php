@@ -3,11 +3,11 @@
 	$userId = $_GET['id'];
 
 	/* Redirection */
-	if($userId == "browse")
+	/*if($userId == "browse")
 	{
 		include('browse.php');
 		exit();
-	}
+	}*/
 	elseif($userId == "search")
 	{
 		include('search.php');

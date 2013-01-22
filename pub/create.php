@@ -31,6 +31,8 @@
 				<option value="1">General</option>
 				<option value="2">Technology</option>
 				<option value="3">Gaming</option>
+				<option value="4">Sports</option>
+				<option value="5">History</option>
 			</select>
 			</p><br>
 			</p>
