@@ -46,9 +46,9 @@
 	<h3 class="loudtext">
 		Find more quizzes:
 	</h3>
-	<a class="disp-block btn btn-blue">BROWSE</a>
+	<a href="/browse/" class="disp-block btn btn-blue">BROWSE</a>
 	<h3 class="loudtext text-center">OR</h3>
-	<a class="disp-block btn">SEARCH</a>
+	<a href="/search/" class="disp-block btn">SEARCH</a>
 </div>
 
 
