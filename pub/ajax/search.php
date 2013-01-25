@@ -5,7 +5,6 @@
 
 	if(!$term)
 	{
-		echo "no term";
 		exit();
 	}
 

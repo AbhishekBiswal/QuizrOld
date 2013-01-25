@@ -49,6 +49,8 @@
 	<a href="/browse/" class="disp-block btn btn-blue">BROWSE</a>
 	<h3 class="loudtext text-center">OR</h3>
 	<a href="/search/" class="disp-block btn">SEARCH</a>
+	<h3 class="loudtext text-center">OR</h3>
+	<a href="/create.php" class="disp-block btn">Create</a>
 </div>
 
 
