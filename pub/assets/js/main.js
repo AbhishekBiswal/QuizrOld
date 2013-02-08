@@ -1,5 +1,29 @@
 $(document).ready(function(){
 
+	$('a[rel*=facebox]').facebox();
+
+	$('form.ajax') 
+    .livequery('submit', function(e) { 
+        e.preventDefault();
+		var oldVal = $("#facebox form input[type=submit]").val();
+		$("#facebox form input[type=submit]").val("Please Wait.");
+		var action = $(this).attr("action");
+		var postData = $(this).serialize();
+		$.ajax({
+			url: action,
+			type: "POST",
+			data: postData,
+			cache: false,
+			success: function(msg){
+					$("#facebox form input[type=submit]").val(oldVal);
+
+					$("#query").html(msg).fadeIn();
+
+					$("#facebox p.submitinfo").html(msg).fadeIn();
+			}
+		})
+    });
+
 	/*ajax*/
 	$("form.ajax").submit(function(e){
 		e.preventDefault();

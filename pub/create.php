@@ -17,8 +17,6 @@
 </div>
 
 <div id="editquiz" class="columns ten content">
-
-<section id="editquiz">
 	<div class="quiz">
 		<form class="create-quiz-det ajax withhelp" action="/ajax/create/createnew.php">
 			<p class="submitinfo"></p>

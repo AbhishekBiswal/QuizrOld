@@ -3,6 +3,7 @@
 	include('fn/loggedin.php');
 	if($loggedin == 0)
 	{
+		echo "Please Login to continue.";
 		exit();
 	}
 

@@ -19,13 +19,14 @@
 <div class="det-head"><h2>Welcome to <span class="lblue">Quizr</span></h2></div>
 <div class="main homepage">
 <div class="u-page-box">
-	
-	<div class="quizr-dict">
+
+	<div id="quizr-dict">
+	<div id="quizr-dict" class="quizr-dict">
 		<h2>[<strong>kwiz</strong>-<strong>zer</strong>]</h2>
 		<!-- <div class="pron">"qui-zer"</div> -->
 		<div class="pron">noun</div>
 		<div class="desc">An online quizzing platform that's just handcrafted for the modern quizzer. <br /><a href="http://quizr.me/about/" target="_blank">Here</a>'s how.</div>
-	</div>
+	</div></div>
 
 <br>
 
