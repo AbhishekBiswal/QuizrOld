@@ -12,6 +12,8 @@
 	$qid = $_POST['q-id']; // quiz id.
 	$qQuestion = $_POST['question'];
 	$qAnswer = $_POST['answer'];
+	$qAnswer2 = $_POST['answertwo'];
+	$qAnswer3 = $_POST['answerthree'];
 	$hint = $_POST['q-hint'];
 	$qDesc = $_POST['q-desc'];
 	$qImage = $_POST['q-image'];
@@ -19,7 +21,11 @@
 
 	$qQuestion = htmlentities($qQuestion);
 	$qAnswer = htmlentities($qAnswer);
+	$qAnswer2 = htmlentities($qAnswer2);
+	$qAnswer3 = htmlentities($qAnswer3);
 	$qAnswer = strtolower($qAnswer);
+	$qAnswer2 = strtolower($qAnswer2);
+	$qAnswer3 = strtolower($qAnswer3);
 	$hint = htmlentities($hint);
 	$qDesc = htmlentities($qDesc);
 	$qImage = htmlentities($qImage);
@@ -48,6 +54,12 @@
 	{
 			echo "Error! {Ans}";
 			exit();
+	}
+
+	if(strlen($qAnswer)>101 || strlen($qAnswer2)>101 || strlen($qAnswer3)>101)
+	{
+		echo "The Answer is Invalid.";
+		exit();
 	}
 
 	/*if(($qPlus<2) || ($qPlus>10))
@@ -93,8 +105,8 @@
 	$qAnswer = str_replace(" ","",$qAnswer);
 
 	// everything's alright
-	$insert = $DBH->prepare("INSERT INTO questions(qid,question,answer,hint,user,qdesc,dt,seq,image,plus) VALUES(?,?,?,?,?,?,'NOW()',?,?,?)");
-	$insert->execute(array($qid,$qQuestion,$qAnswer,$hint,$curUser,$qDesc,$seq,$qImage,$qPlusp));
+	$insert = $DBH->prepare("INSERT INTO questions(qid,question,answer,hint,user,qdesc,dt,seq,image,plus,answer2,answer3) VALUES(?,?,?,?,?,?,'NOW()',?,?,?,?,?)");
+	$insert->execute(array($qid,$qQuestion,$qAnswer,$hint,$curUser,$qDesc,$seq,$qImage,$qPlusp,$qAnswer2,$qAnswer3));
 	//done {insert}
 
 	$updateMeta = $DBH->prepare("UPDATE quizmeta SET questions=questions+1 WHERE id=?");

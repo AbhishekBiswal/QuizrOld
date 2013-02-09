@@ -1,4 +1,16 @@
-<h3>Create</h3>
+<h3>Create Quiz</h3>
+<?php
+	session_start();
+	include('fn/loggedin.php');
+	if($loggedin == 0)
+	{
+?>
+	<p class="grayinfo">Please Login To Continue</p>
+<?php
+	}
+	else
+	{
+?>
 <div id="editquiz" class="">
 	<div class="quiz">
 		<form class="create-quiz-det ajax withhelp" action="/ajax/create/createnew.php">
@@ -18,8 +30,12 @@
 			</p><br>
 			</p>
 			
-			<input class="btn" value="Create" type="submit">
+			<input class="btn btn-blue" value="Create" type="submit">
 		</form>
 	</div>
 
 </div>
+
+<?php	
+	}
+?>

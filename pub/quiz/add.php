@@ -51,6 +51,16 @@
 		</div><br><br>
 		<textarea name="q-desc" placeholder="Description / More Info"></textarea><br>
 		<input type="text" class="small" name="answer" placeholder="Answer">
+		<a id="secondanswer" class="add-answer btn btn-small secondanswer">Add Another Answer</a>
+		<div id="secondanswer" class="hide">
+			<input type="text" class="small" name="answertwo" placeholder="Second Answer">
+			<a id="thirdanswer" class="add-answer btn btn-small">Add Another Answer</a>
+		</div>
+		<div id="thirdanswer" class="hide">
+			<input type="text" class="small" name="answerthree" placeholder="Three Answer">
+		</div>
+
+		<br>
 		<input type="hidden" name="q-id" value="<?php echo $qid; ?>">
 		<a class="add-hint btn btn-small">Add Hint</a>
 		<div class="add-hint hide">

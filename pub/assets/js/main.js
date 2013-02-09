@@ -44,6 +44,14 @@ $(document).ready(function(){
 					$("p.submitinfo").html(msg).fadeIn();
 			}
 		})
+	});
+
+	$(".add-answer").click(function(e){
+		e.preventDefault();
+		var divID = $(this).attr("id");
+		$("div#"+divID).slideDown();
+		//$(this).html("Remove").addClass("rem-answer");
+		$(this).hide();
 	})
 
 	$(".quiz-option").click(function(e){
