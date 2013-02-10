@@ -66,22 +66,27 @@
 	<?php
 		}
 	?>
-<!-- <div class="intro-video">
-	<div class="columns nine">
-		<h1> Watch a video<h1> -->
-<div class="hp-intro">
-	<div class="columns nine"><img class="home" src="/assets/hp/play.png" ></div>
-	<div class="columns six">
-		<div class="home-text" style="line-height: 155px;">Play.</div>
-	</div>
-	<div class="clear"></div><br>
 
-	<div class="columns six">
-		<div class="home-text" style="line-height: 403px;">Create.</div>
+	<div class="hp-tour">
+		<div class="column one-third">
+			<center><img src="/assets/img/quizr-hp-browse.png"></center>
+			<h3>Explore.</h3>
+		</div>
+		<div class="column one-third">
+			<center><img src="/assets/img/quizr-hp-play.png"></center>
+			<h3>Play.</h3>
+		</div>
+		<div class="column one-third">
+			<center><img src="/assets/img/quizr-hp-create.png"><center>
+			<h3>Create.</h3>
+		</div>
 	</div>
-	<div class="columns nine"><img class="home" src="/assets/hp/create.png"></div>
-	<div class="clear"></div>
-</div>
+	<div class="divider"></div><br>
+	<div>
+		<center>
+			<a href='http://betali.st/startups/quizr' title='Visit our startup post on Beta List'><img border='0' src='http://betali.st/assets/badges/rectangle_v1.png' /></a>
+		</center>
+	</div>
 
 </div></div><!--main-->
 

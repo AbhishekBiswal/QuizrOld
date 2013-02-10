@@ -51,6 +51,8 @@
 	while($row = $checkquid->fetch())
 	{
 		$qAnswer = $row['answer'];
+		$qAnswer2 = $row['answer2'];
+		$qAnswer3 = $row['answer3'];
 		$qPlus = $row['plus'];
 	}
 
@@ -63,7 +65,7 @@
 		}
 
 	$correct = 0;
-	if($qAnswer == $answer)
+	if(($qAnswer == $answer) || ($qAnswer2 == $answer) || ($qAnswer3 == $answer))
 	{
 		$correct = 1;
 		if($quizOwner != $curUser)

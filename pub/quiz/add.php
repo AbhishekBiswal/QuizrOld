@@ -50,14 +50,17 @@
 			<input class="image" type="text" name="q-image" placeholder="Image URL">
 		</div><br><br>
 		<textarea name="q-desc" placeholder="Description / More Info"></textarea><br>
-		<input type="text" class="small" name="answer" placeholder="Answer">
+
+		<div class="hintbox">Add Multiple Answers for a single question!</div><br>
+
+		<input type="text" class="" name="answer" placeholder="Answer">
 		<a id="secondanswer" class="add-answer btn btn-small secondanswer">Add Another Answer</a>
 		<div id="secondanswer" class="hide">
-			<input type="text" class="small" name="answertwo" placeholder="Second Answer">
+			<input type="text" class="" name="answertwo" placeholder="Second Answer">
 			<a id="thirdanswer" class="add-answer btn btn-small">Add Another Answer</a>
 		</div>
 		<div id="thirdanswer" class="hide">
-			<input type="text" class="small" name="answerthree" placeholder="Three Answer">
+			<input type="text" class="" name="answerthree" placeholder="Third Answer">
 		</div>
 
 		<br>
