@@ -1,6 +1,6 @@
-<h3>Create Quiz</h3>
 <?php
 	session_start();
+	echo '<h3>Create Quiz</h3>';
 	include('fn/loggedin.php');
 	if($loggedin == 0)
 	{
