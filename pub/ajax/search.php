@@ -16,7 +16,7 @@
 	// to search : quizzes/users
 
 	// quizzes:
-	$quizzes = $DBH->prepare("SELECT * FROM quizmeta WHERE title LIKE ? AND pub=1");
+	$quizzes = $DBH->prepare("SELECT * FROM quizmeta WHERE title LIKE ? AND pub=1 LIMIT 20");
 	$quizzes->execute(array("%$term%"));
 ?>
 	<div class="search-quiz">
@@ -38,7 +38,7 @@
 	<div class="search-users">
 		<h3 class="search-title">Users:</h3>
 <?php
-	$users = $DBH->prepare("SELECT * FROM users WHERE username LIKE ? OR fullname LIKE ?");
+	$users = $DBH->prepare("SELECT * FROM users WHERE username LIKE ? OR fullname LIKE ? LIMIT 20");
 	$users->execute(array("%$term%","%$term%"));
 	if($users->rowCount() == 0)
 	{
