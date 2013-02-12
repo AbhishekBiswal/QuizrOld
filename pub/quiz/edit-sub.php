@@ -12,6 +12,8 @@
 	$qid = $_POST['q-id']; // quiz id.
 	$qQuestion = $_POST['question'];
 	$qAnswer = $_POST['answer'];
+	$qAnswer2 = $_POST['answertwo'];
+	$qAnswer3 = $_POST['answerthree'];
 	$hint = $_POST['q-hint'];
 	$qDesc = $_POST['q-desc'];
 	$qImage = $_POST['q-image'];
@@ -20,6 +22,8 @@
 
 	$qQuestion = htmlentities($qQuestion);
 	$qAnswer = htmlentities($qAnswer);
+	$qAnswer2 = htmlentities($qAnswer2);
+	$qAnswer3 = htmlentities($qAnswer3);
 	$hint = htmlentities($hint);
 	$qDesc = htmlentities($qDesc);
 	$qImage = htmlentities($qImage);
@@ -89,8 +93,8 @@
 	$qAnswer = str_replace(" ","",$qAnswer);
 
 	// everything's alright
-	$insert = $DBH->prepare("UPDATE questions SET question=?,answer=?,hint=?,qdesc=?,image=?,plus=? WHERE id=?");
-	$insert->execute(array($qQuestion,$qAnswer,$hint,$qDesc,$qImage,$qPlusp,$questionid));
+	$insert = $DBH->prepare("UPDATE questions SET question=?,answer=?,hint=?,qdesc=?,image=?,plus=?,answer2=?,answer3=? WHERE id=?");
+	$insert->execute(array($qQuestion,$qAnswer,$hint,$qDesc,$qImage,$qPlusp,$questionid,$qAnswer2,$qAnswer3));
 	//done {update}
 
 	echo "Updated.";

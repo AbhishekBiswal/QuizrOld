@@ -5,27 +5,29 @@ $(document).ready(function(){
 	$('form.ajax') 
     .livequery('submit', function(e) { 
         e.preventDefault();
-		var oldVal = $("#facebox form input[type=submit]").val();
-		$("#facebox form input[type=submit]").val("Please Wait.");
+		var oldVal = $("form input[type=submit]").val();
+		$("form input[type=submit]").val("Please Wait.");
 		var action = $(this).attr("action");
 		var postData = $(this).serialize();
+		$("input").prop('disabled', true);
 		$.ajax({
 			url: action,
 			type: "POST",
 			data: postData,
 			cache: false,
 			success: function(msg){
-					$("#facebox form input[type=submit]").val(oldVal);
+					$("form input[type=submit]").val(oldVal);
 
 					$("#query").html(msg).fadeIn();
 
-					$("#facebox p.submitinfo").html(msg).fadeIn();
+					$("p.submitinfo").html(msg).fadeIn();
+					$("input").prop('disabled', false);
 			}
 		})
     });
 
 	/*ajax*/
-	$("form.ajax").submit(function(e){
+	/*$("form.ajax").submit(function(e){
 		e.preventDefault();
 		var oldVal = $("form input[type=submit]").val();
 		$("form input[type=submit]").val("Please Wait.");
@@ -44,7 +46,7 @@ $(document).ready(function(){
 					$("p.submitinfo").html(msg).fadeIn();
 			}
 		})
-	});
+	});*/
 
 	$(".add-answer").click(function(e){
 		e.preventDefault();

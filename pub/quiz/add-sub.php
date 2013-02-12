@@ -112,7 +112,9 @@
 	$updateMeta = $DBH->prepare("UPDATE quizmeta SET questions=questions+1 WHERE id=?");
 	$updateMeta->execute(array($qid));
 
-	echo '<script>location.reload();</script>';
+	echo "Done.";
+
+	//echo '<script>location.reload();</script>';
 
 	// done. working rev. 06/8/12
 ?>

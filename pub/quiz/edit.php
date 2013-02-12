@@ -29,6 +29,8 @@
 		$question = $row['question'];
 		$qdesc = $row['qdesc'];
 		$answer = $row['answer'];
+		$answer2 = $row['answer2'];
+		$answer3 = $row['answer3'];
 		//$hasHint = $row['hashint'];
 		$hint = $row['hint'];
 		$qImage = $row['image'];
@@ -58,7 +60,17 @@
 			<input class="image" type="text" name="q-image" placeholder="Image URL" value="<?php echo $qImage; ?>">
 		</div><br><br>
 		<textarea name="q-desc" placeholder="Description / More Info" value="<?php echo $qdesc; ?>"></textarea><br>
-		<input type="text" class="small" name="answer" placeholder="Answer" value="<?php echo $answer; ?>">
+		<input type="text" class="" name="answer" placeholder="Answer" value="<?php echo $answer; ?>">
+
+		<!-- <a id="secondanswer" class="add-answer btn btn-small secondanswer">Add Another Answer</a> -->
+		<div id="secondanswer" class="">
+			<input type="text" class="" name="answertwo" placeholder="Second Answer" value="<?php echo $answer2; ?>">
+			<!-- <a id="thirdanswer" class="add-answer btn btn-small">Add Another Answer</a> -->
+		</div>
+		<div id="thirdanswer" class="">
+			<input type="text" class="" name="answerthree" placeholder="Third Answer" value="<?php echo $answer3; ?>">
+		</div>
+
 		<input type="hidden" name="q-id" value="<?php echo $questionid; ?>">
 		<a class="add-hint btn btn-small"><?php if($hint == "") { ?>Add Hint<?php } else { ?>Remove Hint<?php } ?></a>
 		<div class="add-hint <?php if($hint == "") { ?>hide<?php } ?>">
