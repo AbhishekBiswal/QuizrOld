@@ -70,6 +70,14 @@
 	</div>
 </div>
 
+<div class="promote-box hide">
+	<h3>Promote.</h3>
+	<p>Request or Challenge an existing user to play this quiz. Enter the username of an existing user to send a request.</p><br>
+	<center><input type="text" name="username" placeholder="Username">
+	<br>
+	<a id="promote-btn" class="btn">Promote</a>
+	</center>
+</div>
 
 <div class="content u-page-box nine columns">
 
@@ -132,6 +140,7 @@
 				else echo "Like";
 				?>
 			</a>
+			<a href="#" class="promote-open btn btn-small">Promote</a>
 		</div>
 
 		<?php

@@ -26,6 +26,11 @@ $(document).ready(function(){
 		})
     });
 
+    $(".promote-open").click(function(a){
+    	a.preventDefault();
+    	$(".promote-box").slideToggle();
+    });
+
 	/*ajax*/
 	/*$("form.ajax").submit(function(e){
 		e.preventDefault();

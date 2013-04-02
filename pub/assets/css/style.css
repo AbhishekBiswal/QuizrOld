@@ -1017,3 +1017,20 @@ form.search .btn
 	font-size: 150%;
 	text-align: center;
 }
+
+/* Promote */
+.promote-box
+{
+	padding: 30px;
+	border-bottom: 1px solid #ddd;
+}
+.promote-box h3
+{
+	font-size: 300%;
+	font-weight: normal;
+}
+.promote-box p
+{
+	font-size: 150%;
+	color: #666;
+}
