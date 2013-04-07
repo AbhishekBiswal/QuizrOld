@@ -1034,3 +1034,21 @@ form.search .btn
 	font-size: 150%;
 	color: #666;
 }
+
+/* Notif Box */
+.notif-box
+{
+	padding: 30px;
+	border-bottom: 1px solid #ddd;
+}
+.notif-box h3
+{
+	font-size: 300%;
+	font-weight: normal;
+}
+.notif-box li
+{
+	line-height: 1.2;
+	margin-bottom: 5px;
+	list-style-type: square;
+}

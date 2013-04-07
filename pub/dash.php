@@ -21,6 +21,14 @@
 	<h2>Dashboard</h2>
 </div>
 
+<div class="notif-box">
+	<h3>Notifications</h3>
+	<?php
+		include_once('fn/loadquiz.php');
+		loadNotifs($curUser,$DBH);
+	?>
+</div>
+
 <div class="u-page-box ten columns">
 
 	<div class="u-page-header">Unpublished Quizzes:</div>

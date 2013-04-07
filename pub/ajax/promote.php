@@ -1,9 +1,11 @@
 <?php
 	/* Ajax load */
+	session_start();
+	include('fn/loggedin.php');
 	include('db.php');
 	$text = htmlentities($_GET['term']);
-	$query = $DBH->prepare("SELECT username FROM users WHERE username LIKE ? ORDER BY username ASC");
-	$query->execute(array("%$text%"));
+	$query = $DBH->prepare("SELECT username FROM users WHERE username LIKE ? AND id!=? ORDER BY username ASC");
+	$query->execute(array("%$text%",$curUser));
 	$json = '[';
 	$first = true;
 	while($row = $query->fetch())

@@ -75,11 +75,14 @@
 	<p>Request or Challenge an existing user to play this quiz. Enter the username of an existing user to send a request.</p><br>
 	<center>
 	<form class="ajax" action="/ajax/promote-sub.php">
+	<p class="submitinfo"></p>
 	<input id="promote-input" type="text" name="username" placeholder="Username">
 	<div class="area-points">
 		<span class="points-big tred">-2</span>
 		<p class="grayinfo">For Promoting this Quiz.</p>
 	</div><br>
+	<input type="hidden" name="user" value="<?php echo $_SESSION['qp']; ?>">
+	<input type="hidden" name="quiz" value="<?php echo $qid; ?>">
 	<input type="submit" class="btn" value="Promote">
 	</form>
 	</center>
@@ -170,6 +173,9 @@
 </center></div>
 <link rel="stylesheet" type="text/css" href="/assets/css/autocomplete.css">
 <script src="/assets/js/jqueryui-autocomplete.js"></script>
+<script type="text/javascript">
+	$("#promote-input").autocomplete({source: "/ajax/promote.php", minLength: 3});
+</script>
 
 <?php
 	include('temp/footer.php');
