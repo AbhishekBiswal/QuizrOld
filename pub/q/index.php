@@ -73,9 +73,15 @@
 <div class="promote-box hide">
 	<h3>Promote.</h3>
 	<p>Request or Challenge an existing user to play this quiz. Enter the username of an existing user to send a request.</p><br>
-	<center><input type="text" name="username" placeholder="Username">
-	<br>
-	<a id="promote-btn" class="btn">Promote</a>
+	<center>
+	<form class="ajax" action="/ajax/promote-sub.php">
+	<input id="promote-input" type="text" name="username" placeholder="Username">
+	<div class="area-points">
+		<span class="points-big tred">-2</span>
+		<p class="grayinfo">For Promoting this Quiz.</p>
+	</div><br>
+	<input type="submit" class="btn" value="Promote">
+	</form>
 	</center>
 </div>
 
@@ -140,7 +146,6 @@
 				else echo "Like";
 				?>
 			</a>
-			<a href="#" class="promote-open btn btn-small">Promote</a>
 		</div>
 
 		<?php
@@ -149,6 +154,7 @@
 		{
 		?>
 		<div class="u-page-header">Admin Tools:</div>
+		<a href="#" class="promote-open btn btn-small">Promote</a>
 		<a class="btn btn-small" href="/quiz/edit-quiz.php?id=<?php echo $qid; ?>">Edit Quiz</a><br>
 		<a class="btn btn-small" href="/quiz/add.php?id=<?php echo $qid; ?>">Add Questions</a><br>
 		<a class="btn btn-small" href="/quiz/questions.php?id=<?php echo $qid; ?>">Edit Questions</a><br>
@@ -162,6 +168,8 @@
 		?>
 
 </center></div>
+<link rel="stylesheet" type="text/css" href="/assets/css/autocomplete.css">
+<script src="/assets/js/jqueryui-autocomplete.js"></script>
 
 <?php
 	include('temp/footer.php');

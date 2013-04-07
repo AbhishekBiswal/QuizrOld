@@ -2,6 +2,8 @@ $(document).ready(function(){
 
 	$('a[rel*=facebox]').facebox();
 
+	$("#promote-input").autocomplete({source: "/ajax/promote.php", minLength: 3});
+
 	$('form.ajax') 
     .livequery('submit', function(e) { 
         e.preventDefault();
