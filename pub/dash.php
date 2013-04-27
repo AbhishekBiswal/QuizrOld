@@ -8,7 +8,7 @@
 	}
 	$pageName = "Quizr Dash";
 	include('temp/header.php');
-	include('db.php');
+	include_once('db.php');
 
 	/*
 	
@@ -24,8 +24,29 @@
 <div class="notif-box">
 	<h3>Notifications</h3>
 	<?php
-		include_once('fn/loadquiz.php');
-		loadNotifs($curUser,$DBH);
+		//require_once('fn/loadquiz.php');
+		function loadNotifs($user,$DBH)
+		{
+			$load = $DBH->prepare("SELECT * FROM notifs WHERE user=? AND done=0");
+			$load->execute(array($user));
+			if($load->rowCount() == 0)
+			{
+				echo '<p class="grayinfo">Whoops! No unread Notifications.</p>';
+			}
+			else
+			{
+				// load notifications:
+				echo '<ul>';
+				while($row = $load->fetch())
+				{
+					$msg = $row['msg'];
+					echo "<li>$msg</li>";
+				}
+				echo '</ul>';
+				echo '<a href="#" class="clear-notifs">Clear All Notifications</a>';
+			}
+		}
+		loadNotifs($curUser, $DBH);
 	?>
 </div>
 
