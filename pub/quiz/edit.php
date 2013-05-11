@@ -59,7 +59,7 @@
 			<p class="disp-block text-info">The URL of the Image to be included in the question:</p>
 			<input class="image" type="text" name="q-image" placeholder="Image URL" value="<?php echo $qImage; ?>">
 		</div><br><br>
-		<textarea name="q-desc" placeholder="Description / More Info" value="<?php echo $qdesc; ?>"></textarea><br>
+		<textarea name="q-desc" placeholder="Description / More Info"><?php echo $qdesc; ?></textarea><br>
 		<input type="text" class="" name="answer" placeholder="Answer" value="<?php echo $answer; ?>">
 
 		<!-- <a id="secondanswer" class="add-answer btn btn-small secondanswer">Add Another Answer</a> -->

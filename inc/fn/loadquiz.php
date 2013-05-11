@@ -138,7 +138,7 @@
 		}
 	}
 
-	function loadNotifs($user,$DBH)
+	/*function loadNotifs($user,$DBH)
 	{
 		$load = $DBH->prepare("SELECT * FROM notifs WHERE user=? AND done=0");
 		$load->execute(array($user));
@@ -158,6 +158,6 @@
 			echo '</ul>';
 			echo '<a href="#" class="clear-notifs">Clear All Notifications</a>';
 		}
-	}
+	}*/
 
 ?>

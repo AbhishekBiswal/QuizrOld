@@ -114,7 +114,7 @@
 
 	echo "Done.";
 
-	//echo '<script>location.reload();</script>';
+	echo '<script>location.reload();</script>';
 
 	// done. working rev. 06/8/12
 ?>

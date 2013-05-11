@@ -2,6 +2,15 @@ $(document).ready(function(){
 
 	$('a[rel*=facebox]').facebox();
 
+	$(".clear-notifs").click(function(a){
+		a.preventDefault();
+		$.post("/ajax/clearn.php", "all=1", function(data)
+			{
+				$("#query").html(data);
+			}
+		);
+	})
+
 	$('form.ajax') 
     .livequery('submit', function(e) { 
         e.preventDefault();
