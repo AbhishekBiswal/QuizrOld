@@ -71,7 +71,7 @@
 
 	// seq -> $seq
 	/*int i = $seq + 1;*/
-	echo $qs; // 3
+	//echo $qs; // 3
 	$i = $seq + 1; // 2, 2+1
 	while($i <= $qs)
 	{
