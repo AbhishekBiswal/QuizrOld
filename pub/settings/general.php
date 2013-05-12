@@ -27,15 +27,6 @@
 	include('temp/header.php');
 ?>
 
-<div class="page-head">
-	<h2>Edit Your Profile</h2>
-	<h3>Settings</h3>
-	<ul class="head-nav">
-		<li><a href="general.php" class="active">General</a></li>
-		<li><a href="profile.php">Profile</a></li>
-	</ul>
-</div>
-
 <div class="content">
 	<!-- <form class="ajax" action="profile-sub.php">
 		<p class="submitinfo"></p>
