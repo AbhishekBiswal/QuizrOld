@@ -74,7 +74,7 @@
 			?>
 				<li id="arrayorder_<?php echo $row['id'];?>">
 					<span class="question"><?php echo $row['question']; ?></span>
-					<span><a href="/quiz/edit.php?id=<?php echo $row['id']; ?>">edit</a></span>
+					<span><a href="/quiz/edit.php?id=<?php echo $row['id']; ?>">edit</a> <a id="<?php echo $row['id']; ?>" href="#" class="del-question" data-qid="<?php echo $qID; ?>">delete</a></span>
 				</li>
 			<?php		
 				}

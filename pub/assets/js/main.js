@@ -11,6 +11,17 @@ $(document).ready(function(){
 		);
 	})
 
+	$(".del-question").click(function(a){
+		a.preventDefault();
+		var questionID = $(this).attr("id");
+		var qID = $(this).attr("data-qid");
+		var dataToSend = "id="+questionID+"&qid="+qID;
+		$.post("/ajax/del-question.php", dataToSend, function(data)
+		{
+			$(".footer").html(data);
+		});
+	})
+
 	$('form.ajax') 
     .livequery('submit', function(e) { 
         e.preventDefault();
