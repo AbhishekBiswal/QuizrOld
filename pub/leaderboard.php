@@ -16,11 +16,6 @@
 	$consumersecret = "o5bAseJiUcQ3IsW5SPiXDl6WenPQ8YgYaunl4zLlg";
 	$accesstoken = "240286080-d31MBLJYnvir6SnvrLIGXEo4W4H8whDErjjgtCgd";
 	$accesstokensecret = "1nOxxLTfwm6f0m5C6ou7omFi1C4XvpPpCvIUf9GHE";
-	 
-	function getConnectionWithAccessToken($cons_key, $cons_secret, $oauth_token, $oauth_token_secret) {
-	  $connection = new TwitterOAuth($cons_key, $cons_secret, $oauth_token, $oauth_token_secret);
-	  return $connection;
-	}
 	  
 	$connection = getConnectionWithAccessToken($consumerkey, $consumersecret, $accesstoken, $accesstokensecret);
 	 
