@@ -10,7 +10,7 @@
 	include('temp/header.php');
 	@$key = $_GET['beta_key'];
 	$betaa = 0;
-	if(($key == "dadhwalisgay") || ($key == "hackernews"))
+	if(($key == "betausers") || ($key == "hackernews"))
 	{
 		$betaa = 1;
 	}
