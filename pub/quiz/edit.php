@@ -88,17 +88,6 @@
 		</div>
 	</form>
 
-	<!-- <form class="add-quiz-question ajax" action="edit-sub.php">
-		<p class="submitinfo"></p>
-		<input type="hidden" name="id" value="<?php echo $questionid; ?>">
-		<input type="text" name="question" placeholder="Question" value="<?php echo $question; ?>"><br>
-		<textarea name="desc" placeholder="Description"><?php echo $qdesc; ?></textarea><br>
-		<input type="text" name="answer" placeholder="Answer" value="<?php echo $answer; ?>">
-		<div id="form-buttons">
-			<button class="btn" type="submit" name="add-another">Update</button>
-		</div>
-	</form> -->
-
 </div>
 
 <div class="columns five sidebar">

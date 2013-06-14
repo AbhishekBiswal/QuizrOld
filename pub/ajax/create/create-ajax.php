@@ -26,6 +26,9 @@
 				<option value="3">Gaming</option>
 				<option value="4">Sports</option>
 				<option value="5">History</option>
+				<option value="6">Science</option>
+				<option value="7">Music</option>
+				<option value="8">Miscellaneous</option>
 			</select>
 			</p><br>
 			</p>

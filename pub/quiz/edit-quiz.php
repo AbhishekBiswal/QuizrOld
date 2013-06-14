@@ -55,6 +55,9 @@
 				<option value="3" <?php if($qCat == 3) echo "selected"; ?>>Gaming</option>
 				<option value="4" <?php if($qCat == 4) echo "selected"; ?>>Sports</option>
 				<option value="5" <?php if($qCat == 5) echo "selected"; ?>>History</option>
+				<option value="6" <?php if($qCat == 6) echo "selected"; ?>>Science</option>
+				<option value="7" <?php if($qCat == 7) echo "selected"; ?>>Music</option>
+				<option value="8" <?php if($qCat == 8) echo "selected"; ?>>Miscellaneous</option>
 			</select>
 			</p>
 			

@@ -72,6 +72,9 @@
 		elseif ($cat == 3) return "Gaming";
 		elseif ($cat == 4) return "Sports";
 		elseif ($cat == 5) return "History";
+		elseif ($cat == 6) return "Science";
+		elseif ($cat == 7) return "Music";
+		elseif ($cat == 8) return "Misc";
 		else return false;
 	}
 

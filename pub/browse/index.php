@@ -34,6 +34,9 @@
 			<li><a href="/browse/?cat=3" <?php if(checkCat($cat) == "Gaming") echo 'class="active"'; ?>>Gaming</a></li>
 			<li><a href="/browse/?cat=4" <?php if(checkCat($cat) == "Sports") echo 'class="active"'; ?>>Sports</a></li>
 			<li><a href="/browse/?cat=5" <?php if(checkCat($cat) == "History") echo 'class="active"'; ?>>History</a></li>
+			<li><a href="/browse/?cat=6" <?php if(checkCat($cat) == "Science") echo 'class="active"'; ?>>Science</a></li>
+			<li><a href="/browse/?cat=7" <?php if(checkCat($cat) == "Music") echo 'class="active"'; ?>>Music</a></li>
+			<li><a href="/browse/?cat=8" <?php if(checkCat($cat) == "Misc") echo 'class="active"'; ?>>Misc</a></li>
 		</ul>
 	</div>
 

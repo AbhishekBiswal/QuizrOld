@@ -48,7 +48,7 @@ a:hover
 	text-decoration: underline; 
 }
 
-#query { display: none; }
+#query { display: none !important; }
 a:active, a:focus 
 { 
 	outline: 0; 
