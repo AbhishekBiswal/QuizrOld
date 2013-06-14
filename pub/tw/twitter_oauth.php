@@ -1,7 +1,8 @@
 <?php
-	
-	require('twitteroauth.php');
+
 	session_start();
+
+	require('twitteroauth.php');
 
 	if(!empty($_GET['oauth_verifier']) && !empty($_SESSION['oauth_token']) && !empty($_SESSION['oauth_token_secret'])){  
 	    // We've got everything we need 
@@ -21,7 +22,7 @@
 
 		if(isset($user_info->error)){  
 		    // Something's wrong, go back to square 1  
-		    header('Location: twitter_login.php'); 
+		    header('Location:/tw/twitter_login.php'); 
 		} else { 
 		    // Let's find the user by its ID  
 		    $query = $DBH->prepare("SELECT * FROM users WHERE oauthp = 'twitter' AND oauthid = ?");
@@ -40,7 +41,7 @@
 		        
 		    } 
 
-		    $query = $DBH->prepare("SELECT id,username FROM users WHERE oauthp = 'twitter' AND oauthid = ?");
+		    $query = $DBH->prepare("SELECT * FROM users WHERE oauthp = 'twitter' AND oauthid = ?");
 		     $query->execute(array($user_info->id));
 		    while($row = $query->fetch())
 		    {
@@ -51,18 +52,17 @@
 
 		if($_SESSION['qu'] == NULL)
 		{
-			header('Location:/username.php');
+			echo "end of script";
+			//header('Location:/username.php');
 			exit();
 		}
-		    /*$_SESSION['id'] = $result['id']; 
-		    $_SESSION['qp'] = $result['username'];*/
-		    header('Location:/');  
+		    
 		}  // db
 
 	}
 	else {  
 	    // Something's missing, go back to square 1  
-	    header('Location: twitter_login.php');  
+	    header('Location:/tw/twitter_login.php');  
 	}  
 
 ?>

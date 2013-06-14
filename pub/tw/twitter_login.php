@@ -1,7 +1,8 @@
 <?php
 
-	require('twitteroauth.php');
 	session_start();
+
+	require('twitteroauth.php');
 
 	// The TwitterOAuth instance  
 	$twitteroauth = new TwitterOAuth('kYbSNE8R9ZwTbRCnZozQ', 'o5bAseJiUcQ3IsW5SPiXDl6WenPQ8YgYaunl4zLlg');  
