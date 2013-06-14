@@ -20,6 +20,8 @@
 	}
 	loggedin();
 
+	echo "<script>console.log('Loading...Done');</script>";
+
 	function getConnectionWithAccessToken($cons_key, $cons_secret, $oauth_token, $oauth_token_secret) {
 	  $connection = new TwitterOAuth($cons_key, $cons_secret, $oauth_token, $oauth_token_secret);
 	  return $connection;
