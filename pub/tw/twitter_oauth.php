@@ -53,7 +53,12 @@
 		if($_SESSION['qu'] == NULL)
 		{
 			echo "end of script";
-			//header('Location:/username.php');
+			header('Location:/username.php');
+			exit();
+		}
+		else
+		{
+			header('Location:/');
 			exit();
 		}
 		    
