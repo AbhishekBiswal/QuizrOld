@@ -19,8 +19,9 @@
 		echo "<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>";
 	}
 	?>
-	<script src="/assets/js/jquery.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 	<script src="/assets/js/main.js"></script>
+	<script src="/assets/js/livequery.js"></script>
 	<?php if(@$page == "questionslist") echo '<script src="/assets/js/jqueryui.js"></script>'; ?>
 </head>
 <body>
