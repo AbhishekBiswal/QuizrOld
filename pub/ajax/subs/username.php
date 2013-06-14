@@ -13,6 +13,8 @@
 
 	// todo : add exception for usernames not null
 	$userName = $_POST['username'];
+	$userName = str_replace(" ","",$userName); /* removing spaces. */
+
 	$userMail = $_POST['email'];
 
 	include_once('validate/do.php');
@@ -33,6 +35,19 @@
 		echo "The Username is not valid";
 		exit();
 	}
+
+	$blockedNames = array("baap","baaap","dad","maa","ma","bhenkaloda","loda","quizr","flower","facebook","twitter","stevejobs","billgates","quizzer");
+	$i = 0;
+	while($i < count($blockedNames))
+	{
+		if($userName == $blockedNames[$i])
+		{
+			echo "The Username is Invalid";
+			exit();
+		}
+		$i++;
+	}
+
 
 	$checkU = checkUsername($userName,$DBH);
 	if($checkU == 1)
