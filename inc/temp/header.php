@@ -12,7 +12,6 @@
 
 	<link href="/assets/css/grid.css" rel="stylesheet" type="text/css">
 	<link href="/assets/css/style.css" rel="stylesheet" type="text/css">
-	<link href="/assets/css/facebox.css" rel="stylesheet" type="text/css">
 	<link href="/assets/css/ab.css" rel="stylesheet" type="text/css">
 	<?php
 	if(getenv('HOST_ENV') == "dotme")
@@ -22,7 +21,6 @@
 	?>
 	<script src="/assets/js/jquery.js"></script>
 	<script src="/assets/js/main.js"></script>
-	<script src="/assets/js/facebox.js"></script>
 	<?php if(@$page == "questionslist") echo '<script src="/assets/js/jqueryui.js"></script>'; ?>
 </head>
 <body>
@@ -32,7 +30,7 @@
 		<ul class="nav columns sixteen">
 			<li><a href="/">Home</a></li>
 			<li><a href="/browse/">Browse</a></li>
-			<li><a href="/ajax/create/create-ajax.php" rel="facebox">Create</a></li>
+			<li><a href="/create.php">Create</a></li>
 			<li><a href="/leaderboard/">Leaderboard</a></li>
 			<li><a href="/search/">Search</a></li>
 		<?php
