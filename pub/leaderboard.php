@@ -6,23 +6,6 @@
 	$pageName = "Top 20 Quizzers";
 	include('temp/header.php');
 
-	/* Twitter Fetch Image */
-
-	require_once("tw/twitteroauth.php"); //Path to twitteroauth library
- 
-	$twitteruser = "Abhishek_Biswal";
-	$notweets = 30;
-	$consumerkey = "kYbSNE8R9ZwTbRCnZozQ";
-	$consumersecret = "o5bAseJiUcQ3IsW5SPiXDl6WenPQ8YgYaunl4zLlg";
-	$accesstoken = "240286080-d31MBLJYnvir6SnvrLIGXEo4W4H8whDErjjgtCgd";
-	$accesstokensecret = "1nOxxLTfwm6f0m5C6ou7omFi1C4XvpPpCvIUf9GHE";
-	  
-	$connection = getConnectionWithAccessToken($consumerkey, $consumersecret, $accesstoken, $accesstokensecret);
-	 
-	//print_r($tweets);
-
-	/* Twitter Fetch Image END */
-
 ?>
 
 <div class="det-head">
@@ -43,12 +26,6 @@
 	$top->execute();
 	while($row = $top->fetch())
 	{
-
-		if($row['oauthp'] == "twitter")
-		{
-			$twitteruser = $row['twusername'];
-			$tweets = $connection->get("https://api.twitter.com/1.1/users/show.json?screen_name=$twitteruser");
-		}
 ?>
 
 			<tr>
@@ -56,7 +33,7 @@
 					<?php if($row['oauthp'] == "facebook") { ?>
 					<img src="http://graph.facebook.com/<?php echo $row['fbusername']; ?>/picture">
 					<?php } elseif($row['oauthp'] == "twitter") { ?>
-					<img src="<?php echo $tweets->profile_image_url; ?>">
+					<img src="<?php echo getTwitterImage($row['twusername']); ?>">
 					<?php } ?>
 				</center></td>
 				<td width="50%"><a href="/<?php echo $row['username']; ?>/"><?php echo $row['fullname']; ?></a></td>

@@ -64,29 +64,6 @@
 		$questions = $row['questions'];
 	}
 
-
-	/* Twitter Image */
-	if($useroauthp == "twitter")
-	{
-		require_once("tw/twitteroauth.php"); //Path to twitteroauth library
- 
-	$twitteruser = $usertwusername;
-	$notweets = 30;
-	$consumerkey = "kYbSNE8R9ZwTbRCnZozQ";
-	$consumersecret = "o5bAseJiUcQ3IsW5SPiXDl6WenPQ8YgYaunl4zLlg";
-	$accesstoken = "240286080-d31MBLJYnvir6SnvrLIGXEo4W4H8whDErjjgtCgd";
-	$accesstokensecret = "1nOxxLTfwm6f0m5C6ou7omFi1C4XvpPpCvIUf9GHE";
-	  
-	$connection = getConnectionWithAccessToken($consumerkey, $consumersecret, $accesstoken, $accesstokensecret);
-	 
-	/*$tweets = $connection->get("https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=".$twitteruser."&count=".$notweets);*/
-	$tweets = $connection->get("https://api.twitter.com/1.1/users/show.json?screen_name=$twitteruser");
-	}
-	 
-	//print_r($tweets);
-
-	/* Tw Image END */
-
 ?>
 
 <div class="det-head">
@@ -96,7 +73,7 @@
 		<?php
 			} elseif($useroauthp == "twitter") {
 		?>
-		<img src="<?php echo $tweets->name; ?>">
+		<img src="<?php echo getTwitterImage($usertwusername); ?>">
 		<?php } ?>
 		<span class="picheight"><?php echo $userfName; ?></span></h2>
 	<h3><?php echo $userBio; ?></h3>
