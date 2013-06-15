@@ -32,6 +32,8 @@
 		browseLoad($quizzes);
 	}
 
+	include_once('../inc/fn/loggedin.php');
+
 ?>
 	</div><!--search-quiz-->
 	<br></br>
@@ -64,7 +66,7 @@
 					<?php if($row['oauthp'] == "facebook") { ?>
 					<img src="http://graph.facebook.com/<?php echo $row['fbusername']; ?>/picture">
 					<?php } elseif($row['oauthp'] == "twitter") { ?>
-					<img src="https://api.twitter.com/1/users/profile_image/<?php echo $row['twusername']; ?>">
+					<img src="<?php getTwitterImage($row['twusername']); ?>">
 					<?php } ?>
 				</center></td>
 				<td width="50%"><a href="/<?php echo $row['username']; ?>/"><?php echo $row['fullname']; ?></a></td>
