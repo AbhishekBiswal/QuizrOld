@@ -40,6 +40,6 @@ if(!empty($session)) {
 } else {
     # There's no active session, let's generate one
     $login_url = $facebook->getLoginUrl();
-    header("Location: ".$login_url);
+    header("Location:".$login_url);
 }
 ?>
