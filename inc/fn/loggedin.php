@@ -27,7 +27,7 @@
 	  return $connection;
 	}
 
-	function getTwitterImage($twitteruser);
+	function getTwitterImage($twitteruser)
 	{
 		require_once("tw/twitteroauth.php"); //Path to twitteroauth library
 		$notweets = 30;
