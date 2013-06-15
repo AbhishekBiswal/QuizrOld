@@ -1,5 +1,5 @@
 <?php
 session_start();
-include('fn/loggedin.php');
+include('../inc/fn/loggedin.php');
 echo getTwitterImage("Abhishek_Biswal");
 ?>

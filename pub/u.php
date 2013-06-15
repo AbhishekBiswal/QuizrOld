@@ -20,7 +20,7 @@
 	}
 
 	session_start();
-	include('fn/loggedin.php');
+	include('../inc/fn/loggedin.php');
 
 	if(!$userId)
 	{

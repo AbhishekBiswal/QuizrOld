@@ -1,6 +1,6 @@
 <?php
 	/* Leaderboard - Sort by points - top 20 users */
-	include('fn/loggedin.php');
+	include('../inc/fn/loggedin.php');
 	include_once('db.php');
 
 	$pageName = "Top 20 Quizzers";
