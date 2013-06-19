@@ -32,13 +32,7 @@
 
 <div class="clear"></div>
 
-<div class="video-box">
-</div>
 
-	<?php
-		if($betaa == 1)
-		{
-	?>
 		
 		<div class="login-box">
 			<h1>Join In:</h1>
@@ -50,22 +44,14 @@
 			</div>
 		</div>
 		<div class="clear"></div>
-	<?php
-		}
-		else
-		{
 
-	?>
-		<div class="beta-email"><center>
-			<form class="ajax" action="/ajax/beta.php">
-				<p class="submitinfo"></p>
-				<input type="text" name="email" placeholder="Email Address"><br>
-				<input type="submit" class="btn btn-blue" value="Request Invite">
-			</form>
-		</center></div>
-	<?php
-		}
-	?>
+		<div class="video-box">
+			<center><iframe width="853" height="480" src="http://www.youtube.com/embed/oIerxzpMBhA?rel=0" frameborder="0"></iframe></center>
+		</div>
+		<div class="clear"></div>
+
+		<div class="divider"></div>
+
 
 	<div class="hp-tour">
 		<div class="column one-third">
