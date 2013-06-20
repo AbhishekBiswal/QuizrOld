@@ -1052,3 +1052,9 @@ form.search .btn
 	margin-bottom: 5px;
 	list-style-type: square;
 }
+
+.q-play-image
+{
+	max-width: 100%;
+	display: block;
+}

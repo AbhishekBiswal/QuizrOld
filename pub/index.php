@@ -46,7 +46,9 @@
 		<div class="clear"></div>
 
 		<div class="video-box">
-			<center><iframe width="853" height="480" src="http://www.youtube.com/embed/oIerxzpMBhA?rel=0" frameborder="0"></iframe></center>
+			<center>
+				<iframe src="http://player.vimeo.com/video/68785494?title=0&amp;byline=0&amp;portrait=0" width="720" height="405" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+			</center>
 		</div>
 		<div class="clear"></div>
 
