@@ -51,6 +51,9 @@
 		$userPoints = $userData['points'];
 		$usertwusername = $userData['twusername'];
 	}
+
+	$userfName = htmlentities($userfName);
+	$userBio = htmlentities($userBio);
 	
 	$pageName = "$userfName on Quizr";
 	include('temp/header.php');
