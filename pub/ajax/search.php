@@ -32,7 +32,7 @@
 		browseLoad($quizzes);
 	}
 
-	include_once('../inc/fn/loggedin.php');
+	include_once('fn/loggedin.php');
 
 ?>
 	</div><!--search-quiz-->
