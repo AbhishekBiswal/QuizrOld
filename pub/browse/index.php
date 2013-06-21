@@ -2,11 +2,6 @@
 
 	session_start();
 	include('fn/loggedin.php');
-	if($loggedin == 0)
-	{
-		header('Location:/');
-		exit();
-	}
 
 	include_once('fn/browse.php');
 	@$cat = $_GET['cat'];
