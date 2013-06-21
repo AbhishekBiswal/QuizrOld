@@ -1,4 +1,4 @@
-tictactoe
+Quizr
 =========
 
-Just an attempt to recreate the original, completely in javascript.
+A quizzing platform to create, play and share quizzes.
