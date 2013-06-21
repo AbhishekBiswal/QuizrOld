@@ -35,7 +35,7 @@
 			<div class="clear"></div>
 
 			<li class="columns seven">
-				<h4>Achal <span class="lblue">Varma</span></h4><h5>Founder, Consultant</h5>
+				<h4>Achal <span class="lblue">Varma</span></h4><h5>Founder, consultant</h5>
 			</li>
 			<!-- <div class="clear"></div> -->
 			<li class="columns seven">
