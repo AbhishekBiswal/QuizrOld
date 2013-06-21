@@ -39,7 +39,7 @@
 			</li>
 			<!-- <div class="clear"></div> -->
 			<li class="columns seven">
-				<h4>Bharat <span class="lblue">Kashyap</span></h4><h5>Founder</h5>
+				<h4>Bharat <span class="lblue">Kashyap</span></h4><h5>Founder, UX Designer</h5>
 			</li>
 			<div class="clear"></div>
 			<li class="columns seven">
