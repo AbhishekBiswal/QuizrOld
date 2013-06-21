@@ -15,7 +15,7 @@
 		Quizr is here to redefine how you've always thought about online quizzing - answering questions on Facebook pages has always been a pain, hasn't it?
 		Quizr is an online platform where you can create quizzes, share them with your friends, and attempt other quizzes yourself. </p>
 
-	<p>Holding an online cryptic hunt?  Interested in opening up a quizzing channel to post regular questions? <br> With timed questions, hints, leaderboards, and a systematic point distribution system, Quizr meets all these needs and more - which is exactly what we mean when we say, <span class="lblue">handcrafted for the modern quizzer</span>. <br> We're gonna go public <em>really</em> soon, so make sure your email address is right there in our mailing lists. 
+	<p>Holding an online cryptic hunt?  Interested in opening up a quizzing channel to post regular questions? <br> With timed questions, hints, leaderboards, and a systematic point distribution system, Quizr meets all these needs and more - which is exactly what we mean when we say, <span class="lblue">handcrafted for the modern quizzer</span>. 
 	</p>
 
 
