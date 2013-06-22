@@ -21,7 +21,7 @@
 		<form class="create-quiz-det ajax withhelp" action="/ajax/create/createnew.php">
 			<p class="submitinfo"></p>
 			<div><input type="text" name="title" placeholder="Title"></div>
-			<textarea name="desc" placeholder="Description Here (Optional)"></textarea>
+			<textarea name="desc" placeholder="Description Here"></textarea>
 
 			<br>
 			<p class="text-info">Select a Category:
