@@ -27,19 +27,35 @@
 		<ul class="team">
 			<li class="columns seven">
 				<h4>Abhishek <span class="lblue">Biswal</span></h4><h5>founder, lead developer</h5>
+				<div class="social-icons">
+					<a href="http://facebook.com/AbhishekBiswal2"><img src="/assets/img/icons/facebook.png"></a>
+					<a href="http://twitter.com/Abhishek_Biswal"><img src="/assets/img/icons/twitter.png"></a>
+				</div>
 			</li>
 			<!-- <div class="clear"></div> -->
 			<li class="columns seven">
 				<h4>Trijeet <span class="lblue">Mukhopadhyay</span></h4><h5>founder, lead designer</h5>
+				<div class="social-icons">
+					<a href="http://facebook.com/trijeet"><img src="/assets/img/icons/facebook.png"></a>
+					<a href="http://twitter.com/TrijeetM"><img src="/assets/img/icons/twitter.png"></a>
+				</div>
 			</li>
 			<div class="clear"></div>
 
 			<li class="columns seven">
 				<h4>Achal <span class="lblue">Varma</span></h4><h5>Founder, UX Designer</h5>
+				<div class="social-icons">
+					<a href="http://facebook.com/achalv"><img src="/assets/img/icons/facebook.png"></a>
+					<a href="http://twitter.com/_achalv"><img src="/assets/img/icons/twitter.png"></a>
+				</div>
 			</li>
 			<!-- <div class="clear"></div> -->
 			<li class="columns seven">
-				<h4>Bharat <span class="lblue">Kashyap</span></h4><h5>Founder</h5>
+				<h4>Bharat <span class="lblue">Kashyap</span></h4><h5>Founder, Butter Ketchup</h5>
+				<div class="social-icons">
+					<a href="http://facebook.com/bharatandkashyap"><img src="/assets/img/icons/facebook.png"></a>
+					<a href="http://twitter.com/hadhaiyaar"><img src="/assets/img/icons/twitter.png"></a>
+				</div>
 			</li>
 			<div class="clear"></div>
 
