@@ -6,12 +6,12 @@
 ?>
 
 <div class="det-head">
-	<h2>About <span class="lblue">Quizr</span></h2>
+	<h2>About Quizr</h2>
 </div>
 
 <div class="u-page-box content content-about">
 
-	<p>
+	<p class="bold">
 		Quizr is here to redefine how you've always thought about online quizzing - answering questions on Facebook pages has always been a pain, hasn't it?
 		Quizr is an online platform where you can create quizzes, share them with your friends, and attempt other quizzes yourself. </p>
 
@@ -35,13 +35,16 @@
 			<div class="clear"></div>
 
 			<li class="columns seven">
-				<h4>Achal <span class="lblue">Varma</span></h4><h5>Founder, consultant</h5>
+				<h4>Achal <span class="lblue">Varma</span></h4><h5>Founder, UX Designer</h5>
 			</li>
 			<!-- <div class="clear"></div> -->
 			<li class="columns seven">
-				<h4>Bharat <span class="lblue">Kashyap</span></h4><h5>Founder, UX Designer</h5>
+				<h4>Bharat <span class="lblue">Kashyap</span></h4><h5>Founder</h5>
 			</li>
 			<div class="clear"></div>
+
+			<div class="divider"></div>
+
 			<li class="columns seven">
 				<h4>Akshay <span class="lblue">Dadhwal</span></h4><h5>Developer</h5>
 			</li>

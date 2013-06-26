@@ -26,6 +26,12 @@
 	line-height: 1.4;
 }
 
+.content-about p.bold
+{
+	font-weight: bold;
+	font-size: 140%;
+}
+
 
 .content-about p:nth-child(2)
 {
