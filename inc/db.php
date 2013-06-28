@@ -1,6 +1,6 @@
 <?php
 
-	$server_type_pdo = "local";
+	$server_type_pdo = $_SERVER['SERVER'];
 
 	if($server_type_pdo == "local")
 	{
@@ -12,9 +12,9 @@
 	}
 	else
 	{
-		$host = "aksdadcom.fatcowmysql.com";
+		$host = "loclhost";
 		$dbname = "quizr";
-		$seruser = "abhishekbiswal";
+		$seruser = "quizr";
 		$pass = "thestartupkids:P";
 	}
 
