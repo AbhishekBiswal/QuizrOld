@@ -13,6 +13,16 @@
 		include('search.php');
 		exit();
 	}
+	elseif($userId == "god")
+	{
+		header('Location:/AbhishekBiswal/');
+		exit();
+	}
+	elseif($userId == "butter")
+	{
+		header('Location:/BharatKashyap/');
+		exit();
+	}
 	elseif($userId == "leaderboard")
 	{
 		include('leaderboard.php');

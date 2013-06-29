@@ -12,7 +12,7 @@
 	}
 	else
 	{
-		$host = "loclhost";
+		$host = "localhost";
 		$dbname = "quizr";
 		$seruser = "quizr";
 		$pass = "thestartupkids:P";

@@ -36,7 +36,7 @@
 		exit();
 	}
 
-	$blockedNames = array("baap","baaap","dad","maa","ma","bhenkaloda","loda","quizr","flower","facebook","twitter","stevejobs","billgates","quizzer");
+	$blockedNames = array("god","butter","baap","baaap","dad","maa","ma","bhenkaloda","loda","quizr","flower","facebook","twitter","stevejobs","billgates","quizzer");
 	$i = 0;
 	while($i < count($blockedNames))
 	{
