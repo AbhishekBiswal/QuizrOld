@@ -38,12 +38,12 @@
 		{
 			if($what == "popular")
 			{
-				$fetch = $DBH->prepare("SELECT * FROM quizmeta WHERE cat=? AND pub= 1 ORDER BY plays DESC LIMIT 10");
+				$fetch = $DBH->prepare("SELECT * FROM quizmeta WHERE cat=? AND pub= 1 ORDER BY plays DESC LIMIT 30");
 				$fetch->execute(array($cat));
 			}
 			else
 			{
-				$fetch = $DBH->prepare("SELECT * FROM quizmeta WHERE cat=? AND pub = 1 ORDER BY likes DESC LIMIT 10");
+				$fetch = $DBH->prepare("SELECT * FROM quizmeta WHERE cat=? AND pub = 1 ORDER BY likes DESC LIMIT 30");
 				$fetch->execute(array($cat));
 			}
 		}
@@ -51,12 +51,12 @@
 		{
 			if($what == "popular")
 			{
-				$fetch = $DBH->prepare("SELECT * FROM quizmeta WHERE pub = 1 ORDER BY plays DESC LIMIT 10");
+				$fetch = $DBH->prepare("SELECT * FROM quizmeta WHERE pub = 1 ORDER BY plays DESC LIMIT 30");
 				$fetch->execute();
 			}
 			else
 			{
-				$fetch = $DBH->prepare("SELECT * FROM quizmeta WHERE pub = 1 ORDER BY likes DESC LIMIT 10");
+				$fetch = $DBH->prepare("SELECT * FROM quizmeta WHERE pub = 1 ORDER BY likes DESC LIMIT 30");
 				$fetch->execute();
 			}
 		}
