@@ -66,7 +66,10 @@
 					<?php if($row['oauthp'] == "facebook") { ?>
 					<img src="http://graph.facebook.com/<?php echo $row['fbusername']; ?>/picture">
 					<?php } elseif($row['oauthp'] == "twitter") { ?>
-					<img src="<?php getTwitterImage($row['twusername']); ?>">
+					<img src="<?php
+					$getTwitterURL = $row['twusername'];
+					echo getTwitterImage($getTwitterURL);
+					?>">
 					<?php } ?>
 				</center></td>
 				<td width="50%"><a href="/<?php echo $row['username']; ?>/"><?php echo $row['fullname']; ?></a></td>
