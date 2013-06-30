@@ -123,7 +123,10 @@
 					<?php if($lbrow['oauthp'] == "facebook") { ?>
 					<img src="http://graph.facebook.com/<?php echo $lbrow['fbusername']; ?>/picture">
 					<?php } elseif($row['oauthp'] == "twitter") { ?>
-					<img src="https://api.twitter.com/1/users/profile_image/<?php echo $lbrow['twusername']; ?>">
+					<img src="<?php
+					$twitterImageURL = $lbrow['twusername'];
+					echo getTwitterImage($twitterImageURL);
+					?>">
 					<?php } ?>
 					</center></td>
 					<td width="70%"><a href="/<?php echo $lbrow['username']; ?>/"><?php echo $lbrow['fullname']; ?></a></td>
