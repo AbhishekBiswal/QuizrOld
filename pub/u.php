@@ -119,7 +119,7 @@
 		function loadFavs($user,$DBH)
 		{
 			global $fetchfav;
-			$fav = $DBH->prepare("SELECT * FROM liked WHERE user=?");
+			$fav = $DBH->prepare("SELECT * FROM liked WHERE user=? LIMIT 30");
 			$fav->execute(array($user));
 			if($fav->rowCount() == 0)
 			{
@@ -132,8 +132,8 @@
 					$favqid = $favdata['quizid'];
 					$fetchfav = $DBH->prepare("SELECT * FROM quizmeta WHERE id=?");
 					$fetchfav->execute(array($favqid));
+					quizList($fetchfav);
 				}
-				quizList($fetchfav);
 			}
 		}
 		loadFavs($userId,$DBH);
