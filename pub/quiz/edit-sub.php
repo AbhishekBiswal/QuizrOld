@@ -92,9 +92,14 @@
 	$qAnswer = strtolower($qAnswer);
 	$qAnswer = str_replace(" ","",$qAnswer);
 
+	
+	/*$testArr = array($qQuestion,$qAnswer,$hint,$qDesc,$qImage,$qPlusp,$questionid,$qAnswer2,$qAnswer3);
+	print_r($testArr);
+	exit();*/
+
 	// everything's alright
-	$insert = $DBH->prepare("UPDATE questions SET question=?,answer=?,hint=?,qdesc=?,image=?,plus=?,answer2=?,answer3=? WHERE id=?");
-	$insert->execute(array($qQuestion,$qAnswer,$hint,$qDesc,$qImage,$qPlusp,$questionid,$qAnswer2,$qAnswer3));
+	$insert = $DBH->prepare("UPDATE questions SET question=?, answer=?, hint=?, qdesc=?, image=?, plus=?, answer2=?, answer3=? WHERE id=?");
+	$insert->execute(array($qQuestion,$qAnswer,$hint,$qDesc,$qImage,$qPlusp,$qAnswer2,$qAnswer3,$questionid));
 	//done {update}
 
 	echo "Updated.";
