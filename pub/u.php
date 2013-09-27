@@ -28,6 +28,11 @@
 		include('leaderboard.php');
 		exit();
 	}
+	elseif($userId == "enigma")
+	{
+		include('static/enigma.php');
+		exit();
+	}		
 
 	session_start();
 	include('../inc/fn/loggedin.php');

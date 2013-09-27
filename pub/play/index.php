@@ -149,7 +149,7 @@
 		<?php echo $qSeq . ' <span>/</span> ' . $qQuestions; ?>
 	</div>
 	
-	<form class="ajax" action="sub.php">
+	<form id="play-quiz-form" class="ajax" action="sub.php">
 		<p class="submitinfo"></p>
 	<div class="quiz-area-in">
 		<span class="question"><?php echo $qQuestion; ?></span>
@@ -165,7 +165,8 @@
 		<input type="hidden" name="seq" value="<?php echo $qSeq; ?>">
 		<input type="hidden" name="qid" value="<?php echo $qid; ?>">
 	</div>
-		<input type="submit" class="btn" value="Try">
+		<input type="submit" class="btn btn-blue" value="Try">
+		<a class="skip-btn btn" href="#">Skip</a>
 	</form>
 
 </div>

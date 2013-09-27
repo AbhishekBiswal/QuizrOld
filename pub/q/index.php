@@ -106,7 +106,7 @@
 		<tr class="lb-header"><td width="100%" colspan="2">Leaderboard</td></tr>
 
 		<?php
-			$quizLB = $DBH->prepare("SELECT * FROM users WHERE id IN(SELECT user FROM played WHERE qid=? AND playedtill=? ORDER BY TIMESTAMPDIFF(SECOND,stopped,started) ASC) LIMIT 10");
+			$quizLB = $DBH->prepare("SELECT * FROM users WHERE id IN(SELECT user FROM played WHERE qid=? AND playedtill=? AND skipped=0 ORDER BY TIMESTAMPDIFF(SECOND,stopped,started) ASC) LIMIT 10");
 			$quizLB->execute(array($qid,$qQuestions));
 			if($quizLB->rowCount() == 0)
 			{

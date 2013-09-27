@@ -1,5 +1,28 @@
 $(document).ready(function(){
 
+	$(".skip-btn").click(function(a){
+		a.preventDefault();
+		var oldVal = $("#play-quiz-form input[type=submit]").val();
+		$("#play-quiz-form input[type=submit]").val("Please Wait.");
+		var action = $("form").attr("/play/skip.php");
+		var postData = $(this).serialize();
+		$("input").prop('disabled', true);
+		$.ajax({
+			url: action,
+			type: "POST",
+			data: postData,
+			cache: false,
+			success: function(msg){
+					$("form input[type=submit]").val(oldVal);
+
+					$("#query").html(msg).fadeIn();
+
+					$("p.submitinfo").html(msg).fadeIn();
+					$("input").prop('disabled', false);
+			}
+		})
+	});
+
 	$(".clear-notifs").click(function(a){
 		a.preventDefault();
 		$.post("/ajax/clearn.php", "all=1", function(data)
